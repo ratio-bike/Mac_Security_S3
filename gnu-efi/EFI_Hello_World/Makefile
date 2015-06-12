@@ -5,8 +5,8 @@ TARGET          = hello.efi
 
 EFIINC          = /usr/include/efi
 EFIINCS         = -I$(EFIINC) -I$(EFIINC)/$(ARCH) -I$(EFIINC)/protocol
-LIB             = /usr/lib64
-EFILIB          = /usr/lib64/gnuefi
+LIB             = /usr/local/lib
+EFILIB          = /usr/local/lib
 EFI_CRT_OBJS    = $(EFILIB)/crt0-efi-$(ARCH).o
 EFI_LDS         = $(EFILIB)/elf_$(ARCH)_efi.lds
 
