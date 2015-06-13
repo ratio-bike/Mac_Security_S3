@@ -3,7 +3,7 @@ ARCH            = $(shell uname -m | sed s,i[3456789]86,ia32,)
 OBJS            = hello_world.o
 TARGET          = hello.efi
 
-EFIINC          = /usr/include/efi
+EFIINC          = /usr/local/include/efi
 EFIINCS         = -I$(EFIINC) -I$(EFIINC)/$(ARCH) -I$(EFIINC)/protocol
 LIB             = /usr/local/lib
 EFILIB          = /usr/local/lib
