@@ -1,0 +1,2 @@
+Sorgenti per i programmi di base della distribuzione.
+[ Eccetto FreeCom, il kernel, e il programma di installazione ]

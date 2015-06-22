@@ -1,0 +1,15 @@
+Begin3
+Title:          EMM386
+Version:        2.26
+Entered-date:   25 Aug 2006
+Description:    Provides EMS, XMS, VDS, UMBs, HMA, and VCPI for dos
+                applications
+Keywords:       EMM386 UMB EMS HIMEM XMS VDS USB POOL SHARING STABLE QEMU VPC A20 REBOOT UPX --8086
+Author:         Tom Ehlert, Michael Devore (FreeDosStuff@devoresoftware.com)
+Maintained-by:  Michael Devore (FreeDosStuff@devoresoftware.com), Tom Ehlert
+Primary-site:   ftp://ftp.devoresoftware.com/downloads/emm386
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/emm386/
+Original-site:  http://www.drivesnapshot.de/freedos/emm386.zip
+Platforms:      DOS
+Copying-policy: Artistic License
+End

@@ -1,0 +1,14 @@
+Begin3
+Title:          XCDROM
+Version:        2.2
+Entered-date:   2006-05-23
+Description:    UDMA and non-UDMA CD-ROM driver for DOS
+Keywords:       Ultra DMA, DOS, CD-ROM, CDROM, XCDROM
+Author:         Jack Ellis (e-mail omitted by author's wish)
+Maintained-by:  no maintainer!
+Primary-site:   http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/udma/devel/
+Alternate-site: http://johnson.tmfc.net/freedos/udma.html
+Original-site:  http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/udma/devel/
+Platforms:      DOS (NASM)
+Copying-policy: GPL
+End

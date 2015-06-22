@@ -1,0 +1,24 @@
+0717FreeDOS aims to be a complete, free, 100% MS-DOS compatible operating system.
+
+FreeDOS is ideal for anyone who wants to bundle a version of DOS without 
+having to pay a royalty for use of DOS. FreeDOS will also work on old 
+hardware,in DOS emulators, and in embedded systems. FreeDOS is also an 
+invaluable resource for people who would like to develop their own operating 
+system.  While there are many free operating systems out there, no other free 
+DOS-compatible operating system exists.
+
+FreeDOS is free because it is released under the GNU General Public License.
+The GNU license, created by the Free Software Foundation, is the same one 
+used by GNU Emacs and Linux. This means you have access to the source code
+for all FreeDOS programs; check out the software list for a list of where to 
+download the original code, or go to the files archive to download our local 
+copies. FreeDOS is distributed in the hopes it will be useful.
+
+At this time, it is not planned to add advanced features to FreeDOS such as 
+multitasking, although we may add extensions to DOS commands by way of command
+line options or extra functionality. The reason for this is that we first seek
+to duplicate and enhance the original functionality of DOS, because such an 
+operating system is still useful.
+
+Want to help us? First, consider joining the mailing list. If you are a 
+programmer, please also check the software list and see what needs to be done! 

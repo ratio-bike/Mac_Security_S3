@@ -1,0 +1,259 @@
+[Druk de Esc toets in als u klaar bent met lezen.]
+
+DE FREEDOS BETA 9 ("Methusalem") DISTRIBUTIE
+
+UITGEBREIDE INSTALLATIE INSTRUCTIES
+
+Bijgewerkt door Jeremy Davis <jeremyd@computer.org> 07 April 2002,
+Bernd Blaauw <bblnews@hotmail.com> 13 Juli 2003.
+
+--------------------------------------------------------------------------
+
+Als u dit leest veronderstellen wij dat u reeds de algemene-installatie-
+handleiding (INSTALL.TXT) hebt gelezen en de nodige voorbereidingen hebt
+uitgevoerd.
+
+
+I.  OPSTART-DISKETTE KEUZES
+
+Wanneer u voor het eerst opstart vanaf diskette wordt u gevraagd om de wijze
+van installeren te kiezen. De MINI installatie vraagt u alleen naar de BASE
+installatieset,  terwijl de FULL installatie ook gelegenheid zal bieden tot
+het installeren van de rest van de installatie-sets.
+Als uw beeldscherm kleur ondersteunt, kiest u dan de opties met COLOR, en kies
+anders de MONOCHROME keuzes.  Noot: De MONOCHROME modes zetten eenvoudigweg de
+monochrome ondersteuning van programma's aan, mits ingebouwd in deze
+programma's.
+
+Als u de installatie-stappen handmatig wil uitvoeren, kies dan optie 3,
+Clean Boot, uit het menu. Dit zorgt ervoor dat alle installatie-stappen overge-
+slagen worden, maar biedt nog steeds toegang tot de noodzakelijke programma's
+(FDISK,FORMAT, SYS, ...).
+
+Ondanks dat het voornamelijk voor test-doeleinden is bedoeld, kunt u ook kiezen
+om de FAT32 bewuste kernel te gebruiken. Deze is mogelijk gecompileerd met 386-
+specifieke processor-instructies, waardoor we u aanraden dit alleen voor moderne
+systemen te gebruiken (waar FAT32 support waarschijnlijk toch wenselijker is).
+
+Opties 5 & 6 vervangen het bestand KERNEL.SYS op de diskette door de aangegeven
+kernel. Dit vereist dat er op de diskette geschreven kan worden, dus zorgt u
+er alstublieft voor dat het schrijfbeschermings-gaatje gesloten is voordat u
+probeert deze diskette te gebruiken.
+Als u van cdrom opstart is de ge-emuleerde diskette schrijfbaar, en uw echte 
+diskette-drive aanspreekbaar als B: ipv A:.
+
+
+II.  TAAL KEUZES
+
+Noot: De onderstaande stappen kunnen mogelijk in geringe mate afwijken, 
+afhankelijk van welke opstartdiskette u gebruikt en welke keuzes u maakt.
+
+Na het kiezen van de MINI/FULL en COLOR/MONOCHROME modes, wordt u gevraagd 
+te kiezen welke taal u wilt gebruiken gedurende de installatie. 
+Niet alle tekst is vertaald en slechts weinig talen worden ondersteund.
+Engens is de oorspronkelijk gebruikte taal, dus alle onvertaalde tekst zal
+nog steeds in het Engels verschijnen.  Druk op de toets die hoort bij de
+taal die u wenst, of druk op '0' voor de standaard Engelse tekst.
+Deze keuze stelt eenvoudigweg de LANG geheugenvariabele in,
+welke gebruikt wordt op de hele installatiediskette in een poging
+om gelocaliseerde berichten weer te geven.
+
+
+III.  ANDERE BERICHTEN
+
+Op dit punt zal de installatie wat algemene berichten over FreeDOS of deze
+installatie weergeven.
+Druk op de ESC toets om verder te gaan na de diverse berichten te hebben 
+gelezen (langere documenten worden getoond door middel van PG, en u kunt
+PG [bestandsnaam] zien op de bovenste schermregel, wat u in staat stelt
+te scrollen met behulp van de pijl-toetsen).  
+Lees deze berichten alstublieft, of werp er op zijn minst een blik op.
+
+
+IV.  TOETSENBORD INDELINGEN
+
+Omdat niet iedereen een toetsenbord met Verenigde Staten (US) layout zal
+gebruiken, kunt u als u een AT-klasse 286 of hoger gebruikt de gelegenheid
+benutten om XKYB te draaien met een door u gekozen toetsenbord-layout 
+(mits ondersteund).
+Als u een VS toetsenbord gebruikt, of u wilt XKEYB niet gebruiken,
+dan kunt u er voor kiezen om op '0' te drukken om het laden van XKEYB
+over te slaan. 
+Zo niet, druk dan op de toets welke hoort bij uw gewenste toetsenbord-indeling.
+
+
+V.  PARTITIE VOORBEREIDINGEN
+
+Als u op het moment in monochrome mode draait, zult u worden gevraagd
+om de verschillende programma's te draaien op een dergelijke manier als
+beschreven in het gedeelte genaamd HANDMATIGE INSTALLATIE VAN FLOPPYDISK.
+In andere gevallen zal het PartitieBeheer programma worden gedraaid,
+wat u meer flexibiliteit geeft wat betreft welke schijf bepaalde program-
+ma's gebruiken, en welk programma er uitgevoerd wordt.
+
+In het algemeen zult u de volgende dingen willen:
+   1.  Een partitie maken, gebruik hiervoor of  FDISK, of Ranish 
+       Partitie Manager, of splits zelf een bestaande partitie
+       mbv FIPS.
+       Voer deze stap alleen uit als u een nieuwe partitie moet maken.
+       u kunt uiteraard een al bestaande partitie gebruiken als deze
+       ondersteund wordt door DOS.
+       WAARSCHUWING!!! Ben voorzichtig en er zeker van dat u alle 
+                       belangrijke gegevens hebt veiliggesteld voordat
+                       u verder gaat. Wij zijn niet verantwoordelijk
+                       voor dataverlies of andere problemen veroorzaakt
+                       door gebruik van deze programma's.
+       Vergeet niet, als u de FAT32 ondersteunende kernel gebruikt,
+       en besluit een FAT32 partitie aan te maken, dat FORMAT
+       nog geen FAT32 ondersteunt. U dient dus een andere manier te vinden
+       om deze partitie te formatteren (initialiseren).
+       Herstart de PC en ga verder naar stap2.
+
+   2.  Initialiseer de partitie gebruikmakend van Format.
+       Voordat een partitie door DOS gebruikt kan worden, moeten er
+       verscheidene stukjes informatie naar toe geschreven worden.
+       Het FORMAT programma doet dit voor u.
+       Sommige programma's zoals bijvoorbeeld PowerQuest's Partition Magic
+       doen dit meteen als u een partitie aanmaakt,
+       dus wanneer u gebruik maakt van een dergelijk programma kunt u deze
+       stap overslaan.
+       Voer deze stap alleen uit als u zojuist een partitie hebt aangemaakt
+       (stap1) of als u een bestaande partitie wilt leegmaken.
+       WAARSCHUWING!!! Alle gegevens op de geformatteerde schijf zullen 
+                       verloren gaan! Vergewis u ervan dat de aangegeven 
+                       partitie/schijf degene is die u daadwerkelijk wilt 
+                       formatteren.
+
+   3.  Installeer systeembestanden ( voer uit: SYS <schijf> ).
+       Dit is een belangrijke stap als u wilt dat FreeDOS opstart van
+       uw harde schijf. Maar, u wordt niet gedwongen om dit te doen
+       als u bijvoorbeeld niet wilt dat uw bestaande besturingssysteem
+       wordtdt overschreven (start in dat geval FreeDOS vanaf bv diskette)
+       of als het noodzakelijk is dat te doen voor een schijf die niet 
+       weergegeven wordt. (verborgen partitie, opstartcode op NTFS schijf).
+       WAARSCHUWING!!! Dit zal de opstartcode van elk ander geinstalleerd
+                       besturingssysteem overschrijven en dus dat bestaande
+                       besturingssysteem niet langer opstartbaar maken.
+                       Dit overschrijft niet de MBR (Master Boot Record),
+                       dus multiboot laders zouden moeten blijven werken.
+                       Vergewis u ervan dat de geselecteerde partitie 
+                       (schijf) de correcte partitie is waar u de systeem-
+                       bestanden naartoe wilt schrijven.
+
+Druk zodra uw partitie succesvol geinitialiseerd zijn  op Enter om
+verder te gaan. U kunt de installatie ook beeindigen door te drukken op
+de ESC toets.  Onthoud, dat de FreeDOS systeembestanden niet geinstalleerd
+worden op uw harde schijf ( met behulp van bijvoorbeeld SYS C: ) tenzij u
+nadrukkelijk voor de optie kiest om de systeembestanden te installeren.
+
+
+VI.  HET INSTALLATIE PROGRAMMA
+
+Op het moment dat het installatieprogramma vraagt waar u vandaan wilt
+installeren (waar de installatiebestanden zich bevinden), typ dan in:
+
+     A:\
+
+Of als u alle bestanden hebt uitgepakt in een enkele directory op uw
+harde schijf, geef dan het volledige pad op naar deze lokatie.
+
+Het installatieprogramma zal u dan vragen waar u FreeDOS wilt installeren.
+De meeste mensen zullen hiervoor C:\DOS of C:\FDOS willen gebruiken.
+
+
+Install zal u ook vragen om vast te leggen welke optionele onderdelen
+u wilt installeren. Zondra de installatie voltooid is kunt u de
+voorbeeld-configuratiebestanden bewerken als u dit wilt.
+
+Doe, mm deze bestanden te bewerken, de opstartdiskette terug in de drive
+en tik het volgende in:
+     TE
+Als de tekstbewerker (editor) start, ga dan naar het bestandsmenu, 
+kies Open, en in het bestandsnaam veld typ in C:\CONFIG.SYS,
+gevolgd door het indrukken van de ENTER knop op het toetsenbord.
+Voer deze procedure nogmaals uit voor het bewerken van het andere
+configuratiebestand. Voer nu C:\AUTOEXEC.BAT als te gebruiken
+bestandsnaam in. Vergeet niet om uw veranderingen op te slaan als u
+klaar bent met het veranderen van de bestanden (File --> Save).
+
+
+VII.  STAPPEN NA VOLTOOIING INSTALLATIE
+
+Op dit punt aangekomen zouden alle FreeDOS basis-installatie-stappen
+volbracht moeten zijn. Als u de Engelse taal en een VS toetsenbord
+wenst te gebruiken, kunt u nu gewoon de computer herstarten.
+Als alles goed gaat dan is FreeDOS geinstalleerd en gedeeltelijk
+geconfigureerd.  
+Als u verder wilt gaan met gebruikmaking van een bepaalde toetsenbord-
+indeling of een bepaalde taal (indien door een programma ondersteund),
+bewerkt u FDAUTO.BAT (te vinden in de FreeDOS installatie-directory).
+als dit bestand niet bestaat, maak het dan aan.
+De eerste regel zou het volgende commando moeten zijn:
+     @ECHO OFF
+of anders worden alle opdrachten weergegeven.
+Ergens in het bestand zullen de volgende 2 regels voorkomen (of zorgt u
+er zelf voor dat ze voorkomen, maar ze hoeven niet per se samen voor te
+komen)
+     SET LANG=EN
+     XKEYB US
+maar vervang EN door de toepasselijke 2-letterige taal-ID (b.v. NL voor
+Nederlands) en US als te gebruiken naam voor de toetsenbord-indeling.
+Herstart, en als alles voorspoedig verloopt dan zal FreeDOS uw gewenste
+toetsenbord indeling en indien mogelijk, de gewenste taal, gebruiken.
+
+
+VIII.  HANDMATIGE INSTALLATIE VANAF DISKETTE(S)
+
+Noot: In veel gevallen zal de opstartdiskette u aanwijzingen geven
+voor alle benodigde informatie en om de vereiste stappen uit te voeren.
+Desondanks is het soms toch nodig dat men met de hand de onderstaande
+stappen volgt.
+Kies dan optie 4, Clean Boot, als u de installatie-opstartdiskette
+gebruikt.
+
+Nu bent u op het punt aangekomen dat u de FreeDOS distributie-set
+kunt gaan installeren op uw computer. Als u uw diskettes juist hebt
+aangemaakt, herstart dan de computer met gebruikmaking van de
+FreeDOS installatiediskette.
+
+Als uw computer opstart (wat enkele minuten kan duren, afhankelijk van
+de snelheid van uw pc) wordt u door het installatie-proces geleid.
+
+Op dit punt hebt u de gelegenheid om Fdisk te starten om een voor
+DOS bruikbare partitie te maken, MITS U ER NOG GEEN HEEFT.
+Om FDISK te draaien, geeft u simpelweg de volgende opdracht in:
+
+     FDISK
+
+Volg vervolgens de aanwijzingen op het scherm om een nieuwe partitie
+aan te maken. Stel in dat deze partitie de actieve primaire partitie
+is. Nadat u FDISK hebt gedraaid om Partities te maken en te activeren,
+dient u de computer te herstarten. Start gewoon weer vanaf dezelfde
+cdrom (en/of floppydiskette).
+
+ALS U EEN NIEUWE PARTITIE HEBT AANGEMAAKT,dient u deze partitie nog te
+formatteren voordat deze bruikbaar is om gegevens op te slaan. Typ in:
+
+     FORMAT C:
+
+Vergeet niet om de C: schijf opstartbaar te maken voor FreeDOS. U hoeft
+slecht de volgende opdracht op te geven:
+
+     SYS C:
+
+Start hierna het installatieprogramma:
+
+     INSTALL
+
+Zie bovenstaande sectie 'HET INSTALLATIE PROGRAMMA' voor meer informatie.
+Na teruggekeerd te zijn naar de commandoregel kunt u eventuele andere stappen
+uitvoeren. Als u klaar bent, herstart dan uw computer.
+
+--------------------------------------------------------------------------
+
+Gefeliciteerd! - u hebt nu FreeDOS geinstalleerd!
+
+--------------------------------------------------------------------------
+
+
+

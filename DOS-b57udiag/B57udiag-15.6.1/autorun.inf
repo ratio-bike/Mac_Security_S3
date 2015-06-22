@@ -1,0 +1,5 @@
+[autorun]
+icon=\FREEDOS\FREEDOS.ICO,0
+label=FreeDOS 1.0 Final - to install, boot this CD-ROM
+shell\DOCInstall=&View Installation Document
+shell\DOCInstall\command=write \FREEDOS\DOCS\INSTALL3.TXT

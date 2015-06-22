@@ -1,0 +1,15 @@
+Begin3
+Title:          The FreeDOS Kernel (Development Version)
+Version:        2.0.37
+Entered-date:   25 Feb 2005
+Description:    The Unstable FreeDOS Kernel Version (2037), necessary to use
+                NLSFUNC and Enhanced Mode Win3.1 support.  If installed, the
+                unstable kernels will be used instead of the stable ones.
+Keywords:       kernel freedos dos msdos
+Author:         (developers)
+Maintained-by:  jeremyd@fdos.org
+Primary-site:   http://freedos.sourceforge.net
+Original-site:  http://www.gcfl.net/pub/FreeDOS/kernel
+Platforms:      dos dosemu
+Copying-policy: GPL
+End

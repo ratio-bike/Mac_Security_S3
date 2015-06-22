@@ -1,0 +1,37 @@
+1.0 Final changes:
+*See history.txt
+
+changes:
+*SYS: kernel32 only (kernel.sys), kernel16.sys in other package
+*UDMA2: replaced UDMAX (UDMA2 v1.5 versus UDMA v7.0)
+*EMM386: updated HIMEM+EMM386, VDS support, 
+         bootdisk uses compressed older HIMEM release
+*EDIT: version 0.82
+*Windows NT dualboot added, works (finally!)
+*Windows NT overwriting of system files fixed completely
+*Memtest+ has been updated to v1.30
+*Contents of directly usable ODIN disk has been added to cdrom
+*Contents of a testing bootdisk has been merged with special bootdisk fdos1440.img
+*Config.sys will have a EMM386 first, then HIMEM, then Clean Boot
+ (each item decreases amount of conventionel memory)
+
+Optional:
+*GUI_INST sources + Linux theme ?
+*Installer update to v3.7.7 ?
+
+Issues:
+*MetaKern bootmenu CPU-specific please.
+ pre-386 should go to option2 (work from diskette), 
+ 386+ should go to option1 (menu).
+
+*Metaboot should have an alternative option to load bootsector from disk
+ before patching it, instead of retrieving it from RAM.
+ FD-bootsector -> syslinux bootsector -> syslinux -> freedos bootsector -> freedos
+ -or (better)
+ FD-bootsector -> syslinux bootsector -> syslinux -> metaboot -> freedos
+
+*DOS=HIGH is still buggy with HTMLHELP (empty screen)
+*compressed memtestp.bin would be nice to save diskspace
+*display should have an errorlevel for 'hey, I already installed before'
+*display should loadhigh if first driver in autoexec.bat
+*EDIT does not open a hidden file (attrib +h test.txt ; edit test.txt)

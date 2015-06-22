@@ -1,0 +1,4 @@
+~Prepare the harddisk for FreeDOS 1.0 Final by running XFdisk
+Run FreeDOS from ~CD-ROM (return to command prompt)
+Create FreeDOS boot ~floppy (1.44MB)
+~Reboot

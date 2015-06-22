@@ -1,0 +1,2 @@
+Broncode voor de basis-programma's van de distributie.
+[ Behalve voor FreeCom, de systeem-kernel, en Install ]

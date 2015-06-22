@@ -1,0 +1,249 @@
+[DrÅcken Sie Esc wenn Sie mit Lesen fertig sind.]
+
+DIE FREEDOS BETA 9 ("Methusalem") DISTRIBUTION
+
+AUSFöHRLICHE INSTALLATIONSANWEISUNGEN
+
+--------------------------------------------------------------------------
+
+Es wird vorausgesetzt, dass Sie bereits die allgemeine Installations-
+anleitung (INSTALL.TXT) gelesen und die nîtigen Vorbereitungen getroffen
+haben.
+
+
+I.  BOOTDISK OPTIONEN
+
+ Wenn Sie zum ersten Mal mit der Diskette booten, werden Sie nach dem
+ Installationsmodus gefragt.  MINI wird lediglich die Kerndateien
+ installieren, wÑhrend die FULL (KOMPLETT) Installation Ihnen auch die
+ Mîglichkeit bietet, den Rest des Instalationssatzes zu installieren.
+ Falls Ihr Monitor Farbdarstellung unterstÅtzt, wÑhlen Sie die COLOR
+ Optionen, andernfalls die MONOCHROME Optionen.  Hinweis: Die MONOCHROME
+ Modi aktivieren lediglich die monochrom - UnterstÅtzung in den
+ jeweiligen Programmen (falls vorhanden).
+
+ Falls Sie die Installationsschritte manuell ausfÅhren mîchten, wÑhlen
+ Sie im MenÅ Option 3, Clean Boot.  Auf diese Weise werden alle
+ Installationsschritte Åbergangen, wÑhrend man trotzdem Zugriff auf die
+ nîtigen Dienstprogramme (FDISK, FORMAT, SYS usw.) hat.
+
+ In erster Linie fÅr Testzwecke haben Sie auch die Mîglichkeit, den
+ FAT32-Kernel zu benutzen. Der FAT32-Kernel kann mit 386-spezifischen
+ Prozessoranweisungen kompiliert werden, daher wird sein Einsatz nur fÅr
+ neuere Systeme empfohlen (auf denen FAT32-UnterstÅtzung eher gewÅnscht
+ wird). Die Optionen 5 und 6 ersetzen die Datei KERNEL.SYS auf der Diskette
+ durch den angegebenen Kernel.  Dies erfordert Schreibzugriff auf die
+ Diskette; bevor Sie fortfahren vergewissern Sie sich daher bitte, dass die
+ Diskette nicht schreibgeschÅtzt ist.
+
+
+II.  SPRACHAUSWAHL
+
+ Hinweis: Die folgenden Schritte kînnen abhÑngig von der Bootdiskette und
+ den gewÑhlten Optionen variieren.
+
+ Nach der Auswahl von MINI/FULL(KOMPLETT) und COLOR/MONOCHROME Modus werden
+ Sie nach der wÑhrend der Installation zu benutzenden Sprache gefragt.
+ Nicht jeder Text wurde Åbersetzt und nur wenige Sprachen werden unterstÅtzt.
+ Englisch ist die zugrunde liegende Sprache, weswegen alle nichtÅbersetzten
+ Texte auch auf Englisch sind.  DrÅcken Sie die der gewÅnschten Sprache
+ entsprechende Taste, oder drÅcken Sie '0' fÅr die Vorgabe Englischer Text.
+ Diese Option setzt lediglich die LANG Variable, die wÑhrend der Disketten-
+ installation gebraucht wird, um mîglichst lokalspezifische Textnachrichten
+ anzuzeigen.
+
+
+III.  VERSCHIEDENE TEXTNACHRICHTEN
+
+ An diesem Punkt der Installation werden einige allgemeine Nachrichten
+ Åber FreeDOS oder die jeweilige Installation angezeigt.
+ DrÅcken Sie die Esc Taste, um nach dem Lesen der einzelnen Nachrichten
+ fortzufahren.  (LÑngere Dokumente werden mit Hilfe von pg angezeigt, Sie
+ werden dann PG Dateiname in der obersten Zeile sehen.  Das ermîglicht
+ Ihnen das Scrollen mittels der Pfeiltasten.)  Bitte lesen Sie die Texte,
+ oder Åberfliegen Sie sie wenigstens.
+
+
+IV.  TASTATUR-LAYOUT
+
+ Da nicht jeder eine US-Tastatur benutzen wird, haben Sie, falls Sie einen
+ AT Klasse 286 Computer oder hîher verwenden, die Mîglichkeit, XKeyB mit
+ einem der unterstÅtzten Tastatur-Layouts zu starten.
+ Falls Sie eine US-Tastatur benutzen oder nicht wÅnschen XKeyB zu
+ installieren, drÅcken Sie '0', um den Ladevorgang von XKeyB abzubrechen,
+ ansonsten drÅcken Sie die der gewÅnschten Sprache entsprechende Taste.
+
+
+V.  PARTITIONSVORBEREITUNG
+
+ Momentan werden Sie, falls Sie im MONOCHROME Modus arbeiten, in Ñhnlicher
+ Weise wie weiter unten in der 'MANUELLE INSTALLATION VON DISKETTE' Sektion
+ beschrieben danach gefragt die verschiedenen Programme anzuwenden.
+ Andernfalls wird das Partitions-Management-Tool gestartet, welches Ihnen
+ mehr FlexibilitÑt bietet, wie z.B. welches Laufwerk ein bestimmtes
+ Programm benutzen soll und welches Programm auszufÅhren ist.
+
+ Im Allgemeinen werden Sie:
+
+   1.  Eine Partition erstellen wollen; benutzen Sie entweder FDISK, Ranish
+       Partition Manager, oder spalten Sie eine bereits existierende
+       Partition mittels FIPS.  FÅhren Sie diesen Schritt nur aus, wenn Sie
+       eine neue Partition erstellen mÅssen. NatÅrlich kînnen Sie auch eine
+       vorhandene Partition benutzen, wenn DOS diese unterstÅtzt.
+       WARNUNG!!! Seien Sie vorsichtig und vergewissern Sie sich, dass Sie
+                  alle wichtigen Daten sichern bevor Sie fortfahren.  Wir
+                  sind nicht verantwortlich fÅr den Verlust von Daten oder
+                  andere Probleme, die aus dem Gebrauch dieser Programme
+                  resultieren.
+       Denken Sie daran, dass, falls Sie einen FAT32-Kernel benutzen und
+       Sie sich entschlie·en eine FAT32-Partition zu erstellen, FORMAT noch
+       nicht FAT32 unterstÅtzt, Sie also eine andere Methode benîtigen, die
+       Partition zu formatieren (initialisieren).
+       Machen Sie einen Neustart und fahren Sie mit Schritt 2 fort.
+
+   2.  Initialisieren Sie die Partition mittels FORMAT.
+       Bevor eine Partition vom DOS benutzt werden kann mÅssen verschiedene
+       Informationen auf sie geschrieben werden.  Das FORMAT Programm wird
+       das erledigen.  Einige Programme wie z.B. PowerQuest's Partition
+       Magic tun dies schon beim Erstellen der Partition, sollten Sie also
+       ein solches Programm benutzen kînnen Sie diesen Schritt auslassen.
+       FÅhren Sie diesen Schritt nur aus, wenn Sie grade eine Partition
+       erstellt haben (Schritt 1) oder Sie eine existierende Partition
+       vîllig leeren mîchten.
+       WARNUNG!!! Alle Daten auf dem zu formatierenden Laufwerk werden
+                  gelîscht! Vergewissern Sie sich, dass die hervorgehobene
+                  Partition (Laufwerk) auch das zu formatierende ist.
+
+   3.  Installation der Systemdateien (Starten Sie SYS <Laufwerk>)
+       Die ist ein wichtiger Schritt falls Sie mîchten, dass FreeDOS von
+       Ihrer Festplatte booten kann.  Sie sind jedoch nicht dazu gezwungen,
+       da Sie vielleicht vorhandene Betriebssysteme nicht Åberschreiben
+       mîchten (booten Sie in diesem Fall von Diskette) oder Sie dies auf
+       ein Laufwerk anwenden mîchten, das nicht angezeigt wird.
+       WARNUNG!!! Jeglicher existierende Bootrecord eines Betriebssystems
+                  wird Åberschrieben und daher das Betriebssystem bootun-
+                  fÑhig werden.  Der MBR (Master Boot Record) wird nicht
+                  Åberschrieben, Multiboot Loader sollten also auch weiter-
+                  hin funktionieren.  Vergewissern Sie sich, dass die
+                  hervorgehobene Partition (Laufwerk) auch das ist, auf dem
+                  die Systemdateien installiert werden sollen.
+
+       Sobald Ihre Partitionen erfolgreich initialisiert sind, drÅcken Sie
+       die Enter Taste um fortzufahren oder die Esc Taste um die Installation
+       abzubrechen.  Denken Sie daran, dass die FreeDOS Systemdateien nicht
+       auf Ihrer Festplatte (z.B. SYS C:) installiert werden, sollten Sie
+       nicht ausdrÅcklich die Option zur Installation der Systemdateien
+       wÑhlen.
+
+
+VI.  DAS INSTALLATIONSPROGRAMM
+
+ Wenn das Installationsprogramm Sie fragt, von wo aus Sie installieren
+ wollen (wo die Installationsdateien sind), geben Sie
+
+     A:\
+
+ ein.  Oder geben Sie, falls Sie die gesammten InstallationsdatensÑtze in
+ einen Ordner auf Ihrer Festplatte entpackt haben, den vollen Pfad zu diesem
+ Ordner an.
+
+ Das Installationsprogramm wird Sie nun fragen, wo FreeDOS installiert
+ werden soll.  Zumeist wird dies C:\DOS oder C:\FDOS sein.
+
+ Au·erdem mÅssen Sie angeben, welche optionalen Komponenten installiert
+ werden sollen.  Sobald die Installation vollstÑndig ist sollten Sie die
+ Beispiel-Konfigurationsdateien (CONFIG.SYS und AUTOEXEC.BAT) editieren,
+ um die Pfadangaben zu korrigieren (das ist nur nîtig, wenn Sie nicht
+ nach C:\FDOS installiert haben), und sie in das Wurzelverzeichnis kopieren.
+ Ersetzen Sie im nachstehenden Beispiel FDOS mit der von Ihnen im vorigen
+ Schritt gewÑhlten Pfadangabe.
+
+ Um die Dateien in das Wurzelverzeichnis zu kopieren geben Sie ein:
+     COPY C:\FDOS\CONFIG.SYS C:\
+     COPY C:\FDOS\AUTOEXEC.BAT C:\
+
+ Um die Dateien zu editieren stecken Sie die Bootdiskette zurÅck in das
+ Laufwerk und geben Sie
+     TE
+ ein.  Wenn der Editor gestartet ist, gehen Sie zum MenÅ 'File' (Datei),
+ wÑhlen Sie 'Open' (ôffnen), geben Sie C:\CONFIG.SYS in das Dateiname-
+ Eingabefeld ein und drÅcken sie Enter.
+ Wiederholen Sie diese mit der C:\AUTOEXEC.BAT Datei. Vergessen Sie bitte
+ nicht, jeweils die énderungen zu speichern wenn sie fertig sind
+ ('File' (Datei) --> 'Save' (Speichern)).
+
+
+VII.  SCHRITTE NACH DER INSTALLATION
+
+ Bis zu diesem Punkt sollten alle grundlegenden FreeDOS Installationsschritte
+ abgeschlossen sein. Falls Sie die Spracheinstellung Englisch sowie eine US
+ Tastatur verwenden wollen, fÅhren Sie jetzt einen Neustart durch.  Falls
+ alles funktioniert ist FreeDOS installiert.
+ Falls Sie eine bestimmtes Tastatur-Layout oder eine bestimmte Sprache
+ (soweit unterstÅtzt) nutzen mîchten, editieren Sie C:\AUTOEXEC.BAT (die
+ Datei die Sie grade nach C:\ kopiert haben).  Falls sie nicht existiert,
+ legen Sie sie neu an.  Die erste Zeile sollte
+     @ECHO OFF
+ sein, andernfalls werden alle Kommandos angezeigt.  An beliebiger Stelle
+ in der Datei sollten folgende Zeilen stehen (auch getrennt mîglich):
+     SET LANG=EN
+     XKEYB US
+ Ersetzen Sie dabei EN durch die entsprechende 2-Buchstaben-Sprach-ID
+ (z.B. DE fÅr Deutsch), sowie US durch den Namen fÅr das entsprechende
+ Tastatur-Layout.
+ FÅhren Sie einen Neustarten durch. Falls alles funktioniert wird FreeDOS
+ das von Ihnen gewÅnschte Tastatur-Layout und, wenn mîglich, bis zu einem
+ gewissen Grad auch die von Ihnen gewÅnschte Sprache verwenden.
+
+
+VIII.  MANUELLE INSTALLATION VON DISKETTE
+
+ Hinweis: In den meisten FÑllen wird die Bootdiskette Sie nach allen nîtigen
+ Informationen fragen, die gebraucht werden, um die jeweiligen Schritte
+ abzuarbeiten. In einigen FÑllen jedoch werden die Schritte wie unten
+ beschrieben manuell getÑtigt werden mÅssen.  WÑhlen Sie im MenÅ Option 4,
+ Clean Boot, falls Sie die Installations-Bootdiskette verwenden.
+
+ Sie haben nun die Mîglichkeit, die FreeDOS Distribution auf Ihrem Computer
+ zu installieren.  Wenn Sie all Ihre Disketten korrekt erstellt haben,
+ starten Sie Ihr System unter Verwendung der Installations-Bootdiskette neu.
+
+ Nach dem Hochfahren Ihres Systems (abhÑngig von der Geschwindigkeit Ihres
+ PC kann dies ein oder zwei Minuten dauern) werden Sie durch die einzelnen
+ Schritte des Installationsprozesses gefÅhrt.
+
+ An diesem Punkt haben Sie die Gelegenheit, mit FDISK eine DOS-Partition
+ zu erstellen, FALLS SIE DIES NICHT SCHON GETAN HABEN.  Um FDISK zu starten
+ geben Sie
+
+     FDISK
+
+ ein. Folgen Sie dann den Anweisungen auf dem Bildschirm um eine neue
+ Partition zu erstellen und markieren Sie diese als aktive PrimÑrpartition.
+ Nach dem Gebrauch von FDISK mÅssen Sie neustarten.  Booten Sie einfach
+ nocheinmal von der Installations-Bootdiskette.
+
+ WENN SIE EINE NEUE PARTITION fÅr FreeDOS ERSTELLT HABEN, mÅssen Sie die
+ Partition noch formatieren, bevor Sie sie benutzen kînnen. Um das zu tun,
+ geben Sie
+
+     FORMAT C:
+
+ ein. Vergessen Sie nicht Laufwerk C: mit FreeDOS bootfÑhig zu machen.
+ Geben Sie
+
+     SYS C:
+
+ ein. Starten Sie danach das Installationsprogramm:
+
+     INSTALL
+
+ Siehe Sektion 'DAS INSTALLATIONSPROGRAMM' fÅr weitere Informationen.
+ Nachdem Sie zum Command Prompt zurÅckgekehrt sind, kînnen Sie alle weiteren
+ gewÅnschten Schritte vornehmen. FÅhren Sie dann einen Neustart durch!
+
+--------------------------------------------------------------------------
+
+Herzlichen GlÅckwunsch - Sie haben soeben FreeDOS installiert!
+
+--------------------------------------------------------------------------

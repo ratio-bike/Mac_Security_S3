@@ -1,0 +1,15 @@
+Begin3
+Title:          debug
+Version:        0.95f
+Entered-date:   2003-09-11
+Description:    A program testing and editing tool
+Keywords:       freedos, debug, debugger
+Author:         vojta@math.berkeley.edu
+Maintained-by:  vojta@math.berkeley.edu
+Primary-site:   http://math.berkeley.edu/~vojta
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/debug/
+Original-site:  http://math.berkeley.edu/~vojta
+Platforms:      dos (A86, NASM)
+Copying-policy: This program is copyrighted, but feel free to distribute and use it as you wish.
+End
+

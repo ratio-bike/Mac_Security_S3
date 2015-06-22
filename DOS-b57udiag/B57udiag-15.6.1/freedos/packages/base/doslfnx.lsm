@@ -1,0 +1,14 @@
+Begin3
+Title:          DOSLFN
+Version:        0.40c
+Entered-date:   2005-12-02
+Description:    DOSLFN is a program to provide the long filename (LFN) API
+                in plain DOS (without Windows).
+Keywords:       long file name, lfn
+Author:         Henrik Haftmann
+Maintained-by:  Jason Hood <jadoxa@yahoo.com.au>
+Primary-site:   http://www.geocities.com/jadoxa/doslfn/
+Original-site:  http://www.tu-chemnitz.de/~heha/hs_freeware/freew.html
+Platforms:      dos ('386+)
+Copying-policy: GNU GPL
+End

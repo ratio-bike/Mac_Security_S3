@@ -1,0 +1,2 @@
+Run the RIPCORD program after installation for information on all included
+software versions.

@@ -1,0 +1,99 @@
+# localize.en , FreeDOS cdrom distribution (www.freedos.org)
+# original author : Bernd Blaauw
+# document created: 2003-12-14
+# last update     : 2003-12-14
+
+# welcome menu
+0.0:FreeDOS 1.0 Final cdrom distribution.
+0.1:ÿ       1)   FreeDOS Ripcord Beta9 Installation
+0.2:ÿ       2)   Run FreeDOS from CD-ROM (return to command prompt)
+0.3:ÿ       3)   Create FreeDOS boot floppy (1.44MB)
+0.4:ÿ
+0.5:ÿ       4)   Partition harddisk(s) using PartitionMagic
+0.6:ÿ       5)   Backup or Restore harddisk(s)/partition(s) using Drive Image
+0.7:ÿ
+0.8:ÿ       o)   OEM tools
+0.9:ÿ       x)   Install XOSL boot manager (486+, 4MB+, VESA+)
+0.10:ÿ
+0.11:ÿ       v)   View the Install text for using this CD-ROM
+0.12:ÿ            (Press ESC key to exit the viewer)
+0.13:ÿ
+0.14:ÿ       r)   Reboot
+0.15:ÿ
+0.16:ÿ         What do you want to do?
+0.17:You may run 'menu' to return to FreeDOS setup!
+
+# installation menu with options
+1.0:FreeDOS 1.0 Final cdrom distribution.
+1.1:ÿ
+1.2:ÿ       1)   Start installation of FreeDOS beta9
+1.3:ÿ       2)   Set language
+1.4:ÿ       3)   Change screenmode
+1.5:ÿ       4)   Select keyboard layout
+1.6:ÿ       5)   Change installation mode
+1.7:ÿ
+1.8:ÿ       Q)   return to previous menu
+1.9:ÿ
+
+# partitioning, formatting and installing
+2.0:FreeDOS 1.0 Final cdrom distribution.
+2.1:ÿ
+2.2:Select option:
+2.3:1) run Fdisk
+2.4:2) QuickFormat one or more partitions
+2.5:3) Full format one or more partitions (SLOW!)
+2.6:4) Start the installer program
+2.7:ÿ
+2.8:q) Return to previous screen
+2.9:ÿ
+2.10:ÿ         What do you want to do? 
+
+# post-installation notes.
+3.0:FreeDOS 1.0 Final cdrom distribution.
+3.1:ÿ
+3.2:Performing post installation steps:
+3.3:Trying to install mouse support (may hang your computer)
+3.4:Mouse support succesfully installed!
+
+# completed steps first.
+4.0:FreeDOS 1.0 Final cdrom distribution.
+4.1:û Stage 1 : Setup kernel and bootsectorfiles
+4.2:û Stage 2 : Create startup configuration file
+4.3:û Stage 3 : Create startup automation file
+4.4:û Stage 4 : Setting up translated programs.
+4.5:û Stage 5 : Installing mousedriver
+4.6:û Stage 6 : Writing bootsector
+
+# uncompleted steps after completed steps.
+5.1:é Stage 1 : Setup kernel and bootsectorfiles
+5.2:é Stage 2 : Create startup configuration file
+5.3:é Stage 3 : Create startup automation file
+5.4:é Stage 4 : Setting up translated programs.
+5.5:é Stage 5 : Installing mousedriver
+5.6:é Stage 6 : Writing bootsector
+
+# bootsector information message.
+6.0:FreeDOS 1.0 Final cdrom distribution.
+6.1:ÿ
+6.2:By design the FreeDOS installation manager does not overwrite any settings of
+6.3:other operating systems.
+6.4:Therefore, please write the bootsector yourself.
+6.5:enter this command: BOOT
+6.6:ÿ
+6.7:Note: if you have an operating system installed which is not based on DOS
+6.8:       like NT/2000/XP, BSD, BeOS or Linux,
+6.9:       do not write the bootsector, and add C:\\FDOSBOOT.BIN to the bootloader
+6.10:ÿ
+6.11:       Example for boot.ini:  c:\\fdosboot.bin=FreeDOS beta9 distribution 
+6.12:ÿ 
+6.13:FreeDOS has been succesfully installed. 
+6.14:Don't forget to write the bootsector using BOOT , 
+6.15:or you might not be able to start your operating system from harddisk. 
+6.16:ÿ
+6.17:Please reboot before using your just installed FreeDOS installation.
+
+7.0:echo type HELP to get support on commands and navigation
+7.1:echo.
+7.2:echo Welcome to FreeDOS
+7.3:echo.
+7.4:echo Bootfiles:ÿ 

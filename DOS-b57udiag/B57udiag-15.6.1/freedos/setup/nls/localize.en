@@ -1,0 +1,108 @@
+# localize.en , FreeDOS cdrom distribution (www.freedos.org)
+# original author : Bernd Blaauw
+# document created: 2003-12-14
+# last update     : 2004-09-17
+
+# welcome menu
+0.0:FreeDOS 1.0 Final cdrom distribution.
+0.1:ÿ       1)   Configure FreeDOS installation settings
+0.2:ÿ       2)   Run FreeDOS from CD-ROM (return to command prompt)
+0.3:ÿ       3)   Create FreeDOS boot floppy (1.44MB)
+0.4:ÿ
+0.5:ÿ       4)   Partition harddisk(s) using PartitionMagic
+0.6:ÿ       5)   Backup or Restore harddisk(s)/partition(s) using Drive Image
+0.7:ÿ
+0.8:ÿ       o)   OEM tools
+0.9:ÿ       x)   Install XOSL boot manager (486+, 4MB+, VESA+)
+0.10:ÿ
+0.11:ÿ       v)   View the Install text for using this CD-ROM
+0.12:ÿ            (Press ESC key to exit the viewer)
+0.13:ÿ
+0.14:ÿ       r)   Reboot
+0.15:ÿ
+0.16:ÿ         What do you want to do?
+0.17:You may run 'menu' to return to FreeDOS setup!
+
+# installation menu with options
+1.0:FreeDOS 1.0 Final cdrom distribution.
+1.1:ÿ
+1.2:ÿ       1)   Start installation of FreeDOS beta9
+1.3:ÿ       2)   Localize language, keyboard and display
+1.4:ÿ       3)   Change installation mode
+1.5:ÿ       4)   Change screenmode
+1.6:ÿ       5)   Reset language to English
+1.7:ÿ
+1.8:ÿ       Q)   return to previous menu
+1.9:ÿ
+
+# partitioning, formatting and installing
+2.0:FreeDOS 1.0 Final cdrom distribution.
+2.1:ÿ
+2.2:Select option:
+2.3:1) Partition harddisk using Fdisk     (Not recommended unless necessary!)
+2.4:2) QuickFormat one or more partitions (Not recommended unless necessary!)
+2.5:3) Full format one or more partitions (SLOW!,definately not recommended!)
+2.6:4) Start the installer program
+2.7:ÿ
+2.8:q) Return to previous screen
+2.9:ÿ
+2.10:ÿ         What do you want to do? 
+
+# post-installation notes.
+# included in samcfg\localize.txt, but also required for translation here.
+3.0:FreeDOS 1.0 Final cdrom distribution.
+3.1:ÿ
+3.2:Performing post installation steps:
+3.3:Trying to install mouse support (may hang your computer)
+3.4:Mouse support succesfully installed!
+
+# completed steps first.
+4.0:FreeDOS 1.0 Final cdrom distribution.
+4.1:[+] Stage 1 : Install FAT32-enabled kernel
+4.2:[+] Stage 2 : Create startup configuration file
+4.3:[+] Stage 3 : Create startup automation file
+4.4:[+] Stage 4 : Setting up translated programs.
+4.5:[+] Stage 5 : Installing mousedriver
+4.6:[+] Stage 6 : Done, reboot system?
+
+# uncompleted steps after completed steps.
+5.1:[-] Stage 1 : Install FAT32-enabled kernel
+5.2:[-] Stage 2 : Create startup configuration file
+5.3:[-] Stage 3 : Create startup automation file
+5.4:[-] Stage 4 : Setting up translated programs.
+5.5:[-] Stage 5 : Installing mousedriver
+5.6:[-] Stage 6 : Done, reboot system?
+
+# bootsector information message.
+6.0:FreeDOS 1.0 Final cdrom distribution.
+6.1:ÿ
+6.2:FreeDOS SETUP has completed the installation. 
+6.3:You need to reboot to load the operating system.
+6.4:Reboot now [Y/N]?
+
+
+7.0:echo type HELP to get support on commands and navigation
+7.1:echo.
+7.2:echo Welcome to FreeDOS
+7.3:echo.
+7.4:echo Bootfiles:ÿ
+
+10.0:ÿ
+10.1:Error: installation has been cancelled somehow.
+
+10.2:Configuration files have not been created.
+10.3:Please execute the following:
+
+10.4:SYS A: C:
+
+11.1:What kind of monitor do you have?
+11.2:1) Color     
+11.3:2) Monochrome
+11.4:ÿ
+11.5: NB: if graphical installer does not work properly, please pick monochrome
+
+12.1:What kind of install do you want?
+12.2:1) Full install    (All disksets and corresponding sources in SRC_BASE)
+12.3:2) Minimal install (BASE diskset(s) only)
+12.4:3) Custom install  (all packages, let me decide which to install)
+

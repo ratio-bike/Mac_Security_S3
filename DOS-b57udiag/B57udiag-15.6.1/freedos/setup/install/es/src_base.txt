@@ -1,0 +1,2 @@
+C¢digo fuente para los programas base de la distribuci¢n.
+[ excepto FreeCom, el n£cleo y el Instalador ]

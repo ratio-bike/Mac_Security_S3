@@ -1,0 +1,108 @@
+# localize.it , FreeDOS cdrom distribution (www.freedos.org)
+# original author (of the version in English) : Bernd Blaauw
+# translate by  : gsan92
+# document created: 2004-09-25
+# last update     : 2004-09-25
+
+# welcome menu
+0.0:FreeDOS 1.0 Fin Distribuzione su CDROM.
+0.1:ÿ       1)   Configura le impostazioni d'installazione del FreeDOS
+0.2:ÿ       2)   Esegui FreeDOS da CD-ROM (ti mando al prompt del DOS)
+0.3:ÿ       3)   Crea un floppy avviabile del FreeDOS (1.44MB)
+0.4:ÿ
+0.5:ÿ       4)   Partizione gli harddisk usando PartitionMagic
+0.6:ÿ       5)   Fai il backup o ripristina hard-disk usando Drive Image     
+0.7:ÿ
+0.8:ÿ       o)   Utilità OEM
+0.9:ÿ       x)   Installa il boot manager XOSL (486+, 4MB+, VESA+)
+0.10:ÿ
+0.11:ÿ       v)   Vedi il testo Install per usare questo CDROM
+0.12:ÿ            (Premi ESC per uscire dal visualizzatore)
+0.13:ÿ
+0.14:ÿ       r)   Riavvia il computer
+0.15:ÿ
+0.16:ÿ         Cosa vuoi fare?        
+0.17:Potresti eseguire menu per ritornare al "FreeDOS setup"!
+
+# installation menu with options
+1.0:FreeDOS 1.0 Final Distribuzione su CDROM.
+1.1:ÿ
+1.2:ÿ       1)   Inizia l'installazione del FreeDOS beta9
+1.3:ÿ       2)   Localizza lingua,tastiera e display    
+1.4:ÿ       3)   Cambia modalità di installazione
+1.5:ÿ       4)   Cambia screenmode
+1.6:ÿ       5)   Torna alla lingua inglese       
+1.7:ÿ
+1.8:ÿ       Q)   ritorna al menu precedente
+1.9:ÿ
+
+# partitioning, formatting and installing
+2.0:FreeDOS 1.0 Final Distrubuzione su CDROM.
+2.1:ÿ
+2.2:Seleziona un'opzione:
+2.3:1) Partiziona il disco fisso usando fdisk (Non raccomandato se non necessario!)
+2.4:2) Formatta una o più partizioni (Non raccomandato se non necessario!)
+2.5:3) Formatta a basso livello una o più partizioni (LENTO! Definitivamente non consigliato!)
+2.6:4) Esegui il programma d'installazione
+2.7:ÿ
+2.8:q) Ritorna alla schermata precedente
+2.9:ÿ
+2.10:ÿ         Cosa vuoi fare?         
+
+# post-installation notes.
+# included in samcfg\localize.txt, but also required for translation here.
+3.0:FreeDOS 1.0 Final Distribuzione su CDROM.
+3.1:ÿ
+3.2:Sto eseguendo gli script post-installazione:
+3.3:Sto cercando di installare il supporto al mouse (il computer potrebbe bloccarsi)
+3.4:Il supporto al mouse è stato installato con successo!
+
+# completed steps first.
+4.0:FreeDOS 1.0 Final Distribuzione su CDROM.
+4.1:[+] Stage 1 : Sto installando un kernel che supporti il FAT32
+4.2:[+] Stage 2 : Sto creando il file di configurazione dello startup
+4.3:[+] Stage 3 : Sto creando il file di automatizzazione
+4.4:[+] Stage 4 : Sto configurando i programmi tradotti
+4.5:[+] Stage 5 : Sto installando il driver per il mouse
+4.6:[+] Stage 6 : Finito,riavviare il sistema?
+
+# uncompleted steps after completed steps.
+5.1:[-] Stage 1 : Sto installando un kernel che supporti il FAT32
+5.2:[-] Stage 2 : Sto creando il file di configurazione dello startup
+5.3:[-] Stage 3 : Sto creando il file di automatizzazione
+5.4:[-] Stage 4 : Sto configurando i programmi tradotti
+5.5:[-] Stage 5 : Sto installando il driver per il mouse
+5.6:[-] Stage 6 : Finito,riavviare il sistema?
+
+# bootsector information message.
+6.0:FreeDOS 1.0 Final Distribuzione su CDROM.
+6.1:ÿ
+6.2:FreeDOS SETUP ha completato l'installazione.  
+6.3:Bisogna riavviare il sistema per avviare FreeDOS.
+6.4:Riavviare ora [Y/N]?
+
+
+7.0:echo scrivi HELP per avere supporto su comandi e uso        
+7.1:echo.
+7.2:echo Benvenuto nel mondo FreeDOS
+7.3:echo.
+7.4:echo File di avvio (Bootfiles):ÿ
+
+10.0:ÿ
+10.1:Errore: L'installazione è stata annullata da qualche parte!
+
+10.2:I file di configurazione non sono stati creati.
+10.3:Prego esegui questo:         
+
+10.4:SYS A: C:
+
+11.1:Che tipo di monitor hai?         
+11.2:1) A colori  
+11.3:2) Monocromatico          
+11.4:ÿ
+11.5: NB: Se l'installer a colori non accenna a funzionare,prego selezionare "Monocromatico"
+
+12.1:Che tipo di installazione vuoi effettuare?
+12.2:1) Installazione completa  (Solo il pacchetto BASE e le rispettive source "SRC_BASE")
+12.3:2) Installazione minima (Solo disksets BASE)  
+12.4:3) Installazione personalizzata (tutti i pacchetti, fai decidere a me cosa installare)

@@ -1,0 +1,13 @@
+Begin3
+Title:          more
+Version:        4.2
+Entered-date:   2003-07-15
+Description:    Displays the contents of a text file one page at a time
+Keywords:       freedos, more
+Author:         Jim Hall <jhall@freedos.org>
+Maintained-by:  Tom Ehlert <te@drivesnapshot.de>
+Primary-site:   http://www.freedos.org/jhall/utils/
+Original-site:  http://www.isd.net/jhall1/freedos/utils.html
+Platforms:      DOS  *requires KITTEN
+Copying-policy: GPL
+End

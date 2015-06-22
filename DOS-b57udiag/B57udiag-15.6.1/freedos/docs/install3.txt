@@ -1,0 +1,98 @@
+THE FREEDOS 1.0 FINAL DISTRIBUTION
+
+CD-ROM BASED INSTALLATION INFORMATION
+
+Updated by Jeremy Davis <jeremyd@computer.org>
+13 July 2003
+Updated by Blair Campbell <blairdude@gmail.com>
+11 August 2006
+
+--------------------------------------------------------------------------
+
+This FreeDOS CD-ROM is intended to allow one to boot the FreeDOS
+kernel and then either install FreeDOS to a hard drive, or run FreeDOS
+(use the included programs) directly from the CD.
+
+Please visit http://www.freedos.org for more information about FreeDOS
+
+A  What is on this CD (Layout)
+B  How do I run (or install) FreeDOS from this CD
+C  Creating a custom boot floppy to use with this CD
+D  Reporting problems
+
+
+--------------------------------------------------------------------------
+A  What is on this CD (Layout)
+--------------------------------------------------------------------------
+
+This CD contains a complete (except for the source install sets) FreeDOS
+installation in \FREEDOS\ which is used by the installation 
+routines.  Additionally, all install sets have been zipped into 
+\FREEDOS\PACKAGES\ (so you may omit any instructions that
+specify to unzip install sets such as BASE1.ZIP, UTIL1.ZIP, ...) thus
+you may use <cdrom>:\FREEDOS\PACKAGES\ as the source for 
+installation purposes.
+
+If you want to start the install process from the CD-ROM without booting it,
+try running \SETUP.BAT.
+
+--------------------------------------------------------------------------
+B  How do I run (or install) FreeDOS from this CD
+--------------------------------------------------------------------------
+
+\SETUP.BAT may be ran to initiate installing FreeDOS from this CD-ROM.
+The installation must be performed using FreeCom.  If you booted using a
+different command interpreter (such as one for another DOS) then you may need
+to run \FDOS\BIN\COMMAND.COM /E:512 before begining the installation.
+
+  X:\>SETUP.BAT
+
+If you are having difficulties (your computer freezes or other odd
+behaviour) when running FreeDOS from the CD (or during installation).
+You may wish to use the DOS CD-ROM driver for your specific CD drive.
+To do this with the bootdisk, replace \DRIVER\XCDROM.SYS with the driver
+specific to your CD-ROM drive.
+
+For ATAPI (IDE) drives we provide a cdrom-driver on the bootdisk.
+
+--------------------------------------------------------------------------
+C  Creating a custom boot floppy to use with this CD
+--------------------------------------------------------------------------
+
+If you are unable to boot from the CD-ROM, you may still use it to
+install FreeDOS by creating a boot floppy.  To aid in this, there is
+a generic FreeDOS CD installation bootdisk builder on the CD that can
+be used to create a disk useful for this purpose.
+\FREEDOS\SETUP\BATCH\BOOTDISK.BAT
+
+i    Write it to a floppy (option 3, or above mentioned batchfile)
+ii   Boot using the floppy (with the FreeDOS CD in your CD drive)
+iii  Continue installation just as though you booted directly from the CD
+
+--------------------------------------------------------------------------
+D  Reporting problems
+--------------------------------------------------------------------------
+
+If you run into problems there are several avenues you may try.
+If the problem is in one of the Base FreeDOS programs you should report
+the problem using bugZilla.  http://www.freedos.org/freedos/bugs/
+Other related issues may also be reported there.  
+For problems related to the distribution (program XYZ is missing, please
+don't include program ZZ3, document NNN should say 'dkdkdk', etc.)
+please email me: blairdude@gmail.com
+For general FreeDOS related issues, try the FreeDOS mailing lists: 
+http://www.freedos.org/freedos/lists/.
+
+Information is obtainable online without the need to subscribe from the 
+following sources:
+ * http://www.freedos.org/
+ * http://www.freedos.org/freedos/lists/ 
+ * http://www.freedos.org/freedos/bugs/
+
+--------------------------------------------------------------------------
+
+  FreeDOS is a trademark of Jim Hall. 
+  It was claimed as a trademark to prevent its possible abuse or misuse.
+  The name FreeDOS may be used by the FreeDOS community to refer to 
+  programs that are part of the FreeDOS operating system, or to associate
+  their programs with FreeDOS.

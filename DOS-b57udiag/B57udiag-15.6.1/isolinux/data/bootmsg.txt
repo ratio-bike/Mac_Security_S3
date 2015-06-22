@@ -1,0 +1,16 @@
+17data/logo.lss
+
+                 1fÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿07
+                 1f³1e           FreeDOS 1.0 Final CD           1f³07
+                 1f³1e          http://www.freedos.org          1f³07
+                 1fÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ07
+
+0b107) Continue to boot FreeDOS from CD-ROM
+
+0eh07) Boot from first harddisk (0x80)
+0fa07) Boot from first floppy drive (0x00)
+0fq07) Skip CD-Rom boot (try next boot device)
+
+/KNOPPIX/logo.16
+Press ENTER to boot FreeDOS from CD.
+When no key is pressed within 2 min, harddisk will be booted...

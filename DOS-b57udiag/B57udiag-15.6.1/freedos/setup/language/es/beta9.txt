@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------
+DISTRIBUCION DE FREEDOS BETA 9 ("Methusalem")
+
+Puede encontrar soluciones a problemas y actualizaciones de la Beta9
+en el sitio Web de FreeDOS, http://www.freedos.org/. Consulte tambi‚n
+la lista de errores conocidos.
+
+Si necesita particionar la unidad de disco duro antes de instalar
+FreeDOS, utilice FDISK para hacerlo.
+Si ya ha creado las particiones, deber  utilizar FORMAT para poder
+escribir en dichas unidades.
+Despu‚s de dar formato, ejecute SYS C: para hacer la unidad
+inicializable.
+
+Por favor, elija las opciones apropiadas en los siguientes men£s.
+
+Esperamos que disfrute de FreeDOS.
+        FreeDOS es una marca comercial perteneciente a Jim Hall.
+
+--------------------------------------------------------------------------
+
+press any key to continue

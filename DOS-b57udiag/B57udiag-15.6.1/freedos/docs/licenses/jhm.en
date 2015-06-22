@@ -1,0 +1,65 @@
+http://www.shsu.edu/~csc_jhm/
+
+Latest Versions as of October 19, 2000
+
+   SHSUSERV Version 3.1
+   SHSUCDN  Version 0.01
+   SHSUCDX  Version 1.4b
+   SHSUDRVX Version 1.1
+   SHSUCDHD Version 4.0
+   CDCACHER Version 5.0
+
+SHSUSERV is a CD-ROM server that allows 48 users simultaneous access to
+         CD-ROMs.  The CDs may be mounted on physical drives or they may
+         be cached images created on a hard disk using the CDCACHER program.
+         Driver names and cache image names may be specified in a server
+         initiation file (SHSUSERV.INI) at start up.
+
+SHSUCDN  is a pseudo CD-ROM driver that runs as a TSR on a client work-
+         station.  It accepts CD-ROM driver request from MSCDEX and
+         transmits them on to the server and returns the server response
+         to MSCDEX.  SHSUCDX may be used in place of MSCDEX.
+
+SHSUCDX  is a CD-ROM redirector substitute for MSCDEX.  It differs from
+         MSCDEX in that it can be un-loaded, it occupies less memory, and
+         only selected drives are mapped.  Version 1.4b also converts
+         lowercase characters to upper case in directory entries.  Lower
+         case characters are invalid but some mastering programs put them in.
+         Local and networked CD-ROMs can be accessed simultaneously using
+         the SHSUSERV/SHSUCDN client/server software or by using SHSUCDHD.
+         A total of 10 drives can be mapped in any order from all available
+         drives on 10 drivers.  See README.CDX
+
+SHSUDRVX is a CD driver/controller emulator which emulates two CD drives
+         loaded with ISO CD ROMS.  It is useful for testing.  It can be
+         loaded multiple times with different driver names to simulate
+         more than 2 drives.  See README.DRV
+
+SHSUCDHD is a pseudo CD-ROM driver that runs as a TSR on a client work-
+         station and makes up to 5 local or remote cd cache images appear as
+         cd drives.  It is known to be compatible with Novell VLM clients and
+         NT clients.  It will not access remote cache files using Novell's
+         NETX shell client.  See README.CDH
+         Images can be created using the Cacher program or any program that can
+         create and ISO disk image.
+
+         Warning!!!!  Attempting to use MSCDEX with SHSUCDHD will crash
+            your system.  SHSUCDX must be used.
+
+CDCACHER is a stand alone program for making a hard disk cache image of a CD
+         ROM for the server.  A full CD can take a while and lots of disk space.
+
+2KBLOCK.DAT is a 2048 byte block of nulls for converting old cache images to
+         the new cache format.  See README.1ST.
+
+KLUDGE0  is a dummy CD driver which makes a specified driver,unit appear as
+         unit 0 on CD0.
+
+
+SHSUSERV, SHSUCDN, SHSUCDX, SHSUDRVX, SHSUCDHD and CDCACHER are copyright
+ reserved, free use programs.  Use at your own risk.
+
+Time permitting, an attempt will be made to fix problems that are reported
+ to CSC_JHM@SHSU.EDU.
+
+(c)John H. McCoy, 1994, 1995, 1996 Sam Houston St. Univ., TX 77341-2206

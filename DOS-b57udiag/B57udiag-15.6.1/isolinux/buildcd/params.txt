@@ -1,0 +1,1 @@
+-q -l -N -duplicates-once -boot-info-table -iso-level 4 -no-emul-boot -b isolinux/isolinux.bin -p "Jeremy Davis" -publisher "FreeDOS - www.freedos.org" -A "FreeDOS beta9 Distribution" -V FDOS_BETA9

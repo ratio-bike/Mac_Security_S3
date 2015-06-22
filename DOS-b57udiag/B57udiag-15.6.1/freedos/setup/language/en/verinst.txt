@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------
+THE FREEDOS 1.0 FINAL DISTRIBUTION
+
+Problems/updates with the official FreeDOS 1.0 may be found using the
+RIPCORD utility included with the distribution.
+
+Do you need to partition your hard drive before installing FreeDOS?
+Don't forget to use the FDISK program to do this.  If you have created
+any partitions, you'll need to use FORMAT to make the drive writable.
+After formating, make your hard drive bootable by running:  SYS C:
+
+To install the FreeDOS 1.0 Final on your computer, choose the appropriate
+options from the screens that follow and reboot as necessary.
+
+Enjoy FreeDOS!
+                FreeDOS is a trademark of Jim Hall.
+
+--------------------------------------------------------------------------
+
+press any key to continue

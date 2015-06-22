@@ -1,0 +1,14 @@
+Begin3
+Title:          Chkdsk
+Version:        beta 0.9
+Entered-date:   2006-6-03
+Description:    Check the disk for errors. 
+Keywords:       Check disk errors
+Author:         Imre Leber <Imre.Leber@worldonline.be>
+Maintained-by:  Imre Leber <Imre.Leber@worldonline.be>
+Primary-site:   http://savannah.nongnu.org/download/free-defrag/
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/chkdsk/
+Original-site:  http://savannah.nongnu.org/download/free-defrag/
+Platforms:      DOS
+Copying-policy: GNU GPL
+End

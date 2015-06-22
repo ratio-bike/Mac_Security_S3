@@ -1,0 +1,2 @@
+Most of the FreeDOS base programs are under this
+license.  Refer to COPYING for the license.

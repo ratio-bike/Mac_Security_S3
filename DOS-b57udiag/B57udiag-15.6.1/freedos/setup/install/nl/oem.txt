@@ -1,0 +1,9 @@
+
+    Klaar om de FreeDOS programmatuur te installeren?  U zou nu al uw
+    installie-diskettes hebben moeten aangemaakt, of alle installatie-
+    bestanden in dezelfde directory op uw harde schijf hebben gezet.
+    
+    Diskette-toegang is toch nog redelijk langzaam. Als U dit installeert
+    vanaf een diskette die FreeDOS gebruikt, dan ontdekt U dat het
+    installatie-proces iets langer duurt dan u zou verwachten. FreeDOS werkt
+    echter prima zodra u opstart vanaf de harde schijf.

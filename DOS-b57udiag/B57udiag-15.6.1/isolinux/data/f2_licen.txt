@@ -1,0 +1,12 @@
+0707(license.txt) additional information about licenses of programs used:
+
+the FreeDOS operating system / distribution
+GNU Public License
+trademark of Jim Hall 1994
+created by many authors, see each credit file or www.freedos.org
+distribution made by Jeremy Davis with help from Bernd Blaauw 2002-2004
+
+the ISOLINUX / MEMDISK multiboot cdloader
+GNU Public License, created by H.Peter Anvin, http://syslinux.zytor.com/iso.php
+
+other programs may also be included, such as mkisofs (cd authoring tool)

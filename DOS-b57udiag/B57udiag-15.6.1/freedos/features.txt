@@ -1,0 +1,93 @@
+"The commandline is dead, long live the commandline!"
+
+
+FreeDOS 1.0 Final Distribution
+2004-11-30
+
+prepared and distributed by Jeremy Davis.
+
+FreeDOS is a trademark of Jim Hall
+
+===========================================================
+
+INTRODUCTION:
+
+This is the feature-list for the freedos 1.0 final cdrom release
+
+===========================================================
+
+Featurelist:
+
+*(CD/DVD)ROM
+  +can be burned on CD and DVD media
+  +can be easily integrated on distribution cdroms, 
+   like magazines which want to promote FreeDOS.
+  +bootable on modern computers if computer supports it
+   (Intel P133 or compatible, or newer computers)
+  +can be used on all computers with a cdrom-drive.
+   a 1440KB diskette-images is available.
+  +easily recreated in case you want to update the cdrom.
+  +bootdisk builder allows you to create freely distributable
+   general-purpose (troubleshooting/installation) bootdisk,
+   something that is quite difficult in NT family OS's
+   (even XP, given the limits of the WinME kernel used on bootdisk)
+
+*FreeDOS 1.0 final distribution 
+  +updated lots of programs to latest version
+  +installs a default config.sys and autoexec.bat configuration files.
+  +does not overwrite any MSDOS (tm) or Windows(tm) files.
+  +multiboot capabilities with MSDOS 5.0 - 6.22 and Windows 95 - ME
+   using MetaKern bootloader.
+  +multiboot capabilities with Windows NT, 2000, XP and 2003 series,
+   using the boot.ini system file to add a FreeDOS menu entry. 
+  +supports installation on FAT16 partitions beyond 8GB (large disks),
+   for example create a 100MB Freedos partition at end of 60GB harddisk.
+  +multimenu automatically created as demonstration for bootup options
+  +includes several language files to aid installation and use.
+  +DOS kernel supports FAT32 and allows you to install Windows
+  +includes UDMA driver for harddisk read and write acceleration.
+  +FORMAT program allows convert-to-NTFS optimization, but not on by default.
+   (the /O option)
+
+===========================================================
+
+When booting from the CD or via a bootdisk based on the
+generic floppy images provided, the batch file
+\SETUP.BAT is ran.
+
+If you are having problems accessing your CD using the
+supplied xcdrom.sys driver, create a floppy by running
+\SETUP.BAT and choosing the bootdisk menu option and add
+your CD drive's OEM provided DOS CD-ROM device driver.  The
+batch file will install to a pre-formatted floppy disk in
+your first floppy drive using the image in \ISOLINUX\DATA.
+Reboot and hopefully all is well!
+
+If you are unable to boot from the CD directly, i.e. you
+have an older Pentium or 486 class computer that entirely
+lacks or has broken El-Torito CD-ROM boot support, you
+may wish to create a floppy disk that contains SBM
+(Smart Boot Manager).  Boot this floppy then select boot
+CD from its menu.  For some CD drives you may have to
+tell SBM which I/O ports to use [common ones are 1f0, 170,
+1e8, and 168].  http://btmgr.sourceforge.net/
+
+For those who wish to see an alternate method, it is also possible
+to save the iso to C:\FDBOOTCD.ISO, and boot from the floppy which
+will be able to access this file as a drive.  The contents of the
+ISO could also be saved to C:\; then boot to DOS and run
+C:\SETUP.BAT.
+
+Bugs about included programs should be reported using bugzilla
+(http://www.freedos.org/freedos/bugs/), for general FreeDOS issues refer
+to the main FreeDOS site (www.freedos.org).
+
+When reporting bugs about an included program, please indicate the
+program's version number or indicate FreeDOS 1.0 Final Bootable CD.  
+General FreeDOS questions should be sent to the FreeDOS mailing list
+so other developers that may have a better idea can help you.
+
+Thank you,
+Jeremy Davis (August   21, 2003)
+Bernd Blaauw (November 30, 2004)
+Blair Campbell (August 11, 2006)

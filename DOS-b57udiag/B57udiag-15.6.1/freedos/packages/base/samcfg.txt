@@ -1,0 +1,1 @@
+Create  CONFIG.SYS and AUTOEXEC.BAT in destination drive.

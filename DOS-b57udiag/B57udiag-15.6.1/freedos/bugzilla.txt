@@ -1,0 +1,24 @@
+*** FreeDOS 1.0 Final Distribution ***
+
+This distribution contains the most uptodate versions of FreeDOS(-related) programs.
+
+Bugs about included programs should be reported using bugtrack 
+(http://www.freedos.org/freedos/bugs/), 
+for general FreeDOS issues refer to the main FreeDOS site (www.freedos.org).
+
+When reporting bugs about an included program, please indicate the
+program's version number or indicate FreeDOS 1.0 Final Bootable CD.  
+General FreeDOS questions should be sent to the FreeDOS mailing list
+so other developers that may have a better idea can help you.
+
+please report other bugs also on Bugtrack/Bugzilla: 
+http://www.freedos.org/freedos/bugs/
+
+for questions/updates, please mail me at blairdude@gmail.com
+
+Thank you,
+Bernd Blaauw
+November 30, 2004
+
+Blair Campbell
+August 11, 2006

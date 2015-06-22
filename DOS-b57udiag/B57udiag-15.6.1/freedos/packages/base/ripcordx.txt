@@ -1,0 +1,2 @@
+A simple little program that users can use to easily get the version of the
+distribution installed.

@@ -1,0 +1,11 @@
+~1)  English    (US)
+~2)  Deutsch    (German)
+~3)  Francais   (French)
+~4)  Polski     (Polish)
+~5)  Nederlands (Dutch)
+~6)  Italiano   (Italian)
+~7)  Svensk     (Swedish)
+~8)  Portuguese (Portuguese)
+~9)  Espa¤ol    (Spanish)
+1~0) Russian    (Russian)
+11) ~More choices

@@ -1,0 +1,20 @@
+La Distribuzione FREEDOS BETA 9 ("Methusalem")
+
+Problemi e aggiornamenti per quanto riguarda la FreeDOS Beta9 possono
+essere trovati sul sito web del progetto FreeDOS <http://www.freedos.org>. 
+Prego leggere l'errata.
+
+Hai bisogno di partizionare il tuo disco fisso prima di installare il FreeDOS?
+Non dimenticarti di usare il programma FDISK per fare questo.
+Una volta create le partizioni (almeno una) , bisogna usare FORMAT per renderle scrivibili.
+Dopo averle formattate, fai il tuo hard-disk avviabile con: SYS C:
+
+Per installare la FreeDOS beta 9 sul tuo computer, scegli le opzioni
+appropriate nelle schermate che seguono e riavvia se necessario.
+
+Gustati il FreeDOS!
+	FreeDOS è un marchio registrato di Jim Hall.
+	
+---------------------------------------------------------------------
+
+premi qualsiasi tasto per continuare

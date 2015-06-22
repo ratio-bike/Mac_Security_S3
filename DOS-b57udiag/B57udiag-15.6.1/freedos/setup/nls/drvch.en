@@ -1,0 +1,3 @@
+Please select the drive you wish to install FreeDOS on. If the desired
+drive is not in the menu, you need to run XFdisk to partition your hard
+drive.  To do this, select C: now, and select XFdisk at the next menu.

@@ -1,0 +1,13 @@
+Begin3
+Title:		DEVLOAD
+Version:	3.16
+Entered-date:	2006-05-20
+Description:	Commandline device driver loading program, supports UMBs
+Keywords:	freedos, commandline, device, driver, load, ctload, devload
+Author:		David Woodhouse (Dave -@- infradead.org)
+Maintained-by:	Eric Auer ( eric -@- CoLi.Uni-SB.DE )
+Primary-site:   http://www.coli.uni-sb.de/~eric/stuff/soft/by-others/
+Original-site:	www.infradead.org/devload
+Platforms:	DOS, Arrowsoft ASM, Turbo C ( Tlink ) 
+Copying-policy: GPL
+End

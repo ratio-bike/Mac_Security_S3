@@ -1,0 +1,6 @@
+0.0:If you would like to install to a drive other than C, type the desired
+0.1:destination drive letter or press
+0.2:@set /P destdrv=enter to install to C:
+0.3:Could not format your hard disk
+0.4:This creates a FreeDOS boot disk on your first floppy drive
+0.5:Please insert a formatted floppy disk into that drive

@@ -40,6 +40,8 @@ UefiMain (
 	UINT32 Index;
 	
 	Index = 0;
+
+	while(1){};
   
   //
   // Three PCD type (FeatureFlag, UINT32 and String) are used as the sample.

@@ -1,0 +1,10 @@
+
+    Pronto per installare FreeDOS? Se non stai installando da CD dovresti
+    aver gi… creato i tuoi floppy di installazione o copiato i file di
+    installazione in una directory sul tuo disco fisso.
+
+    L'accesso ai floppy Š ancora un po' lento. Se stai istallando
+    da floppy ti accorgerai che l'installazione Š pi— lunga di quanto
+    ti aspetteresti. Comunque FreeDOS funzioner… bene una volta riavviato
+    dal dico fisso.
+

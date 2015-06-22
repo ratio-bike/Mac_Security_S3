@@ -1,0 +1,18 @@
+0707
+Please type which item you wish to boot followed by pressing
+the <Enter> key.  This will attempt to boot your selection.
+Should an error occur you may either be returned to the boot
+prompt or your computer may halt.  If you return to the prompt
+then try another choice, or if your computer halts, please
+reboot (reset) and try another choice.
+
+F1 Help (this screen)
+F2 License Overview (please understand all licensing terms before use)
+F3 Boot Message with available boot selections (original screen displayed)
+
+
+
+[F4-F10 are presently unused]
+
+
+

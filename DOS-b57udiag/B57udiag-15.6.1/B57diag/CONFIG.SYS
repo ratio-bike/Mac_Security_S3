@@ -1,0 +1,7 @@
+device=himem.sys /testmem:off
+dos=high,umb
+stacks=40,512
+files=50
+buffers=50
+LASTDRIVE=Z
+

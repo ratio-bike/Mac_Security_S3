@@ -1,0 +1,1 @@
+Free drivers, such as network cards and usb drivers (downloaded from internet).

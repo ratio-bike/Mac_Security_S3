@@ -1,0 +1,14 @@
+Begin3
+Title:          DosFsCk
+Version:        2.10b-Eric_Auer
+Entered-date:   2004-08-15
+Description:    Checks FAT filesystems for errors
+Keywords:       dosfsck, chkdsk, dos, fat, freedos
+Author:         Roman.Hodek@informatik.uni-erlangen.de
+Maintained-by:  Imre Leber <imreleber@hotmail.com>
+Primary-site:   http://www.coli.uni-sb.de/~eric/stuff/soft/by-others/
+Alternate-site: http://users.pandora.be/imre/FreeDOS/
+Original-site:  http://users.pandora.be/imre/FreeDOS/
+Platforms:      DOS, DJGPP, CWSDPMI, 386+
+Copying-policy: GPL
+End

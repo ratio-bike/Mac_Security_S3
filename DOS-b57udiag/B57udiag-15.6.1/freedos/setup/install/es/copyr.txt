@@ -1,0 +1,18 @@
+
+    Version 3.7.8
+    Copyright (C) 1998 - 2002 Jim Hall <jhall@freedos.org>
+
+    êste es un software libre. Puede redistribuirlo y/o modificarlo
+    respetando las condiciones de la Licencia P£blica General de GNU 
+    publicada por la Fundaci¢n de Software Libre que se presentan
+    en la versi¢n 2 u otra versi¢n posterior (seg£n su elecci¢n)
+    de la Licencia.
+
+    El programa se distribuye esperando que sea de utilidad,
+    aunque SIN GARANTIA ALGUNA, ni siquiera la garant°a impl°cita
+    de COMERCIABILIDAD o APTITUD PARA UN USO DETERMINADO. 
+    Vea la Licencia P£blica General de GNU para obtener m†s detalles.
+
+    Junto con el programa, debe haber recibido una copia de la Licencia
+    P£blica General de GNU; de no ser as°, escriba a Free Software
+    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, EE.UU.

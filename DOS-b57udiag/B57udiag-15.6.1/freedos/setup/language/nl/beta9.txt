@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------
+DE FREEDOS BETA 9 ("Methusalem") DISTRIBUTIE
+
+Problemen/vernieuwingen wat betreft de officiele Beta9 kunnen gevonden 
+worden op de FreeDOS website, te bereiken op http://www.freedos.org/.
+Lees alstublieft de errata.
+
+Moet u uw harde schijf partitioneren voordat u FreeDOS installeert?
+Vergeet niet om hiervoor het FDISK programma te gebruiken. Als u
+een of meer partities hebt aangemaakt, dient u FORMAT uit te voeren om de
+schijf bruikbaar te maken. Maak na het formatteren de schijf opstartbaar
+door het volgende commando uit te voeren (in te typen):  SYS C:
+
+Kies, om de FreeDOS Beta9 op Uw computer te installeren, de juiste
+opties van de schermen die volgen en herstart de computer indien dit
+wordt vereist.
+
+Veel plezier toegewenst met het gebruiken van FreeDOS!
+
+                FreeDOS is een handelsmerk van Jim Hall.
+--------------------------------------------------------------------------
+
+druk op een toets om door te gaan.

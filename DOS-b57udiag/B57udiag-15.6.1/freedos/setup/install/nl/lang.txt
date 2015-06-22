@@ -1,0 +1,2 @@
+Gratis beschikbare compilers en assemblers.  Ook bijgevoegd zijn een aantal
+BASIC programma's die U onder BWBasic kunt uitvoeren.

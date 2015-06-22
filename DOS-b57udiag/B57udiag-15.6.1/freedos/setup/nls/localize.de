@@ -1,0 +1,106 @@
+# localize.de , FreeDOS cdrom distribution (www.freedos.org)
+# original author : Bernd Blaauw
+# document created: 2003-12-14
+# last update     : 2004-09-27
+
+# welcome menu
+0.0:FreeDOS 1.0 Final CD-ROM Distribution.
+0.1:ÿ       1)   FreeDOS Installations-Einstellungen konfigurieren
+0.2:ÿ       2)   FreeDOS von CD-ROM starten (zum Command Prompt zurckkehren)
+0.3:ÿ       3)   FreeDOS Bootdiskette erstellen (1.44MB)
+0.4:ÿ 
+0.5:ÿ       4)   Festplatte(n) mit PartitionMagic partitionieren
+0.6:ÿ       5)   Festplatte(n)/Partition(en) mit Drive Image sichern oder wiederherstellen
+0.7:ÿ 
+0.8:ÿ       o)   OEM tools
+0.9:ÿ       x)   XOSL Bootmanager installieren (486+, 4MB+, VESA+)
+0.10:ÿ
+0.11:ÿ       v)   Installationstext zum Gebrauch dieser CD-ROM anzeigen
+0.12:ÿ            (Drcken Sie ESC um das Anzeigeprogramm zu verlassen)
+0.13:ÿ
+0.14:ÿ       r)   Neustart
+0.15:ÿ 
+0.16:ÿ         Was m”chten Sie tun?
+0.17:You may run 'menu' to return to FreeDOS setup!
+
+# installation menu with options
+1.0:FreeDOS 1.0 Final CD-ROM Distribution.
+1.1:ÿ 
+1.2:ÿ       1)   Installation von FreeDOS beta9 beginnen
+1.3:ÿ       2)   Sprache fr Meldungen, Tastatur und Zeichensatz w„hlen
+1.4:ÿ       3)   Installationsmodus wechseln
+1.5:ÿ       4)   Bildschirmmodus wechseln
+1.6:ÿ       5)   Return to English language mode
+1.7:ÿ
+1.8:ÿ       Q)   Zum vorherigen Men zurckkehren
+1.9:ÿ
+
+# partitioning, formatting and installing
+2.0:FreeDOS 1.0 Final CD-ROM Distribution.
+2.1:ÿ
+2.2:Select option:
+2.3:1) Partitionierung mit FDISK „ndern
+2.4:2) Eine oder mehrere Partitionen formatieren (l”schen)
+2.5:3) Eine oder mehrere Partitionen mit Oberfl„chentest formatieren (langsam!)
+2.6:4) Installation starten (C: muss eine FAT Partition sein)
+2.7:ÿ
+2.8:q) Zum vorherigen Men zurckkehren
+2.9:ÿ
+2.10:ÿ         Was m”chten Sie tun?
+ 
+# post-installation notes.
+3.0:FreeDOS 1.0 Final CD-ROM Distribution.
+3.1:ÿ
+3.2:Fhre abschliessende Installationsschritte durch:
+3.3:Versuche Maus zu erkennen (kann evtl. abstrzen)
+3.4:Mausuntersttzung erfolgreich installiert!
+
+# completed steps first.
+4.0:FreeDOS 1.0 Final CD-ROM Distribution.
+4.1:- Schritt 1 : Installiere Kernel mit FAT32 Untersttzung
+4.2:- Schritt 2 : Konfigurationsdatei erstellen
+4.3:- Schritt 3 : Automationsdatei erstellen
+4.4:- Schritt 4 : šbersetzte Programme einrichten
+4.5:- Schritt 5 : Maustreiber installieren
+4.6:- Schritt 6 : Fertig, System neu starten?
+
+# uncompleted steps after completed steps.
+5.1:+ Schritt 1 : Installiere Kernel mit FAT32 Untersttzung
+5.2:+ Schritt 2 : Konfigurationsdatei erstellen
+5.3:+ Schritt 3 : Automationsdatei erstellen
+5.4:+ Schritt 4 : šbersetzte Programme einrichten
+5.5:+ Schritt 5 : Maustreiber installieren
+5.6:+ Schritt 6 : Fertig, System neu starten?
+
+# bootsector information message.
+6.0:FreeDOS 1.0 Final CD-ROM Distribution.
+6.1:ÿ
+6.2:FreeDOS SETUP hat die Installation erfolgreich abgeschlossen.
+6.3:Um das installierte System zu starten ist ein Neustart erforderlich.
+6.4:Jetzt neu starten [J/N]?
+
+7.0:echo Starten Sie HELP um mehr ber FreeDOS Befehle zu lernen.
+7.1:echo.
+7.2:echo Willkommen bei FreeDOS
+7.3:echo.
+7.4:echo Start- und Konfigurationsdateien:ÿ
+
+10.0:ÿ
+10.1:Fehler: Installation wurde abgebrochen.
+
+10.2:Die Konfigurationsdateien wurden noch nicht erzeugt.
+10.3:Bitte starten Sie SYS manuell, mit dem Befehl:
+
+10.4:SYS A: C:
+
+11.1:Welchen Installationsmodus wollen Sie verwenden?
+11.2:1) Farbe (EGA/VGA Grafik)   
+11.3:2) Monochrom (Text)
+11.4:ÿ
+11.5: Bei Problemen mit EGA/VGA Modus bitte Text w„hlen.
+
+12.1:Welchen Installationsumfang wollen Sie?
+12.2:1) Voll              (BASE und alle Quelltexte aus SRC_BASE)
+12.3:2) Klein             (Alle BASE Programme, aber keine Quelltexte)
+12.4:3) Benutzerdefiniert (Sie entscheiden, welche Pakete installiert werden)
+

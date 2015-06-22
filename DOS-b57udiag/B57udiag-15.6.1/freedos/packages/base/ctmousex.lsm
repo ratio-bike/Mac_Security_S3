@@ -1,0 +1,13 @@
+Begin3
+Title:          CuteMouse
+Version:        1.9.1 beta1 (2.0 Alpha4)
+Entered-date:   2002-10-28
+Description:    Tiny mouse driver for serial and PS/2 mice
+Keywords:       mouse, mice, driver
+Author:         nagyd@users.sourceforge.net
+Maintained-by:  nagyd@users.sourceforge.net
+Primary-site:   http://cutemouse.sourceforge.net
+Original-site:  http://www.vein.hu/~nagyd/
+Platforms:      DOS (TASM)
+Copying-policy: GNU GPL
+End

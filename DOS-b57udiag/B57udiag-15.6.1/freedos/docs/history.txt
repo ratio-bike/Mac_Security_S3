@@ -1,0 +1,81 @@
+FreeDOS Distribution HISTORY
+-------------------------------------
+
+Creation Date: 2004-09-18, by Bernd Blaauw (bblnews@hotmail.com)
+Last Modified: 2004-11-28, by Bernd Blaauw (bblnews@hotmail.com)
+
+Please have a look at the KJDAVIS directory for the HISTORY.TXT
+file that Jeremy Davis originally created.
+It is far too big to use any longer.
+
+-------------------------
+Released FreeDOS Distribution versions (name, released date)
+
+--
+WHATSNEW - 1.0 Final (2006-08-11)
+*Batch files use powerbatch for maximum user-friendliness
+*Installation can be started from \SETUP.BAT
+*All components are updated
+*Packages can be managed using FDPKG
+*Allow installation onto drives other than C:
+*Simplified installation process
+*Removed buggy GUI installer
+
+--
+WHATSNEW - BETA9 SERVICE RELEASE #1 (2004-11-30)
+
+*Made batchfiles less bootdisk-dependent (request from Eric Auer)
+*Use CD2ISO to create ISO file on harddisk as C:\FDBOOTCD.ISO
+ Try pressing 'i' in the cdrom's main menu.
+*Repackaged some things
+*Added the OneDisk INstaller (ODIN) files due to popular request,
+ making the BIN directory redundant
+*If MEMDISK image is found, then it's merely used as a speedup cache
+ (contents of A:\FREEDOS is also on cdrom in ODIN directory)
+*Fixed messing up of NTloader, batchcode accidentally overwrote it.
+ Use BootPart from www.winimage.com if you messed up the bootmenu.
+*Updated documentation. This was the hardest effort :)
+
+--
+WHATSNEW - BETA9FINAL (2004-09-28)
+
+*made batchfiles more full-proof
+*added several installation options (diskette, cdrom, harddisk, isofile)
+*updated packages
+*rewrite of batchfiles,
+*redesign of disksets, and added structure for other disksets
+
+--
+WHATSNEW - BETA 9RC5
+
+*too much to mention
+*better streamlining
+*rewriting
+
+--
+WHATSNEW - BETA 9PR4
+
+*updated packages
+*too much to mention
+
+--
+WHATSNEW - BETA 9PR3
+
+*updated packages
+*too much to mention
+
+--
+WHATSNEW - BETA 9PR2
+
+*updated packages
+*too much to mention
+
+--
+WHATSNEW - BETA 9PR1
+
+*Bernd is updating packages now because of Jeremy's lack of time.
+*updated packages
+*removed non-(SRC_)BASE packages due to image size complaints.
+*CDROM-install only, for development reasons
+
+end-of-file

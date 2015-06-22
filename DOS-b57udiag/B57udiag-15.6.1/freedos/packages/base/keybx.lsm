@@ -1,0 +1,13 @@
+Begin3
+Title:          Keyb
+Version:        2.0
+Entered-date:   2006-05-18
+Description:    Keyboard BIOS extension for international support
+Keywords:       keyb freedos dos msdos
+Author:         Aitor SANTAMARIA MERINO (aitorsm_AT_inicia.es)
+Maintained-by:  Aitor SANTAMARIA MERINO (aitorsm_AT_inicia.es)
+Primary-site:   http://projects.freedos.net/keyb/
+Original-site:  http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/keyb/
+Platforms:      dos
+Copying-policy: GPL
+End

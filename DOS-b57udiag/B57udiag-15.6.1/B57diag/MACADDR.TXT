@@ -1,0 +1,3 @@
+mac_addr_pref    =   001018
+mac_addr_start   =   042238
+mac_addr_end     =   042246

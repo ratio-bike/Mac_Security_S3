@@ -1,0 +1,5 @@
+FreeDOS SETUP has determined that you need to format
+your harddisk.  This formatting procedure deletes
+data from the destination drive selected, and
+creates a new FAT(32) filesystem.
+Are you sure you want to do this?

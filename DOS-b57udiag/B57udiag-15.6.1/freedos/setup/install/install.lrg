@@ -1,0 +1,11 @@
+base: Y
+compress: Y
+driver: Y
+edit: Y
+games: Y
+gui: Y
+lang: Y
+media: Y
+net: Y
+util: Y
+

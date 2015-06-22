@@ -1,0 +1,16 @@
+Begin3
+Title:          FDAPM
+Version:        23may2005
+Entered-date:   2003-07-13
+Description:    APM / ACPI control/info, energy saving TSR/control, cache
+                flush, rebooting... {a replacement for MS-DOS POWER}
+Keywords:       APM, ACPI, power, battery, energy saving, spin down, dpms screen, throttle, reboot, shutdown
+Author:         Eric Auer eric #at# coli.uni-sb.de
+Maintained-by:  Eric Auer eric #at# coli.uni-sb.de
+Primary-site:   http://www.coli.uni-sb.de/~eric/stuff/soft/
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/fdapm/
+Original-size:  http://www.coli.uni-sb.de/~eric/stuff/soft/specials/
+Platforms:      DOS (nasm)
+Copying-policy: GPL
+End
+

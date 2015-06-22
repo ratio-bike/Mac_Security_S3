@@ -1,0 +1,9 @@
+Cree archivos CONFIG.SYS y AUTOEXEC.BAT de muestra en un directorio
+de destino. En estas muestras se da por sentado que FreeDOS est 
+instalado en C:\FDOS. Si ‚sta no es la ruta, edite las muestras y
+especifique el directorio correcto.
+
+C¢pielos en el directorio ra¡z (\) para poder utilizarlos.
+Por ejemplo, COPY C:\FDOS\CONFIG.SYS C:\
+             COPY C:\FDOS\AUTOEXEC.BAT C:\
+

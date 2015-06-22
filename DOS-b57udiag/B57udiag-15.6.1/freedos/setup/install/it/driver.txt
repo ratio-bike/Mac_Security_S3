@@ -1,0 +1,1 @@
+Driver liberi, come schede di rete e driver USB (scaricati da internet).

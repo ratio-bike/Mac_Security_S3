@@ -1,0 +1,9 @@
+
+    Ready to install the FreeDOS software?  You should have already
+    created your install floppies, or dumped all the install files
+    into a single directory on your hard disk.
+    
+    Floppy access is still a little slow.  If you are installing this
+    from a boot floppy using FreeDOS, then you will find that the
+    install process is a little longer than you expect.  FreeDOS works
+    fine once you boot from the hard disk, though.

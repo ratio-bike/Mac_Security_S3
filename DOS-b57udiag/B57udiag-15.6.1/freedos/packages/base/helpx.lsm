@@ -1,0 +1,13 @@
+Begin3
+Title:          Help
+Version:        1.0.5
+Entered-date:   01MAY04
+Description:    HTML viewer and content for FreeDOS help
+Keywords:       freedos, help, html
+Author:         Joe Cosentino (creator of the viewer)
+Maintained-by:  Rob Platt <worldwiderob@yahoo.co.uk>
+Primary-site:   http://projects.freedos.net
+Original-site:  http://www.geocities.com/xsaintx69/freedos/
+Platforms:      DOS, Turbo C++; Html
+Copying-policy: Express+GNU Free Documentation License
+End

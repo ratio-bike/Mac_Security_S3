@@ -1,0 +1,266 @@
+[Pulse la tecla Esc cuando haya terminado de leer.]
+
+DISTRIBUCIàN BETA 9 ("Methusalem") DE FREEDOS
+
+INSTRUCCIONES DETALLADAS DE INSTALACIàN
+
+Actualizado por Jeremy Davis <jeremyd@computer.org>
+13 de Julio de 2003
+Traducido por Aitor Santamar¡a Merino <aitorsm@inicia.es>
+12 de Octubre de 2003
+
+--------------------------------------------------------------------------
+
+
+Se asume que se ha le¡do la gu¡a gen‚rica de instalaci¢n (INSTALL.TXT)
+y ha realizado el trabajo de preparaci¢n necesario.
+
+
+I.  OPCIONES DEL DISCO DE ARRANQUE
+
+ La primera vez que arranque desde el disquete, se le pedir  que
+ elija el modo de instalaci¢n. MINI £nicamente preguntar  por el
+ paquete BASE, mientras que COMPLETA le brindar  la oportunidad
+ de instalar el resto de los discos.
+ Si el monitor de su PC admite colores, elija las opciones a
+ COLOR, y en caso contrario, las opciones MONOCROMO.
+ NOTA: Los modos monocromo simplemente activar n el soporte para
+ monocromo en los programas inclu¡dos, si est  disponible.
+
+ Si desea una instalaci¢n paso a paso, elija la opci¢n 3, Arranque
+ Simple, desde el men£. Esto cancelar  todos los pasos de la
+ instalaci¢n, pero le dar  acceso a las utilidades necesarias
+ (FDISK, FORMAT, SYS, ...).
+
+ A modo de prueba, podr  tambi‚n instalar un n£cleo con soporte
+ para FAT32. Este n£cleo podr  quiz  estar compilado con
+ instrucciones espec¡ficas al 80386, as¡ que su uso se sugiere s¢lo
+ para PCs nuevos (en los que se sacar  mejor partido de FAT32 en
+ cualquier caso). Las opciones 5 y 6 reemplazan el KERNEL.SYS del
+ disquete con el n£cleo indicado. Esto requiere escribir en el
+ disquete. Aseg£rese de que el disquete no est  protegido contra
+ escritura antes de intentarlo.
+
+
+
+II.  SELECCIàN DE IDIOMA
+
+ Nota: Estas instrucciones pueden variar seg£n el disco de
+ arranque y las opciones que elija.
+
+ Tras elegir MINI/COMPLETA y COLOR/MONOCROMO, se le preguntar  por
+ el idioma a utilizar en la instalaci¢n. Puesto que no todos los
+ textos han sido a£n traducidos, s¢lo unos pocos idiomas est n
+ disponibles.
+ Puesto que el idioma original es el ingl‚s, los mensajes sin traducir
+ aparecer n en esta lengua. Pulse la tecla correspondiente al lenguaje
+ deseado, o bien '0' para un texto en ingl‚s. Esta opci¢n simplemente
+ establece la variable de entorno LANG, que se utiliza en el disco de
+ instalaci¢n para mostrar mensajes traducidos.
+
+
+
+III.  MENSAJES VARIOS
+
+ En este punto, la instalaci¢n mostrar  varios mensajes sobre
+ FreeDOS o la instalaci¢n particular que se lleve a cabo.
+ Presione ESC para continuar tras leer los mensajes.
+ Los documentos m s largos se visualizan con el programa PG.
+ En la l¡nea de cabecera se mostrar  "PG nombrearchivo". Con
+ este programa, podr  navegar en el documento con las teclas de
+ control del cursor.
+ Por favor, al menos eche un vistazo a la documentaci¢n, o mejor
+ l‚ala.
+
+
+IV.  DISPOSICIàN DEL TECLADO
+
+ Si utiliza un AT con un 286 o superior, se le ofrecer  la oportunidad
+ de configurar la disposici¢n de su teclado a otra que no sea la
+ disposici¢n estadounidense por defecto mediante el programa KEYB,
+ con una de las disposiciones admitidas (como teclados espa¤oles e
+ hispanoamericanos).
+ Si desea utilizar una disposici¢n estadounidense, pulse '0' para
+ evitar que se cargue KEYB. En caso contrario, presione la tecla
+ correspondiente a la disposici¢n deseada.
+
+
+V.  PREPARACIàN DE LA PARTICIàN
+
+ Si se encuentra utilizando el modo monocromo, se le pedir  que
+ ejecute los programas correspondientes de forma similar a como
+ se describe en la secci¢n 'INSTALACIàN MANUAL DESDE DISQUETE'
+ que se describe m s adelante. En caso contrario, la utilizad de
+ particionado ser  ejecutada (en ingl‚s), que le permitir  una
+ mayor flexibilidad, como por ejemplo, elegir la unidad que utilizar
+ para cada programa de tratamiento de particiones concreto.
+
+ En general, usted desear  probablemente:
+   1.  Crear una partici¢n, utilizando FDISK o Ranish Partition
+       Manager, o bien dividir una partici¢n existente utilizando
+       FIPS.
+       Realice este paso £nicamente si desea crear una partici¢n
+       nueva, ya que siempre podr  utilizar una partici¢n existente
+       si est  soportada por DOS.
+
+       ­­PRECAUCIàN!!  Recuerde realizar copias de seguridad de
+                       todos sus datos antes de continuar. FreeDOS
+                       no es responsable por p‚rdidas de datos u
+                       otros problemas derivados del uso de estos
+                       programas.
+
+       No olvide que FORMAT no es capaz de momento de dar formato a
+       particiones FAT32. Si utiliza un n£cleo con soporte para FAT32
+       y decide crear una partici¢n FAT32, deber  utilizar alguna
+       otra utilidad para dar formato a dicha partici¢n.
+
+       Reinicie entonces su PC y vaya al paso 2.
+
+   2.  Inicialize la partici¢n con FORMAT.
+       Antes de que DOS pueda utilizar una partici¢n, ‚sta debe ser
+       inicializada con ciertos datos. Esta operaci¢n se realiza con
+       la utilidad FORMAT. Algunos programas, como Partition Magic de
+       PowerQuest realizan esta operaci¢n autom ticamente al crear una
+       partici¢n nueva, as¡ que si utiliza alguno de estos programas,
+       puede saltarse este paso.
+
+       Realice esta operaci¢n £nicamente si acaba de crear una partici¢n
+       nueva (paso 1), o desea borrar completamente una partici¢n
+       existente.
+
+       ­­PRECAUCIàN!!  Toda la informaci¢n de la unidad formateada se
+                       perder . Aseg£rese de seleccionar correctamente
+                       la unidad que desee formatear. 
+
+   3.  Instalar los archivos de sistema (ejecutar SYS).
+
+       ste es un paso importante se desea que FreeDOS arranque desde
+       su disco duro. Sin embargo, no es imprescindible, pues quiz  no
+       desee sobreescribir un sistema operativo ya existente (y desea
+       simplemente arrancar desde disquete), o desea realizar esta
+       operaci¢n en una unidad que no aparece listada.
+
+       ­­PRECAUCIàN!!  Esta operaci¢n sustituir  el sector de arranque
+                       del sistema operativo ya existente, el cual no
+                       podr  volver a iniciarse. El Sector de Arranque
+                       Maestro (MBR) no se sobreescribir , as¡ que no
+                       deber¡a impedir el funcionamiento de gestores de
+                       arranque.
+                       Aseg£rese de seleccionar correctamente la
+                       partici¢n desde la que desea iniciar el sistema
+                       operativo FreeDOS.
+
+ Una vez que sus particiones se hayan inicializado correctamente,
+ presione ENTER para continuar, o cancele la instalaci¢n presionando la
+ tecla ESC. Recuerde que los archivos de inicializaci¢n del sistema
+ operativo FreeDOS no se transferir n a su disco duro (SYS C:) si no
+ lo solicita expl¡citamente con el programa.
+
+
+
+VI.  EL PROGRAMA DE INSTALACIàN
+
+ Cuando el programa de instalaci¢n solicite desde d¢nde desea instalar
+ (d¢nde se encuentran sus archivos de instalaci¢n), introduzca:
+
+    A:\
+
+ o si ha extra¡do los discos de instalaci¢n a un directorio de su disco
+ duro, especifique la ruta completa a dicho directorio.
+
+ El programa de instalaci¢n le pedir  el lugar de destino donde instalar
+ FreeDOS. En la mayor¡a de los casos ser  C:\DOS o C:\FDOS.
+
+ El programa de instalaci¢n le pedir  que indique los componentes
+ opcionales que desea instalar.
+
+ Cuando el programa de instalaci¢n haya concluido, deber¡a entonces
+ editar los archivos de configuraci¢n (CONFIG.SYS y AUTOEXEC.BAT) para
+ corregir las rutas (s¢lo si no ha instalado a C:\FDOS) y copiarlos a
+ su directorio ra¡z. Sustituya FDOS por la localizaci¢n de sus archivos
+ de FreeDOS que especific¢ durante la instalaci¢n.
+
+ Para copiar los archivos a la ra¡z, ejecute:
+     COPY C:\FDOS\CONFIG.SYS C:\
+     COPY C:\FDOS\AUTOEXEC.BAT C:\
+
+ Para editar los archivos, introduzca de nuevo el disco de arranque en
+ la unidad de disco, e introduzca
+     TE
+ Cuando el editor comienza, elija Open en el men£ File, e introduzca
+ C:\CONFIG.SYS en el campo de entrada del nombre del archivo, y presione
+ Enter. Repita los pasos para editar C:\AUTOEXEC.BAT. No olvide guardar
+ sus cambios al finalizar (File -> Save).
+
+
+VII.  TRAS LA INSTALACIàN
+
+ Una vez instalado FreeDOS, si desea utilizarlo en ingl‚s y con un teclado
+ estadounidense, simplemente reinicie el equipo. Si no hubo problemas
+ durante la instalaci¢n, FreeDOS se iniciar  con normalidad.
+
+ Si desea seguir utilizando su disposici¢n de teclado, o el idioma deseado
+ (siempre que est‚ soportado en programas individuales), edite
+ C:\AUTOEXEC.BAT (el reci‚n copiado a C:\). Si no existe, cr‚elo. La
+ primera l¡nea deber¡a ser
+     @ECHO OFF
+ para evitar mostrar las ¢rdenes una a una. En alg£n punto del archivo,
+ aseg£rese de que aparecen las l¡neas (no necesariamente consecutivas)
+     SET LANG=ES
+     KEYB SP
+ donde puede reemplazar ES por el c¢digo de otro idioma (p.ej. EN para
+ ingl‚s), y SP por la disposici¢n de teclado que desee (p.ej. LA para un
+ teclado hispanoamericano).
+
+ Reinicie el equipo, y si todo fue bien, entonces FreeDOS utilizar  el
+ idioma y configuraci¢n de teclado deseados (hasta cierto punto).
+
+
+VIII.  INSTALACIàN MANUAL DESDE DISQUETE
+
+ Nota: en la mayor¡a de los casos, el disco de arranque le preguntar  la
+ informaci¢n necesaria para el proceso de instalaci¢n. No obstante, si
+ necesita realizar los pasos de la instalaci¢n de forma manual, realice los
+ pasos que se indican a continuaci¢n. Utilice la opci¢n 4, arranque simple,
+ si est  utilizando el disco de arranque de la instalaci¢n.
+
+ Entonces estar  preparado para instalar FreeDOS en su PC. Si ha conseguido
+ crear sus disquetes correctamente, reinicie el equipo con el disco de
+ arrannque de instalaci¢n.
+
+ Tras la inicializaci¢n (puede tomar uno o dos minutos, dependient de la
+ velocidad de su equipo), se iniciar  el proceso de instalaci¢n.
+
+ En este punto, podr  crear una partici¢n DOS con FDISK SI NO TIENE YA
+ UNA. Para ejecutar FDISK, introduzca:
+
+     FDISK
+ 
+ Siga entonces los pasos en su pantalla para crear una partici¢n nueva,
+ y m rquela como la partici¢n primaria activa. Tras ejecutar FDISK,
+ deber  reiniciar el equipo. Reinicie de nuevo con el disco de arranque de
+ la instalaci¢n.
+
+ SI HA CREADO UNA PARTICIàN NUEVA para FreeDOS, deber  darle formato antes
+ de poder utilizarla. Para realizar esta tarea, introduzca:
+
+     FORMAT C:
+
+ No olvide hacer que la unidad C: pueda arrancar FreeDOS. Introduzca:
+
+     SYS C:
+
+ Finalmente, ejecute el programa de instalaci¢n:
+ 
+     INSTALL
+
+ Cosulte la secci¢n anterior 'EL PROGRAMA DE INSTALACIàN' para m s
+ informaci¢n.
+ Cuando vuelva al int‚rprete de ¢rdenes, realice cualquiera de las
+ otras tareas de instalaci¢n, y finalice reiniciando el equipo.
+
+--------------------------------------------------------------------------
+
+­Enhorabuena!  -  Ya ha instalado FreeDOS
+
+--------------------------------------------------------------------------

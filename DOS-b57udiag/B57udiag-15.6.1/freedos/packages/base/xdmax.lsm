@@ -1,0 +1,14 @@
+Begin3
+Title:          XDMA
+Version:        3.3
+Entered-date:   2006-05-23
+Description:    UDMA driver for DOS: up to 4 unlimited size hard drives
+Keywords:       Ultra DMA,Ultra ATA,Bus Master,IDE,ATA,VDS,DMA,CHS,EDD,LBA,XMS
+Author:         Jack Ellis (e-mail omitted by author's wish)
+Maintained-by:  no maintainer!
+Primary-site:   http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/udma/devel/
+Alternate-site: http://johnson.tmfc.net/freedos/udma.html
+Original-site:  http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/udma/devel/
+Platforms:      DOS (NASM)
+Copying-policy: GPL
+End

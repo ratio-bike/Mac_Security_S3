@@ -1,0 +1,14 @@
+Begin3
+Title:          comp
+Version:        1.03
+Entered-date:   2003-08-13
+Description:    Compare files and display their differences
+Keywords:       freedos
+Author:         Paul Vojta <vojta@math.berkeley.edu>
+Maintained-by:  Paul Vojta <vojta@math.berkeley.edu>
+Primary-site:   http://math.berkeley.edu/~vojta comp0103.zip
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/comp/
+Original-site:  http://math.berkeley.edu/~vojta
+Platforms:      dos
+Copying-policy: Free
+End

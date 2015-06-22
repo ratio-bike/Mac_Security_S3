@@ -1,0 +1,57 @@
+TE - Version 1.0 Revision: 1.7 
+Text Editor
+
+TE [/B] [/I] [file(s)]
+
+   /B     - turns off the auto backup feature
+   /?     - Displays this help screen
+   /HI    - Displays the maximum number of lines possible for your hardware.
+  [file]  - specifies the initial file(s) to load.
+            multiple filespecs can be given.
+
+Copyright (C) AGE Software 2001
+
+***************************************************************************
+LICENSE.TXT
+***************************************************************************
+END USER LICENSE AGREEMENT
+--------------------------
+TEXT EDITOR
+
+IMPORTANT-READ CAREFULLY: This End-User License Agreement ("EULA") is a legal
+agreement between you (either an individual or single entity) and AGE Software
+("COMPANY") regarding the use of Text Editor ("SOFTWARE PRODUCT" or 
+"SOFTWARE").
+
+You should read the following terms and conditions before using this SOFTWARE. 
+Unless you have a different license agreement signed by COMPANY, your use of 
+SOFTWARE indicates your acceptance of this license agreement and warranty.
+
+SOFTWARE PRODUCT LICENSE
+------------------------
+Under this agreement, you have the following rights:
+
+Software: You may freely distribute any copies of this SOFTWARE PRODUCT 
+provided you do not change any of the copyright notices contained herein and 
+that this license agreement accompanies the program.
+
+You may access SOFTWARE through a network at different times or concurrently.
+
+
+GOVERNING LAW
+-------------
+This agreement shall be governed by the laws of the State of Michigan.
+
+DISCLAIMER OF WARRANTY
+----------------------
+THIS SOFTWARE AND THE ACCOMPANYING FILES ARE PROVIDED "AS-IS" AND WITHOUT 
+WARRANTIES AS TO PERFORMANCE, MERCHANTABILITY, OR ANY OTHER WARRANTIES 
+WHETHER EXPRESSED OR IMPLIED. Because of the various hardware and software 
+environments into which Text Editor may be put, NO WARRANTY OF FITNESS FOR 
+A PARTICULAR PURPOSE IS OFFERED.
+
+AGE Software will not be held liable for any damages whatsoever arising out 
+of the use of or the inability to use this product, even if the COMPANY has 
+been advised of the possibility of such damages. In any case, the COMPANY's 
+entire liability under any provision of this agreement shall be limited to 
+the amount actually paid by you for the SOFTWARE.

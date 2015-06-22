@@ -1,0 +1,14 @@
+Begin3
+Title:          XCopy
+Version:        1.2
+Entered-date:   2005-08-02
+Description:    Copies files and directory trees.
+Keywords:       freedos, copy, xcopy, kitten
+Author:         Rene Ableidinger <rene.ableidinger@gmx.at>
+Maintained-by:  Rene Ableidinger <rene.ableidinger@gmx.at>
+Primary-site:   http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/xcopy/
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/xcopy/
+Original-site:  http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/xcopy/
+Platforms:      DOS
+Copying-policy: GNU GPL 2.0
+End

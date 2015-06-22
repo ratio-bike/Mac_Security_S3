@@ -1,0 +1,15 @@
+Begin3
+Title:          sort
+Version:        1.2 (30 May 2003)
+Entered-date:   2003-05-30
+Description:    Sort the contents of a text file, optionally using the NLS
+                collate table
+Keywords:       freedos, sort, text, file
+Author:         k4gvo@qsl.net (James Lynch)
+Maintained-by:  Eric Auer eric -at- coli.uni-sb.de
+Primary-site:   http://www.coli.uni-sb.de/~eric/stuff/soft/
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/sort/
+Original-site:  ftp://ftp.mindspring.com/users/k4gvo/
+Platforms:      DOS (e.g. Borland Turbo C), includes own KITTEN library version
+Copying-policy: GPL
+End

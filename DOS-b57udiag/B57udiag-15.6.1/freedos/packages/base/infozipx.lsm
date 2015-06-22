@@ -1,0 +1,14 @@
+Begin3
+Title:          zip
+Version:        2.31
+Entered-date:   2005-03-27
+Description:    A file archiver tool, like PKZIP
+Keywords:       freedos, zip, infozip, pkzip
+Author:         info-zip@wkuvx1.wku.edu
+Maintained-by:  info-zip@wkuvx1.wku.edu
+Primary-site:   ftp://ftp.info-zip.org/pub/infozip/MSDOS/
+Original-site:  ftp://ftp.cdrom.com/pub/infozip/
+Platforms:      dos, unix, mac
+Copying-policy: Free / open source
+	ftp://ftp.info-zip.org/pub/infozip/license.html
+End

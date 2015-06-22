@@ -1,0 +1,14 @@
+Begin3
+Title:          print
+Version:        1.0
+Entered-date:   05JUL99
+Description:    Print files in the background while you do other things.
+Keywords:       freedos, print, spool, lpr
+Author:         James Tabor <jimtabor@infohwy.com>
+Maintained-by:  James Tabor <jimtabor@infohwy.com>
+Primary-site:   http://www.freedos.org/files/
+		  print.zip
+		  print-api28.zip
+Platforms:      dos
+Copying-policy: GPL
+End

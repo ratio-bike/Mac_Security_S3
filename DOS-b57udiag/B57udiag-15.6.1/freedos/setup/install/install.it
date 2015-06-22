@@ -1,0 +1,46 @@
+0.0:Programma di installazione di FreeDOS, (c) Copyright 1998-2001 Jim Hall
+0.1:Questo software ä libero ed ä liberamente ridistribuibile
+0.2:sotto i termini della licenza espressa nel documento copying.txt.
+0.3:Questo programma NON HA ALCUNA GARANZIA.
+0.4:Il programma di installazione ä stato completato con successo.\n
+0.5:Sono stati rilevati %u errori ed %u segnalazioni non gravi.\n
+0.6:Installazione di FreeDOS
+1.0:Premere un tasto per continuare
+1.1:Dove sono i file di installazione? (sorgente)
+1.2:Dove devono essere installati? (destinazione)
+1.3:Sorgente dell'installazione:
+1.4:Destinazione dell'installazione:
+1.5:Le succitate directory sono corrette?
+2.0:no
+2.1:sç
+2.2:Si desidera installare questa serie di dischi?
+2.3:Proseguire con l'installazione di questo disco?
+2.4:Installare questo pacchetto?
+2.5:SsNn
+2.6:Sç Tutti
+3.0:Serie di dischi:
+3.2:Installazione della serie:
+3.3:Pacchetto:
+3.4:Impossibile trovare il file di dati per questo disco di installazione!
+3.5:Installazione della serie completata.
+3.6:ERRORE! Non ä stato possibile installare il pacchetto OBBLIGATORIO.
+3.7:AVVERTIMENTO! Non ä stato possible installare il pacchetto FACOLTATIVO.
+3.8:Potrebbe non esserci il disco di installazione corretto nel lettore dei dischetti.
+3.9:Controllare di nuovo che il disco di installazione sia quello corretto e riprovare ancora.
+3.10:Se si sta installando un'altra serie di dischi, inserire
+3.11:il disco n. 1 della prossima serie nel lettore dei dischetti.
+4.0:FACOLTATIVO
+4.1:OBBLIGATORIO
+4.2:NON INSTALLATO
+5.0:USO:  install [/mono] [/src <src path>] [/dst <dest path>] [/nopause] [/nolog]\n\n
+5.1:%s: opzione sconosciuta /%c\n
+5.2:%s: argomento di /%c mancante\n
+6.0:Impossibile allocare memoria per il file di dati dell'installazione!\n
+6.1:Il file di dati dell'installazione ä vuoto!\n
+6.2:Errore!\n
+6.3:Impossibile allocare memoria sufficiente per il file di dati dell'installazione da floppy!\n
+6.4:Il file di dati dell'installazione da floppy ä vuoto!\n
+6.5:Impossibile allocare la memoria richiesta!\n
+6.6:Errore %i, impossibile creare il log di installazione\n
+7.0:\nControl-C premuto, interruzione dell'installazione!\n\n
+7.1:Sei sicuro di voler interrompere l'installazione? [yn]

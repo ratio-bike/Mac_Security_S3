@@ -1,0 +1,2 @@
+Source code to the base programs in the distribution.
+[ Except for FreeCom, the kernel, and install ]

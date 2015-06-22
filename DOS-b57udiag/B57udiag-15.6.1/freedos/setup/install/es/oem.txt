@@ -1,0 +1,10 @@
+
+    ¨Est  listo/a para instalar FreeDOS? Antes debe crear los discos
+    de instalaci¢n o volcar todos los archivos de instalaci¢n en un
+    mismo directorio de su disco duro.
+    
+    El acceso a disquetes sigue siendo un poco lento.  Si instala
+    este producto desde un disco de inicio usando FreeDOS, notar 
+    que el proceso de instalaci¢n lleva algo m s de tiempo que lo
+    esperado. No obstante, FreeDOS funciona muy bien cuando se inicia
+    desde el disco duro.

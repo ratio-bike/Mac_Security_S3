@@ -1,0 +1,16 @@
+Begin3
+Title:          shsucdx
+Version:        3.02
+Entered-date:   2005-05-08
+Description:    Free CDROM extender for DOS
+Keywords:       freedos, mscdex, shsucdex, fdcdex, cdrom
+Author:         John H. McCoy
+Maintained-by:  Jason Hood <jadoxa@yahoo.com.au>
+Primary-site:   http://www.geocities.com/jadoxa/shsucdx/index.html
+Alternate-site: http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/dos/shsucdx/
+Original-site:   http://www.shsu.edu/~csc_jhm/
+Original-site2:  http://www.pfu.net/fedtech/fcdex/
+Platforms:      DOS (NASM)
+Copying-policy: free / open source
+	copyright reserved, free use program
+End
