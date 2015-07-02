@@ -43,14 +43,17 @@ PxeBcDriverEntryPoint (
   IN EFI_SYSTEM_TABLE       *SystemTable
   )
 {
-  return EfiLibInstallDriverBindingComponentName2 (
+	while(1);
+	return EFI_SUCCESS;
+
+  /*return EfiLibInstallDriverBindingComponentName2 (
           ImageHandle,
           SystemTable,
           &gPxeBcDriverBinding,
           ImageHandle,
           &gPxeBcComponentName,
           &gPxeBcComponentName2
-          );
+          );*/
 }
 
 
