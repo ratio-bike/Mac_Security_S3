@@ -18,6 +18,7 @@ WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
 typedef struct _PXEBC_PRIVATE_DATA  PXEBC_PRIVATE_DATA;
 
 #include <Uefi.h>
+#include <PiDxe.h>
 
 #include <Guid/SmBios.h>
 #include <IndustryStandard/SmBios.h>
@@ -46,6 +47,7 @@ typedef struct _PXEBC_PRIVATE_DATA  PXEBC_PRIVATE_DATA;
 #include "PxeBcDhcp.h"
 #include "PxeBcMtftp.h"
 #include "PxeBcSupport.h"
+#include "ConsoleControl.h"
 
 #define PXEBC_PRIVATE_DATA_SIGNATURE  SIGNATURE_32 ('P', 'X', 'E', 'P')
 #define PXEBC_MTFTP_TIMEOUT                4

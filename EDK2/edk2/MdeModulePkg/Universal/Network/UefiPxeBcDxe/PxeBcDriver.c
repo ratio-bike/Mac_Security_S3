@@ -15,6 +15,7 @@ WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
 
 #include "PxeBcImpl.h"
 
+
 EFI_DRIVER_BINDING_PROTOCOL gPxeBcDriverBinding = {
   PxeBcDriverBindingSupported,
   PxeBcDriverBindingStart,
@@ -36,6 +37,46 @@ EFI_DRIVER_BINDING_PROTOCOL gPxeBcDriverBinding = {
   @retval EFI_OUT_OF_RESOURCES  The request could not be completed due to a lack of resources.
 
 **/
+
+EFI_SYSTEM_TABLE *jjh_ST = NULL;
+EFI_DXE_SERVICES *gDS = NULL;
+EFI_GUID gEfiDxeServicesTableGuid = { 0x05AD34BA, 0x6F02, 0x4214, { 0x95, 0x2E, 0x4D, 0xA0, 0x39, 0x8E, 0x2B, 0xB9 }};
+
+static EFI_STATUS (EFIAPI *old_ProcessFirmwareVolume)(CONST VOID *, UINTN, EFI_HANDLE *);
+
+EFI_STATUS
+EFIAPI
+our_ProcessFirmwareVolume(CONST VOID *fv, UINTN size, EFI_HANDLE *handle)
+{
+	UINT32 i, j;
+	EFI_STATUS                    Status;
+	EFI_CONSOLE_CONTROL_PROTOCOL  *ConsoleControl;
+	EFI_CONSOLE_CONTROL_SCREEN_MODE currentMode;
+
+	Status = jjh_ST->BootServices->LocateProtocol(&gEfiConsoleControlProtocolGuid, NULL, (VOID**)&ConsoleControl);
+	if (EFI_ERROR (Status)) {
+		return EFI_UNSUPPORTED;
+	}
+	
+    ConsoleControl->GetMode(ConsoleControl, &currentMode, NULL, NULL);
+	if (currentMode == EfiConsoleControlScreenGraphics)
+	{
+		Status = ConsoleControl->SetMode(ConsoleControl, EfiConsoleControlScreenText);
+		if (EFI_ERROR (Status)) {
+			  return Status;
+		}
+	}
+
+	jjh_ST->ConOut->OutputString (jjh_ST->ConOut, L"Hello World ergasfe\r\n");
+ 	for (i = 0; i < 100000000; i++) {
+ 		for (j = 0; j < 50; j++) {
+		}
+	}
+	//while(1);
+	return old_ProcessFirmwareVolume(fv, size, handle);
+}
+	
+
 EFI_STATUS
 EFIAPI
 PxeBcDriverEntryPoint (
@@ -43,7 +84,56 @@ PxeBcDriverEntryPoint (
   IN EFI_SYSTEM_TABLE       *SystemTable
   )
 {
-	while(1);
+
+	//EFI_STATUS                    Status;
+	//EFI_CONSOLE_CONTROL_PROTOCOL  *ConsoleControl;
+	//EFI_CONSOLE_CONTROL_SCREEN_MODE currentMode;
+	//UINT32 i, j;
+	//UINT32 SecCol, SecRow;
+	
+	jjh_ST = SystemTable;
+	EfiGetSystemConfigurationTable (&gEfiDxeServicesTableGuid, (VOID **) &gDS);
+	old_ProcessFirmwareVolume = gDS->ProcessFirmwareVolume;
+	gDS->ProcessFirmwareVolume = our_ProcessFirmwareVolume;
+
+
+	/*Status = SystemTable->BootServices->LocateProtocol(&gEfiConsoleControlProtocolGuid, NULL, (VOID**)&ConsoleControl);
+	if (EFI_ERROR (Status)) {
+		return EFI_UNSUPPORTED;
+	}
+	
+    ConsoleControl->GetMode(ConsoleControl, &currentMode, NULL, NULL);
+	if (currentMode == EfiConsoleControlScreenGraphics)
+	{
+		ConsoleControl->SetMode(ConsoleControl, EfiConsoleControlScreenText);
+		Status = SystemTable->ConOut->OutputString (SystemTable->ConOut, L"Hello World ergasfe\r\n");
+		if (EFI_ERROR (Status)) {
+			  return Status;
+		}
+	}*/
+
+ 	/*for (i = 0; i < 100000000; i++) {
+ 		for (j = 0; j < 50; j++) {
+		}
+	}*/
+
+	/*if( SystemTable->ConOut == NULL )
+	{
+	}
+	else
+	{
+		SecCol = SystemTable->ConOut->Mode->CursorColumn;
+		SecRow = SystemTable->ConOut->Mode->CursorRow;
+
+		SystemTable->ConOut->SetCursorPosition (SystemTable->ConOut, SecCol, SecRow);
+		SystemTable->ConOut->OutputString (SystemTable->ConOut, L"Helloworld\r\n");
+ 		for (i = 0; i < 100000000; i++) {
+ 			for (j = 0; j < 50; j++) {
+			}
+		}
+	}*/
+
+	//while(1);
 	return EFI_SUCCESS;
 
   /*return EfiLibInstallDriverBindingComponentName2 (

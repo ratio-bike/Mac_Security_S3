@@ -40,6 +40,8 @@
 #
 
 [Sources]
+  ConsoleControl.c
+  ConsoleControl.h
   PxeBcMtftp.c
   PxeBcSupport.h
   PxeBcSupport.c

@@ -37,23 +37,25 @@ UefiMain (
   IN EFI_SYSTEM_TABLE  *SystemTable
   )
 {
-	UINT32 Index;
+
+	EFI_STATUS Status;
+
+	Status = SystemTable->ConOut->OutputString (SystemTable->ConOut, L"Hello World\r\n");
+	if (EFI_ERROR (Status)) {
+		  return Status;
+	}
+
+
+/*	UINT32 Index;
 	
 	Index = 0;
 
-	while(1){};
   
-  //
-  // Three PCD type (FeatureFlag, UINT32 and String) are used as the sample.
-  //
   if (FeaturePcdGet (PcdHelloWorldPrintEnable)) {
   	for (Index = 0; Index < PcdGet32 (PcdHelloWorldPrintTimes); Index ++) {
-  	  //
-  	  // Use UefiLib Print API to print string to UEFI console
-  	  //
     	Print ((CHAR16*)PcdGetPtr (PcdHelloWorldPrintString));
     }
-  }
+  }*/
 
   return EFI_SUCCESS;
 }
