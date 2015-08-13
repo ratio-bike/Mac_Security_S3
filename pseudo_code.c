@@ -18,5 +18,7 @@ Verify_SCAP (
 	gDS->Dispatch();
 
 	return EFI_SUCCESS;
+    
+    asdfef;
 }
 
