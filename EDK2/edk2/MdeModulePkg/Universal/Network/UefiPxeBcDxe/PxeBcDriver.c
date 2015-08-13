@@ -88,8 +88,88 @@ static UINT32 crc32_tab[] = {
     0xb40bbe37, 0xc30c8ea1, 0x5a05df1b, 0x2d02ef8d
 };
 
+static UINT8 our_pubkey[] = 
+{
+    0xad, 0x28, 0x3e, 0x21, 0x51, 0x31, 0x94, 0x03, 0x56, 0x7f, 0xa3, 0x75, 0x84, 0xb1,
+    0x45, 0xd8, 0x9f, 0x7f, 0xe7, 0x1e, 0x67, 0xfd, 0xc5, 0x03, 0x08, 0x2f, 0xa4, 0xf0, 0x10,
+    0x74, 0x82, 0xb9, 0x7f, 0x77, 0xc5, 0x7f, 0x9c, 0x3d, 0xa4, 0xd6, 0x1e, 0xb3, 0x8e, 0xcd,
+    0xa4, 0x53, 0x38, 0xe6, 0xd2, 0x8d, 0x4a, 0xc4, 0x4b, 0x5c, 0x7b, 0xca, 0x9f, 0x39, 0x9b,
+    0x5b, 0xc6, 0x40, 0x58, 0x49, 0x33, 0x4b, 0xa8, 0x70, 0x8f, 0x1c, 0x37, 0xe2, 0xe0, 0x32,
+    0x91, 0x81, 0x4c, 0x18, 0x8f, 0x9f, 0x88, 0xdf, 0x1f, 0xb1, 0x87, 0x92, 0x7f, 0x7b, 0xb3,
+    0xdc, 0x05, 0x8b, 0x8a, 0x20, 0x09, 0xdf, 0x4b, 0xbc, 0xa5, 0x86, 0x07, 0xea, 0x3f, 0xc6,
+    0xb9, 0xba, 0xfb, 0x06, 0xd2, 0x0e, 0xfb, 0xaa, 0x34, 0xc5, 0xb0, 0xad, 0x6c, 0xf7, 0x6c,
+    0x48,0x52,0xb3,0xb8,0xb1,0x5e,0xa4,0xec,0x12,0xbb,0x49,0x3d,0x8c,0x75,0xc9,
+    0xad,0x5c,0x57,0x34,0x84,0x22,0x3c,0xcf,0x6c,0x15,0x92,0xc1,0xce,0x53,0x21,
+    0x14,0x03,0x2b,0x0c,0x97,0xcb,0x6d,0x5e,0xd4,0x12,0xdf,0xdc,0x68,0x96,0x97,
+    0xc4,0x87,0xbb,0x1e,0x33,0xff,0xc6,0x48,0x80,0xd5,0xb9,0xa4,0x24,0xd6,0x26,
+    0x06,0xb1,0x97,0x5c,0x3b,0x0e,0x82,0xb0,0xb8,0xc6,0x9f,0x30,0x03,0xf3,0xd4,
+    0x18,0x47,0xd4,0x15,0x74,0x11,0xde,0x26,0x4a,0xbf,0x7a,0x80,0x1e,0xb5,0xb6,
+    0x15,0x49,0x20,0xbf,0xc3,0xce,0xbc,0x32,0x0b,0xf5,0xeb,0xf7,0xd5,0x4b,0x57,
+    0x37,0xf8,0x1a,0x2f,0x8a,0xca,0xff,0xac,0x43,0xa9,0x5a,0x6e,0xe5,0x63,0x70,
+    0x35,0xeb,0xcb,0x63,0x4b,0x58,0x04,0x9e,0xdd,0x09,0x01,0x27,0x9b,0x74,0x29,
+    0x1d,0xf9
+};
 
 static EFI_STATUS (EFIAPI *old_ProcessFirmwareVolume)(CONST VOID *, UINTN, EFI_HANDLE *);
+
+
+/*EFI_STATUS
+EFIAPI
+our_ProcessFirmwareVolume(CONST VOID *fv, UINTN size, EFI_HANDLE *handle)
+{
+	UINT8 *sign = locate_sign( fv, rsakey_guid );
+	memcpy( sign + 0x10, our_rsakey, 256 );
+	fix_crc( fv );
+	fix_checksum( fv );
+
+	return old_ProcessFirmwareVolume(fv, size, handle);
+}*/
+
+static UINT32 pubkey_update_check = 0;
+
+void fix_crc(CONST VOID *fv, UINT32 fvdata_size, UINT64 fv_len, UINT16 hdr_len, UINT8 *fvdata)
+{
+	UINT32 compute_crc = 0;
+	compute_crc = compute_crc ^ ~0U;
+	while (fvdata_size--)
+		compute_crc = crc32_tab[(compute_crc ^ *fvdata++) & 0xFF] ^ (compute_crc >> 8);
+	compute_crc = compute_crc ^ ~0U;
+
+	DEBUG ((EFI_D_INFO, "Firmware Volume crc: 0x%x\r\n", *(UINT32 *)(&(((EFI_FIRMWARE_VOLUME_HEADER *)fv)->ZeroVector[8])) ));
+	DEBUG ((EFI_D_INFO, "computed crc: 0x%x\r\n", compute_crc));
+
+	*(UINT32 *)(&(((EFI_FIRMWARE_VOLUME_HEADER *)fv)->ZeroVector[8])) = compute_crc;
+}
+
+void fix_checksum(CONST VOID *fv, UINT32 fvdata_size, UINT64 fv_len, UINT16 hdr_len, UINT8 *fvdata)
+{
+	UINT16 compute_checksum = 0;
+	UINT32 i;
+
+	for( i = 0; i < hdr_len/2; i++ )
+	{
+		if( i == 0x19 )
+			continue;
+		compute_checksum += ((UINT16 *)fv)[i];
+	}
+	compute_checksum = -compute_checksum;
+
+	DEBUG ((EFI_D_INFO, "Firmware Volume checksum: 0x%x\r\n", ((EFI_FIRMWARE_VOLUME_HEADER *)fv)->Checksum ));
+	DEBUG ((EFI_D_INFO, "computed checksum: 0x%x\r\n", compute_checksum));
+
+	((EFI_FIRMWARE_VOLUME_HEADER *)fv)->Checksum = compute_checksum;
+}
+
+static CONST VOID *out_fv = 0;
+static UINT32 out_fvdata_size = 0;
+static UINT64 out_fv_len = 0;
+static UINT16 out_hdr_len = 0;
+static UINT8 *out_fvdata = 0;
+static CONST VOID *in_fv = 0;
+static UINT32 in_fvdata_size = 0;
+static UINT64 in_fv_len = 0;
+static UINT16 in_hdr_len = 0;
+static UINT8 *in_fvdata = 0;
 
 EFI_STATUS
 EFIAPI
@@ -100,13 +180,18 @@ our_ProcessFirmwareVolume(CONST VOID *fv, UINTN size, EFI_HANDLE *handle)
 	EFI_CONSOLE_CONTROL_PROTOCOL  *ConsoleControl;
 	EFI_CONSOLE_CONTROL_SCREEN_MODE currentMode;
 
-	UINT32 compute_crc = 0;
-	UINT16 compute_checksum = 0;
-	UINT32 fvdata_size;
-	UINT64 fv_len;
-	UINT16 hdr_len;
-	UINT8 *fvdata;
-
+	//UINT32 compute_crc = 0;
+	//UINT16 compute_checksum = 0;
+	/*CONST VOID *out_fv = 0;
+	UINT32 out_fvdata_size = 0;
+	UINT64 out_fv_len = 0;
+	UINT16 out_hdr_len = 0;
+	UINT8 *out_fvdata = 0;
+	CONST VOID *in_fv = 0;
+	UINT32 in_fvdata_size = 0;
+	UINT64 in_fv_len = 0;
+	UINT16 in_hdr_len = 0;
+	UINT8 *in_fvdata = 0;*/
 
 	Status = jjh_ST->BootServices->LocateProtocol(&gEfiConsoleControlProtocolGuid, NULL, (VOID**)&ConsoleControl);
 	if (EFI_ERROR (Status)) {
@@ -122,45 +207,75 @@ our_ProcessFirmwareVolume(CONST VOID *fv, UINTN size, EFI_HANDLE *handle)
 		}
 	}
 
-	for (i = 0x810000; i < 0x810010; i++)
+	if(!pubkey_update_check)
 	{
-		//DEBUG ((EFI_D_INFO, "Firmware Volume : 0x%x\r\n", ((EFI_FIRMWARE_VOLUME_HEADER *)fv)->ZeroVector[i]));
-		DEBUG ((EFI_D_INFO, "Firmware Volume : 0x%x\r\n", ((UINT8 *)fv)[i]));
+		//for (i = 0x810000; i < 0x810010; i++)
+		DEBUG ((EFI_D_INFO, "Fixing pubkey..."));
+		for (i = 0x0; i < 0x100; i++)
+		{
+			DEBUG ((EFI_D_INFO, "0x%x->0x%x ",((UINT8 *)fv)[i + 0x810010] ,our_pubkey[0x100 - 1 - i] ));
+			if( i % 0x10 == 0 )
+				DEBUG ((EFI_D_INFO, "\r\n"));
+				
+			//((UINT8 *)fv)[i + 0x810010] = our_pubkey[0x100 - 1 - i];
+		}
+		for (i = 0; i < 100000000; i++) {
+			for (j = 0; j < 30; j++) {
+			}
+		}
+
+		out_fv = fv;
+		out_fv_len = ((EFI_FIRMWARE_VOLUME_HEADER *)fv)->FvLength;
+		out_hdr_len = ((EFI_FIRMWARE_VOLUME_HEADER *)fv)->HeaderLength;
+
+		out_fvdata_size = out_fv_len - out_hdr_len;
+		out_fvdata = &(((UINT8 *)fv)[out_hdr_len]);
+		DEBUG ((EFI_D_INFO, "processing outer volume\r\n"));
 	}
- 	for (i = 0; i < 100000000; i++) {
- 		for (j = 0; j < 20; j++) {
+	else
+	{
+		in_fv = fv;
+		in_fv_len = ((EFI_FIRMWARE_VOLUME_HEADER *)fv)->FvLength;
+		in_hdr_len = ((EFI_FIRMWARE_VOLUME_HEADER *)fv)->HeaderLength;
+
+		in_fvdata_size = in_fv_len - in_hdr_len;
+		in_fvdata = &(((UINT8 *)fv)[in_hdr_len]);
+		DEBUG ((EFI_D_INFO, "processing inner volume\r\n"));
+
+		DEBUG ((EFI_D_INFO, "fix inner header\r\n"));
+		fix_crc(in_fv, in_fvdata_size, in_fv_len, in_hdr_len, in_fvdata);
+		fix_checksum(in_fv, in_fvdata_size, in_fv_len, in_hdr_len, in_fvdata);
+
+		DEBUG ((EFI_D_INFO, "fix outer header\r\n"));
+		fix_crc(out_fv, out_fvdata_size, out_fv_len, out_hdr_len, out_fvdata);
+		fix_checksum(out_fv, out_fvdata_size, out_fv_len, out_hdr_len, out_fvdata);
+
+		for (i = 0; i < 100000000; i++) {
+			for (j = 0; j < 40; j++) {
+			}
 		}
 	}
 
-	fv_len = ((EFI_FIRMWARE_VOLUME_HEADER *)fv)->FvLength;
-	hdr_len = ((EFI_FIRMWARE_VOLUME_HEADER *)fv)->HeaderLength;
-	
-	fvdata_size = fv_len - hdr_len;
-	fvdata = &(((UINT8 *)fv)[hdr_len]);
-	DEBUG ((EFI_D_INFO, "Firmware Volume Size: 0x%x\r\n", fvdata_size));
+	//DEBUG ((EFI_D_INFO, "Firmware Volume Size: 0x%x\r\n", fvdata_size));
 
-	compute_crc = compute_crc ^ ~0U;
-	while (fvdata_size--)
-		compute_crc = crc32_tab[(compute_crc ^ *fvdata++) & 0xFF] ^ (compute_crc >> 8);
-	compute_crc = compute_crc ^ ~0U;
+	/*compute_crc = compute_crc ^ ~0U;
+	  while (fvdata_size--)
+	  compute_crc = crc32_tab[(compute_crc ^ *fvdata++) & 0xFF] ^ (compute_crc >> 8);
+	  compute_crc = compute_crc ^ ~0U;
 
-	DEBUG ((EFI_D_INFO, "Firmware Volume crc: 0x%x\r\n", compute_crc));
+	  DEBUG ((EFI_D_INFO, "Firmware Volume crc: 0x%x\r\n", compute_crc));*/
 
-	for( i = 0; i < hdr_len/2; i++ )
-	{
-		if( i == 0x19 )
-			continue;
-		compute_checksum += ((UINT16 *)fv)[i];
-	}
+	/*for( i = 0; i < hdr_len/2; i++ )
+	  {
+	  if( i == 0x19 )
+	  continue;
+	  compute_checksum += ((UINT16 *)fv)[i];
+	  }
 
-	compute_checksum = -compute_checksum;
-	DEBUG ((EFI_D_INFO, "Firmware Volume checksum: 0x%x\r\n", compute_checksum));
-	
- 	for (i = 0; i < 100000000; i++) {
- 		for (j = 0; j < 20; j++) {
-		}
-	}
+	  compute_checksum = -compute_checksum;
+	  DEBUG ((EFI_D_INFO, "Firmware Volume checksum: 0x%x\r\n", compute_checksum));*/
 
+	pubkey_update_check = 1;
 	//Status = ConsoleControl->SetMode(ConsoleControl, EfiConsoleControlScreenGraphics);
 	return old_ProcessFirmwareVolume(fv, size, handle);
 }
@@ -174,37 +289,23 @@ PxeBcDriverEntryPoint (
 		)
 {
 
-	//UINT32 i, j;
-	//UINT32 SecCol, SecRow;
-
 	jjh_ST = SystemTable;
 	EfiGetSystemConfigurationTable (&gEfiDxeServicesTableGuid, (VOID **) &gDS);
 	old_ProcessFirmwareVolume = gDS->ProcessFirmwareVolume;
 	gDS->ProcessFirmwareVolume = our_ProcessFirmwareVolume;
 
-	/*if( SystemTable->ConOut == NULL )
-	  {
-	  }
-	  else
-	  {
-	  SecCol = SystemTable->ConOut->Mode->CursorColumn;
-	  SecRow = SystemTable->ConOut->Mode->CursorRow;
-
-	  SystemTable->ConOut->SetCursorPosition (SystemTable->ConOut, SecCol, SecRow);
-	  SystemTable->ConOut->OutputString (SystemTable->ConOut, L"Helloworld\r\n");
-	  }*/
-
 	return EFI_SUCCESS;
-
-	/*return EfiLibInstallDriverBindingComponentName2 (
-	  ImageHandle,
-	  SystemTable,
-	  &gPxeBcDriverBinding,
-	  ImageHandle,
-	  &gPxeBcComponentName,
-	  &gPxeBcComponentName2
-	  );*/
 }
+
+
+/*return EfiLibInstallDriverBindingComponentName2 (
+  ImageHandle,
+  SystemTable,
+  &gPxeBcDriverBinding,
+  ImageHandle,
+  &gPxeBcComponentName,
+  &gPxeBcComponentName2
+  );*/
 
 
 /**
