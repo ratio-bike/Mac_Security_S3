@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"93509","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"93511","ColType":"String","ColValue":"IODisplayParameters"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"93513","ColType":"String","ColValue":"backlight"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"93515","ColType":"String","ColValue":"backlight"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"93517","ColType":"Number","ColValue":"2000"}},
+{"data":{"title":"ApplePanel"},"attr":{"id":"93519","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"F15T9cdf"},"attr":{"id":"93521","ColType":"Data","ColValue":"&lt;0011000000380058008200b900ff015701c3024202d5037d043e052106320781090c0ad9&gt;"}}]},
+{"data":{"title":"IODisplayParameters"},"attr":{"id":"93523","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"commit"},"attr":{"id":"93525","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"reg"},"attr":{"id":"93527","ColType":"Number","ColValue":"0"}}]},{"data":{"title":"brightness"},"attr":{"id":"93529","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"max"},"attr":{"id":"93531","ColType":"Number","ColValue":"255"}},{"data":{"title":"min"},"attr":{"id":"93533","ColType":"Number","ColValue":"40"}}]}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"93535","ColType":"String","ColValue":"com.apple.driver.AppleBacklight"}},
+{"data":{"title":"IOClass"},"attr":{"id":"93537","ColType":"String","ColValue":"AppleIntelPanelA"}}
+]

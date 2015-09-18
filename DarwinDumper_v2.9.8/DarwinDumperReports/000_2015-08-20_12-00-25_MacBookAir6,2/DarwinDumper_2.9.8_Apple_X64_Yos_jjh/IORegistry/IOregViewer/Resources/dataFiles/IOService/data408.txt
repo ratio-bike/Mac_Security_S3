@@ -1,0 +1,17 @@
+[
+{"data":{"title":"Revision ID"},"attr":{"id":"90919","ColType":"Number","ColValue":"3"}},
+{"data":{"title":"Thunderbolt Version"},"attr":{"id":"90921","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"Max In Hop ID"},"attr":{"id":"90923","ColType":"Number","ColValue":"8"}},
+{"data":{"title":"PCI Device"},"attr":{"id":"90925","ColType":"Number","ColValue":"4"}},
+{"data":{"title":"Port Number"},"attr":{"id":"90927","ColType":"Number","ColValue":"7"}},
+{"data":{"title":"Hop Table"},"attr":{"id":"90929","ColType":"Array","ColValue":"0_values"},"children":[]},
+{"data":{"title":"PCI Function"},"attr":{"id":"90931","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Adapter Type"},"attr":{"id":"90933","ColType":"Number","ColValue":"1048833"}},
+{"data":{"title":"PCI Path"},"attr":{"id":"90935","ColType":"String","ColValue":"IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/RP05@1C,4/IOPP/UPSB@0/IOPP/DSB2@4"}},
+{"data":{"title":"PCI Entry ID"},"attr":{"id":"90937","ColType":"Number","ColValue":"4294967789"}},
+{"data":{"title":"Max Credits"},"attr":{"id":"90939","ColType":"Number","ColValue":"7"}},
+{"data":{"title":"Max Out Hop ID"},"attr":{"id":"90941","ColType":"Number","ColValue":"8"}},
+{"data":{"title":"Description"},"attr":{"id":"90943","ColType":"String","ColValue":"PCIe Adapter"}},
+{"data":{"title":"Device ID"},"attr":{"id":"90945","ColType":"Number","ColValue":"5447"}},
+{"data":{"title":"Vendor ID"},"attr":{"id":"90947","ColType":"Number","ColValue":"32902"}}
+]

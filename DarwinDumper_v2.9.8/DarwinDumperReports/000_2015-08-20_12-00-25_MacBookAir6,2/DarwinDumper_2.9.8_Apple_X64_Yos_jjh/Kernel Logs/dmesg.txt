@@ -1,0 +1,259 @@
+oMode Resuming AWDL
+PM response took 1333 ms (27, powerd)
+ARPT: 5954.371602: AirPort_Brcm43xx::powerChange: System Sleep 
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+IO80211AWDLPeerManager::doDisable   source [setLinkState]
+ARPT: 5955.131485: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+AppleThunderboltNHIType2::prePCIWake - power up complete - took 1428 us
+AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+         0 [Time 1440026029] [Message AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 3
+Wake reason: EC.LidOpen (User)
+AppleCamIn::systemWakeCall - messageType = 0xE0000320
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+Previous sleep cause: 5
+AppleHSSPIController::HandleMessage Device Wake by Host
+AppleThunderboltNHIType2::prePCIWake - power up complete - took 180629 us
+AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+TBT W (2): 0x0100 [x]
+AirPort: Link Up on awdl0
+ARPT: 5957.125997: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+AppleCamIn::systemWakeCall - messageType = 0xE0000300
+         0 [Level 5] [com.apple.message.domain com.apple.afpfs.sleepState] [com.apple.message.signature awake] [com.apple.message.success 1] [com.apple.message.value 1440027464] [Message AFPSleepWakeHandler: waking up]
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+vmmon: PTSC: initialized at 2299443000 Hz using reference clock, TSCs are synchronized.
+vmmon: Cycles 60
+vmnet: VNetUserIf_Create: created userIf at 0xffffff8025d02000.
+vmnet: VMNetConnect: returning port 0xffffff8025d02000
+vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:e1:9a:7a
+vmnet: Hub 8
+vmnet: 	Port 0
+vmnet: 	Port 1
+vmnet: 	Port 2
+vmnet: 	Port 3
+vmnet: VNetUserIf_Create: created userIf at 0xffffff8025daac00.
+vmnet: VMNetConnect: returning port 0xffffff8025daac00
+vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:e3:5f:94
+vmnet: Hub 8
+vmnet: 	Port 0
+vmnet: 	Port 1
+vmnet: 	Port 2
+vmnet: 	Port 3
+vmnet: 	Port 4
+vmnet: VNetUserIfFree: freeing userIf at 0xffffff8025daac00.
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+nspace-handler-set-snapshot-time: 1440027496
+vmnet: VMNetDisconnect called for port 0xffffff8025b69e00
+vmnet: VMNetDisconnect called for port 0xffffff8025d02000
+vmnet: VNetUserIfFree: freeing userIf at 0xffffff8025d02000.
+vmmon: Cleaned up 522506 virtual main memory pages from VM 0xffffff8027ed6018.
+vmmon: Cleaned up 3411 monitor anonymous pages from VM 0xffffff8027ed6018.
+vmmon: Cleaned up 9965 user anonymous pages from VM 0xffffff8027ed6018.
+         0 [Level 5] [com.apple.message.domain com.apple.afpfs.sleepState] [com.apple.message.signature asleep] [com.apple.message.success 1] [com.apple.message.value 1440027464] [Message AFPSleepWakeHandler: going to sleep]
+PM response took 110 ms (207, Mail)
+PM response took 276 ms (60, blued)
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+PM response took 1985 ms (27, powerd)
+en0: 802.11d country code set to 'X3'.
+AppleCamIn::systemWakeCall - messageType = 0xE0000280
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+[0x69fd5b0000, 0x19000000]
+[0x6a3a8da000, 0x27000000]
+[0x0, 0x0]
+ARPT: 6061.274044: AirPort_Brcm43xx::powerChange: System Sleep 
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+IO80211AWDLPeerManager::doDisable   source [setLinkState]
+ARPT: 6062.058483: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+AppleThunderboltNHIType2::prePCIWake - power up complete - took 1651 us
+AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+         0 [Time 1440027570] [Message AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 3
+Wake reason: RTC (Alarm)
+RTC: Maintenance 2015/8/20 00:39:26, sleep 2015/8/19 23:39:31
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+Previous sleep cause: 5
+AppleHSSPIController::HandleMessage Device Wake by Host
+AppleThunderboltNHIType2::prePCIWake - power up complete - took 181413 us
+AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+TBT W (2): 0x0100 [x]
+AirPort: Link Up on awdl0
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+ARPT: 6064.081828: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+en0: 802.11d country code set to 'US'.
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+nspace-handler-set-snapshot-time: 1440031198
+PM response took 1771 ms (27, powerd)
+ARPT: 6131.352037: AirPort_Brcm43xx::powerChange: System Sleep 
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+IO80211AWDLPeerManager::doDisable   source [setLinkState]
+ARPT: 6132.119728: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+AppleThunderboltNHIType2::prePCIWake - power up complete - took 1573 us
+AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+         0 [Time 1440031235] [Message AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 3
+Wake reason: EC.ACDetach (Maintenance)
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+Previous sleep cause: 5
+AppleHSSPIController::HandleMessage Device Wake by Host
+AppleThunderboltNHIType2::prePCIWake - power up complete - took 180479 us
+AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+TBT W (2): 0x0100 [x]
+AirPort: Link Up on awdl0
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+ARPT: 6134.093316: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+full wake request (reason 1) 8413 ms
+IOPMrootDomain: idle cancel, state 2
+AppleCamIn::systemWakeCall - messageType = 0xE0000320
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+PM response took 19929 ms (27, powerd)
+AppleCamIn::systemWakeCall - messageType = 0xE0000300
+         0 [Level 5] [com.apple.message.domain com.apple.afpfs.sleepState] [com.apple.message.signature awake] [com.apple.message.success 1] [com.apple.message.value 1440033805] [Message AFPSleepWakeHandler: waking up]
+         0 [Level 5] [com.apple.message.domain com.apple.afpfs.sleepState] [com.apple.message.signature asleep] [com.apple.message.success 1] [com.apple.message.value 1440033805] [Message AFPSleepWakeHandler: going to sleep]
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+en0: 802.11d country code set to 'X3'.
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+en0: 802.11d country code set to 'US'.
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+PM response took 2063 ms (27, powerd)
+en0: 802.11d country code set to 'X3'.
+AppleCamIn::systemWakeCall - messageType = 0xE0000280
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+[0x69fd5b0000, 0x19000000]
+[0x6a3a8da000, 0x27000000]
+[0x0, 0x0]
+ARPT: 6179.342532: AirPort_Brcm43xx::powerChange: System Sleep 
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+IO80211AWDLPeerManager::doDisable   source [setLinkState]
+ARPT: 6180.120894: wl0: leaveModulePoweredForOffloads: Wi-Fi will turn off.
+AppleThunderboltNHIType2::prePCIWake - power up complete - took 1509 us
+AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+         0 [Time 1440033824] [Message AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 2
+Wake reason: EC.LidOpen (User)
+AppleCamIn::systemWakeCall - messageType = 0xE0000320
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+Previous sleep cause: 5
+AppleHSSPIController::HandleMessage Device Wake by Host
+AppleThunderboltNHIType2::prePCIWake - power up complete - took 180344 us
+AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+TBT W (2): 0x0100 [x]
+IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+AirPort: Link Up on awdl0
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+ARPT: 6182.144330: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+AppleCamIn::systemWakeCall - messageType = 0xE0000340
+AppleCamIn::wakeEventHandlerThread
+en0: 802.11d country code set to 'KR'.
+en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 149 153 157 161
+AppleCamIn::systemWakeCall - messageType = 0xE0000300
+         0 [Level 5] [com.apple.message.domain com.apple.afpfs.sleepState] [com.apple.message.signature awake] [com.apple.message.success 1] [com.apple.message.value 1440039251] [Message AFPSleepWakeHandler: waking up]
+AppleCamIn::handleWakeEvent_gated
+AppleCamIn::handleWakeEvent_gated
+ARPT: 6189.952354: MacAuthEvent en0   Auth result for: 90:72:40:1f:53:59  MAC AUTH succeeded
+AirPort: Link Up on en0
+en0: BSSID changed to 90:72:40:1f:53:59
+en0::IO80211Interface::postMessage bssid changed
+vmnet: VNetUserIf_Create: created userIf at 0xffffff8026bca600.
+vmnet: VMNetConnect: returning port 0xffffff8026bca600
+vmnet: Hub 2 does not exist, allocating memory.
+vmnet: Allocated hub 0xffffff8027d32000 for hubNum 2.
+vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:fa:ee:9d
+vmnet: Hub 2
+vmnet: 	Port 0
+vmnet: bridge-en0: media 80 dev 0xffffff8027116558 family 2
+vmnet: bridge-en0: wireless interface detected.
+vmnet: bridge-en0: up
+vmnet: bridge-en0: attached
+vmnet: VNetUserIfFree: freeing userIf at 0xffffff8026bca600.
+AirPort: RSN handshake complete on en0
+vmnet: VNetUserIf_Create: created userIf at 0xffffff8026bfe600.
+vmnet: VMNetConnect: returning port 0xffffff8026bfe600
+vmnet: Hub 0 does not exist, allocating memory.
+vmnet: Allocated hub 0xffffff802be36000 for hubNum 0.
+vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:f4:f2:40
+vmnet: Hub 0
+vmnet: 	Port 0
+vmnet: bridge-en0: media 80 dev 0xffffff8027116558 family 2
+vmnet: bridge-en0: wireless interface detected.
+vmnet: bridge-en0: up
+vmnet: bridge-en0: attached
+vmnet: VNetUserIfFree: freeing userIf at 0xffffff8026bfe600.
+en0: BSSID changed to 90:72:40:1f:53:59
+vmnet: VMNetSetopt: Set link state DOWN
+vmnet: VMNetSetopt: Set link state UP
+IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+nspace-handler-set-snapshot-time: 1440039283
+ASP_TCP CheckReqQueueSize: increasing req queue from 32 to 128 entries. so 0xffffff8028ae23d8 
+
+hfs: mounted Time Machine \M-a\M^D\M^G\M-a\M^E\M-"\M-a\M^F\M-(\M-a\M^D\M^K\M-a\M^E\M-%\M-a\M^F\M-8 on device disk4s2
+hfs: unmount initiated on Time Machine \M-a\M^D\M^G\M-a\M^E\M-"\M-a\M^F\M-(\M-a\M^D\M^K\M-a\M^E\M-%\M-a\M^F\M-8 on device disk4s2

@@ -4902,6 +4902,8 @@
 ./MdeModulePkg/Universal/Network/Udp4Dxe/Udp4Impl.h
 ./MdeModulePkg/Universal/Network/Udp4Dxe/Udp4Main.c
 ./MdeModulePkg/Universal/Network/UefiPxeBcDxe/ComponentName.c
+./MdeModulePkg/Universal/Network/UefiPxeBcDxe/ConsoleControl.c
+./MdeModulePkg/Universal/Network/UefiPxeBcDxe/ConsoleControl.h
 ./MdeModulePkg/Universal/Network/UefiPxeBcDxe/PxeBcDhcp.c
 ./MdeModulePkg/Universal/Network/UefiPxeBcDxe/PxeBcDhcp.h
 ./MdeModulePkg/Universal/Network/UefiPxeBcDxe/PxeBcDriver.c

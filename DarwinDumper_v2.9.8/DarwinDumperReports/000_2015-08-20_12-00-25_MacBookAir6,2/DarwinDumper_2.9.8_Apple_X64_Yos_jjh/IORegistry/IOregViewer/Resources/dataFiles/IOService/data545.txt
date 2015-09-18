@@ -1,0 +1,12 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"94827","ColType":"String","ColValue":"IOResources"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"94829","ColType":"String","ColValue":"DisplayLinkParent0"}},
+{"data":{"title":"AAPL,gray-value"},"attr":{"id":"94831","ColType":"Data","ColValue":"&lt;00000000&gt;"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"94833","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"Name"},"attr":{"id":"94835","ColType":"String","ColValue":"DisplayLinkParent0"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"94837","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"94839","ColType":"String","ColValue":"com.displaylink.driver.DisplayLinkDriver"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"94841","ColType":"String","ColValue":"DisplayLinkUserClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"94843","ColType":"String","ColValue":"DisplayLinkParent"}},
+{"data":{"title":"AAPL,gray-page"},"attr":{"id":"94845","ColType":"Data","ColValue":"&lt;01000000&gt;"}}
+]

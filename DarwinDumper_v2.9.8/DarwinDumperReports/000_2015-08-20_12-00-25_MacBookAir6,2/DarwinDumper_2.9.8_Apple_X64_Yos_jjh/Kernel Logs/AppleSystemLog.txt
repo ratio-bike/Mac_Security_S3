@@ -1,0 +1,396 @@
+Aug 19 20:26:57 localhost kernel[0] <Notice>: Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64
+Aug 19 20:26:57 localhost kernel[0] <Notice>: vm_page_bootstrap: 1936049 free pages and 144719 wired pages
+Aug 19 20:26:57 localhost kernel[0] <Notice>: kext submap [0xffffff7f80a00000 - 0xffffff8000000000], kernel text [0xffffff8000200000 - 0xffffff8000a00000]
+Aug 19 20:26:57 localhost kernel[0] <Notice>: zone leak detection enabled
+Aug 19 20:26:57 localhost kernel[0] <Notice>: "vm_compressor_mode" is 4
+Aug 19 20:26:57 localhost kernel[0] <Notice>: multiq scheduler config: deep-drain 0, urgent first 1, depth limit 4, band limit 127, sanity check 0
+Aug 19 20:26:57 localhost kernel[0] <Notice>: standard timeslicing quantum is 10000 us
+Aug 19 20:26:57 localhost kernel[0] <Notice>: standard background quantum is 2500 us
+Aug 19 20:26:57 localhost kernel[0] <Notice>: mig_table_max_displ = 13
+Aug 19 20:26:57 localhost kernel[0] <Notice>: TSC Deadline Timer supported and enabled
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=1 LocalApicId=0 Enabled
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=2 LocalApicId=2 Enabled
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=3 LocalApicId=1 Enabled
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=4 LocalApicId=3 Enabled
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=5 LocalApicId=255 Disabled
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=6 LocalApicId=255 Disabled
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=7 LocalApicId=255 Disabled
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleACPICPU: ProcessorId=8 LocalApicId=255 Disabled
+Aug 19 20:26:57 localhost kernel[0] <Notice>: calling mpo_policy_init for TMSafetyNet
+Aug 19 20:26:57 localhost kernel[0] <Notice>: Security policy loaded: Safety net for Time Machine (TMSafetyNet)
+Aug 19 20:26:57 localhost kernel[0] <Notice>: calling mpo_policy_init for AMFI
+Aug 19 20:26:57 localhost kernel[0] <Notice>: Security policy loaded: Apple Mobile File Integrity (AMFI)
+Aug 19 20:26:57 localhost kernel[0] <Notice>: calling mpo_policy_init for Sandbox
+Aug 19 20:26:57 localhost kernel[0] <Notice>: Security policy loaded: Seatbelt sandbox policy (Sandbox)
+Aug 19 20:26:57 localhost kernel[0] <Notice>: calling mpo_policy_init for Quarantine
+Aug 19 20:26:57 localhost kernel[0] <Notice>: Security policy loaded: Quarantine policy (Quarantine)
+Aug 19 20:26:57 localhost kernel[0] <Notice>: Copyright (c) 1982, 1986, 1989, 1991, 1993
+Aug 19 20:26:57 localhost kernel[0] <Notice>: The Regents of the University of California. All rights reserved.
+Aug 19 20:26:57 localhost kernel[0] <Notice>: MAC Framework successfully initialized
+Aug 19 20:26:57 localhost kernel[0] <Notice>: using 16384 buffer headers and 10240 cluster IO buffer headers
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleKeyStore starting (BUILT: Sep 19 2014 00:11:30)
+Aug 19 20:26:57 localhost kernel[0] <Notice>: IOAPIC: Version 0x20 Vectors 64:103
+Aug 19 20:26:57 localhost kernel[0] <Notice>: ACPI: sleep states S0 S3 S4 S5
+Aug 19 20:26:57 localhost kernel[0] <Notice>: pci (build 00:11:20 Sep 19 2014), flags 0xe3400, pfm64 (39 cpu) 0x7f80000000, 0x80000000
+Aug 19 20:26:57 localhost kernel[0] <Notice>: [ PCI configuration begin ]
+Aug 19 20:26:57 localhost kernel[0] <Notice>: console relocated to 0x7f90000000
+Aug 19 20:26:57 localhost kernel[0] <Notice>: [ PCI configuration end, bridges 12, devices 14 ]
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssI2C::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssGspi1::initFixedDMA: chan 1, cannot get _CRS data, err 0
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssI2C::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssDmac::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssI2C::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssDmac::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssI2C::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssGspi::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleThunderboltNHIType2::setupPowerSavings - GPE based runtime power management
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleHSSPIController::start Start Succeeded
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssI2C::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: SATA WARNING: IDENTIFY DEVICE checksum not implemented.
+Aug 19 20:26:57 localhost kernel[0] <Notice>: mcache: 4 CPU(s), 64 bytes CPU cache line size
+Aug 19 20:26:57 localhost kernel[0] <Notice>: mbinit: done [96 MB total pool size, (64/32) split]
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleHSSPIController::HandleMessage Device Wake by Host
+Aug 19 20:26:57 localhost kernel[0] <Notice>: rooting via boot-uuid from /chosen: 85CB0BF9-8011-34B9-9A14-298BE11AAADE
+Aug 19 20:26:57 localhost kernel[0] <Notice>: Waiting on <dict ID="0"><key>IOProviderClass</key><string ID="1">IOResources</string><key>IOResourceMatch</key><string ID="2">boot-uuid-media</string></dict>
+Aug 19 20:26:57 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib kmod start
+Aug 19 20:26:57 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless kmod start
+Aug 19 20:26:57 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeZlib load succeeded
+Aug 19 20:26:57 localhost kernel[0] <Notice>: com.apple.AppleFSCompressionTypeDataless load succeeded
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleMultitouchTrackpadHIDEventDriver::start Returning success
+Aug 19 20:26:57 localhost kernel[0] <Notice>: Apple Internal Keyboard / Trackpad::start Start Succeeded
+Aug 19 20:26:57 localhost kernel[0] <Notice>: [AppleMultitouchDevice::start] entered
+Aug 19 20:26:57 localhost kernel[0] <Notice>: CoreStorage: fsck_cs has finished for group "D714E6EB-B06D-4DAE-8935-E0393587EE0F" with status 0x00
+Aug 19 20:26:57 localhost kernel[0] <Notice>: ARPT: 1.289237: srom rev:11
+Aug 19 20:26:57 localhost kernel[0] <Notice>: ARPT: 1.289912: ChangeVCO => vco:960, xtalF:40, frac: 98, ndivMode: 3, ndivint: 24
+Aug 19 20:26:57 localhost kernel[0] <Notice>: ARPT: 1.289933: Data written into the PLL_CNTRL_ADDR2: 00000c31
+Aug 19 20:26:57 localhost kernel[0] <Notice>: ARPT: 1.289993: Data written into the PLL_CNTRL_ADDR3 (Fractional): 0000100e
+Aug 19 20:26:57 localhost kernel[0] <Notice>: Got boot device = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/RP06@1C,5/IOPP/SSD0@0/AppleAHCI/PRT0@0/IOAHCIDevice@0/AppleAHCIDiskDriver/IOAHCIBlockStorageDevice/IOBlockStorageDriver/APPLE SSD SM0512F Media/IOGUIDPartitionScheme/Macintosh HD@2/CoreStoragePhysical/Macintosh HD/Macintosh HD
+Aug 19 20:26:57 localhost kernel[0] <Notice>: BSD root: disk1, major 1, minor 4
+Aug 19 20:26:57 localhost kernel[0] <Notice>: ARPT: 1.299589: BTCOEXIST off 
+Aug 19 20:26:57 localhost kernel[0] <Notice>: ARPT: 1.299802: BRCM tunables:
+Aug 19 20:26:57 localhost kernel[0] <Notice>: ARPT: 1.299806:   pullmode[1] txringsize[  256] txsendqsize[1024] reapmin[   32] reapcount[  128]
+Aug 19 20:26:57 localhost kernel[0] <Notice>: ARPT: 1.300356: wl0: Broadcom BCM43a0, vendorID[0x14e4] BAR0[0xb0600004]
+Aug 19 20:26:57 localhost kernel[0] <Notice>: 7.15.124.12 (r497602)
+Aug 19 20:26:57 localhost kernel[0] <Notice>: hfs: mounted Macintosh HD on device root_device
+Aug 19 20:26:57 localhost kernel[0] <Notice>: XCPM: registered
+Aug 19 20:26:57 localhost kernel[0] <Notice>: VM Swap Subsystem is ON
+Aug 19 20:26:57 localhost kernel[0] <Notice>: USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3
+Aug 19 20:26:57 localhost kernel[0] <Notice>: IO80211Controller::dataLinkLayerAttachComplete():  adding AppleEFINVRAM notification
+Aug 19 20:26:57 localhost kernel[0] <Notice>: IO80211Interface::efiNVRAMPublished():  
+Aug 19 20:26:57 localhost kernel[0] <Notice>: bpfAttach len 64 dlt 12
+Aug 19 20:26:57 localhost kernel[0] <Notice>: Unrecognized reportID 0x02
+Aug 19 20:26:57 localhost kernel[0] <Notice>: IOGraphics flags 0x43
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssI2C::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssDmac::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssI2C::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssDmac::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssI2C::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssGspi::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: IOBluetoothUSBDFU::probe
+Aug 19 20:26:57 localhost kernel[0] <Notice>: IOBluetoothUSBDFU::probe ProductID - 0x828F FirmwareVersion - 0x0099
+Aug 19 20:26:57 localhost kernel[0] <Notice>: **** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = TRUE -- 0x2800 ****
+Aug 19 20:26:57 localhost kernel[0] <Notice>: **** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed -- 0x2800 ****
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleIntelLpssI2C::probe fails
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleCamIn::init
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleCamIn::probe
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleCamIn::start
+Aug 19 20:26:57 localhost kernel[0] <Notice>: virtual bool AppleCamIn::start(IOService *): about to configure DDR
+Aug 19 20:26:57 localhost kernel[0] <Notice>: AppleCamIn::start - S2 DDR Frequency set to 450 MHz (default) 
+Aug 19 20:26:57 localhost kernel[0] <Notice>: [IOBluetoothHCIController][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- 0x2800 
+Aug 19 20:26:57 localhost kernel[0] <Notice>: [IOBluetoothHCIController][start] -- completed
+Aug 19 20:26:57 localhost kernel[0] <Notice>: Waiting for DSMOS...
+Aug 19 20:26:57 localhost kernel[0] <Notice>: [IOBluetoothHCIController::setConfigState] calling registerService
+Aug 19 20:26:57 localhost kernel[0] <Notice>: **** [IOBluetoothHCIController][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- 0x2480 -- 0x6800 -- 0x2800 ****
+Aug 19 20:26:57 localhost kernel[0] <Notice>: Previous shutdown cause: 5
+Aug 19 20:26:57 localhost kernel[0] <Notice>: DSMOS has arrived
+Aug 19 20:26:57 localhost kernel[0] <Notice>: IOPPF - IODeviceTree:/efi/platform/StartupPowerEvents: 0x0
+Aug 19 20:26:57 localhost kernel[0] <Notice>: hmm.. mismatch sizes: 3100 vs 20
+Aug 19 20:26:57 localhost kernel[0] <Notice>: PPGTT is enabled
+Aug 19 20:26:58 localhost kernel[0] <Notice>: save_ddr_phy_regs: saving 127 DDR PHY shmoo-calibrated registers 
+Aug 19 20:26:58 localhost kernel[0] <Notice>: AppleCamIn::start - link control offset in PCI bridge = 0x50
+Aug 19 20:26:58 localhost kernel[0] <Notice>: AppleCamIn::start - pmcsr offset in PCI bridge = 0xa4
+Aug 19 20:26:58 localhost kernel[0] <Notice>: AppleCamIn::power_off_hardware
+Aug 19 20:26:58 localhost kernel[0] <Notice>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Aug 19 20:26:58 localhost kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Aug 19 20:26:58 localhost kernel[0] <Notice>: bpfAttach len 94 dlt 163
+Aug 19 20:26:58 localhost kernel[0] <Notice>: bpfAttach len 30 dlt 105
+Aug 19 20:26:58 localhost kernel[0] <Notice>: bpfAttach len 52 dlt 127
+Aug 19 20:26:58 localhost kernel[0] <Notice>: bpfAttach len 38 dlt 192
+Aug 19 20:26:58 localhost kernel[0] <Notice>: AppleCamIn::initForPM
+Aug 19 20:26:58 localhost kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug 19 20:26:58 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 4.735892: createVirtIf(): ifRole = 1
+Aug 19 20:26:58 JJHui-Macbook-Air kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init name <p2p0> role 1
+Aug 19 20:26:58 JJHui-Macbook-Air kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init <p2p> role 1
+Aug 19 20:26:58 JJHui-Macbook-Air kernel[0] <Notice>: setVIRTUAL_IF_CREATE: AWDL interface role (4)
+Aug 19 20:26:58 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 4.898536: createVirtIf(): ifRole = 1
+Aug 19 20:26:58 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 4.898546: Create AWDL virtif(AWDL): unit = 2, ifRole = 4
+Aug 19 20:26:58 JJHui-Macbook-Air kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init name <awdl0> role 4
+Aug 19 20:26:58 JJHui-Macbook-Air kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::attachToBpf name <awdl0> role 4 successful attach to bpf type 147
+Aug 19 20:26:58 JJHui-Macbook-Air kernel[0] <Notice>: AirPort_Brcm4360_P2PInterface::init <awdl> role 4
+Aug 19 20:26:58 JJHui-Macbook-Air kernel[0] <Notice>: nspace-handler-set-snapshot-time: 1439983620
+Aug 19 20:26:58 JJHui-Macbook-Air kernel[0] <Notice>: AirPort: Link Up on awdl0
+Aug 19 20:26:58 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::configure Dynamic country code not supported on this device
+Aug 19 20:26:59 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Aug 19 20:26:59 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Aug 19 20:26:59 JJHui-Macbook-Air kernel[0] <Notice>: IOPPF: XCPM mode
+Aug 19 20:26:59 JJHui-Macbook-Air kernel[0] <Notice>: X86PlatformShim::sendPStates - Success!
+Aug 19 20:26:59 JJHui-Macbook-Air kernel[0] <Notice>: en0: 802.11d country code set to 'US'.
+Aug 19 20:26:59 JJHui-Macbook-Air kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Aug 19 20:26:59 JJHui-Macbook-Air kernel[0] <Notice>: fGPUIdleIntervalMS = 0
+Aug 19 20:26:59 JJHui-Macbook-Air kernel[0] <Notice>: en1: promiscuous mode enable succeeded
+Aug 19 20:26:59 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlPeerTrafficRegistration Clearing AirPlay peer 00:00:00:00:00:00
+Aug 19 20:27:06 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 12.701321: MacAuthEvent en0   Auth result for: 90:72:40:1f:53:59  MAC AUTH succeeded
+Aug 19 20:27:06 JJHui-Macbook-Air kernel[0] <Notice>: AirPort: Link Up on en0
+Aug 19 20:27:06 JJHui-Macbook-Air kernel[0] <Notice>: en0: BSSID changed to 90:72:40:1f:53:59
+Aug 19 20:27:06 JJHui-Macbook-Air kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Aug 19 20:27:06 JJHui-Macbook-Air kernel[0] <Notice>: AirPort: RSN handshake complete on en0
+Aug 19 20:27:06 JJHui-Macbook-Air kernel[0] <Notice>: en0: 802.11d country code set to 'KR'.
+Aug 19 20:27:06 JJHui-Macbook-Air kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 149 153 157 161
+Aug 19 20:27:09 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Aug 19 20:27:09 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Aug 19 20:27:09 JJHui-Macbook-Air kernel[0] <Notice>: en0: BSSID changed to 90:72:40:1f:53:59
+Aug 19 20:27:11 JJHui-Macbook-Air kernel[0] <Notice>: BUG in process suhelperd[188]: over-released legacy external boost assertions (1 total, 1 external, 0 legacy-external)
+Aug 19 20:27:38 JJHui-Macbook-Air kernel[0] <Notice>: AppleKeyStore:Sending lock change 0 for handle -503
+Aug 19 20:27:41 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::ISP_LoadFirmware_gated: fw len=0
+Aug 19 20:27:41 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::power_on_hardware
+Aug 19 20:27:41 JJHui-Macbook-Air kernel[0] <Notice>: save_ddr_phy_regs: saving 127 DDR PHY shmoo-calibrated registers 
+Aug 19 20:27:42 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::ISP_Init - No set-file loaded for camera
+Aug 19 20:27:42 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::ISP_InitialSensorDetection - found sensor on chan 0: 0x9770
+Aug 19 20:27:42 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::ISP_LoadSetfile_gated (camChan=0)
+Aug 19 20:27:42 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::power_off_hardware
+Aug 19 20:27:42 JJHui-Macbook-Air kernel[0] <Notice>: vmci: Loaded @ 0xffffff7f96ca12ad: Info 0xffffff7f96cac0f8 Name com.vmware.kext.vmci Version 90.5.7 build-1887983 at Jun  9 2014 21:46:09
+Aug 19 20:27:42 JJHui-Macbook-Air kernel[0] <Notice>: vmci: Initializing module.
+Aug 19 20:27:42 JJHui-Macbook-Air kernel[0] <Notice>: vmci: VMCI: shared components initialized.
+Aug 19 20:27:42 JJHui-Macbook-Air kernel[0] <Notice>: vmci:vmci : VBegin helper queue thrMCI: hostead co.
+Aug 19 20:27:42 JJHui-Macbook-Air kernel[0] <Notice>: mponents initialized.
+Aug 19 20:27:42 JJHui-Macbook-Air kernel[0] <Notice>: vmci: Module initialized.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vsock: Loaded @ 0xffffff7f96cb1aa4: Info 0xffffff7f96cbc030 Name com.vmware.kext.vsockets Version 90.5.7 build-1887983 at Jun  9 2014 21:46:16
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vsock: Initializing module...
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vsock: Begin workloop.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vsock: Module initialized.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Loaded @ 0xffffff7f96cc1ab6: Info 0xffffff7f96cc9020 Name com.vmware.kext.vmnet Version 0188.79.83 build-1887983 at Jun  9 2014 21:46:23
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Initializing module.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNet_Start allocated gOSMallocTag.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNet_Start allocated vnetBigLock.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Module initialized.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: Loaded @ 0xffffff7f96ccae66: Info 0xffffff7f96cd5040 Name com.vmware.kext.vmx86 Version 0188.79.83 build-1887983 at Jun  9 2014 21:45:58
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: Instrumenting bug 151304...
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: Cycles 68
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: Timer thread started.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: Module initialized.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIf_Create: created userIf at 0xffffff802b38b400.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetConnect: returning port 0xffffff802b38b400
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 2 does not exist, allocating memory.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Allocated hub 0xffffff802c66a000 for hubNum 2.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:e4:da:f0
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 2
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 0
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: media 80 dev 0xffffff8027116558 family 2
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: wireless interface detected.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: up
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: attached
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff802b38b400.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIf_Create: created userIf at 0xffffff802b38b400.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetConnect: returning port 0xffffff802b38b400
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 0 does not exist, allocating memory.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Allocated hub 0xffffff802c67e000 for hubNum 0.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:f6:1d:24
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 0
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 0
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: media 80 dev 0xffffff8027116558 family 2
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: wireless interface detected.
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: up
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: attached
+Aug 19 20:27:43 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff802b38b400.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIf_Create: created userIf at 0xffffff802ca48400.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetConnect: returning port 0xffffff802ca48400
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 1 does not exist, allocating memory.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Allocated hub 0xffffff802b5e9000 for hubNum 1.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:ec:f6:c7
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 1
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 0
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff802ca48400.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: netif-vmnet1: Adding protocol 2.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: netif-vmnet1: SIOCSIFFLAGS: 0x8863
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIf_Create: created userIf at 0xffffff802cd09e00.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetConnect: returning port 0xffffff802cd09e00
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:fc:01:dc
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 1
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 0
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 1
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIf_Create: created userIf at 0xffffff802cc4e400.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetConnect: returning port 0xffffff802cc4e400
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 8 does not exist, allocating memory.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Allocated hub 0xffffff802c663000 for hubNum 8.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:e8:e7:ed
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 8
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 0
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetSetopt: Set link state UP
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIf_Create: created userIf at 0xffffff802cd09a00.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetConnect: returning port 0xffffff802cd09a00
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:ea:75:90
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 8
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 0
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 1
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff802cd09a00.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: netif-vmnet8: Adding protocol 2.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: netif-vmnet8: SIOCSIFFLAGS: 0x8863
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIf_Create: created userIf at 0xffffff802cd09000.
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetConnect: returning port 0xffffff802cd09000
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:f8:e4:8b
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 8
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 0
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 1
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 2
+Aug 19 20:27:44 JJHui-Macbook-Air kernel[0] <Notice>: vmioplug: Loaded @ 0xffffff7f96cd8d00: Info 0xffffff7f96cdb0a8 Name com.vmware.kext.vmioplug.12.1.17 Version 12.1.17 build-1887983 at Jun  9 2014 21:46:29
+Aug 19 20:27:49 JJHui-Macbook-Air kernel[0] <Notice>: fsevents: watcher cloud-eventd (pid: 439) - Using /dev/fsevents directly is unsupported.  Migrate to FSEventsFramework
+Aug 19 20:27:59 JJHui-Macbook-Air kernel[0] <Notice>: BUG in process suhelperd[188]: over-released legacy external boost assertions (0 total, 0 external, 0 legacy-external)
+Aug 19 20:28:08 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: offset 0: 80
+Aug 19 20:28:08 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: offset 1: 16
+Aug 19 20:28:08 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: offset 2: 56
+Aug 19 20:28:08 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: offset 3: 64
+Aug 19 20:28:08 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: offset 4: 76
+Aug 19 20:28:08 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: PTSC: initialized at 2299443000 Hz using reference clock, TSCs are synchronized.
+Aug 19 20:28:08 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: Cycles 63
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIf_Create: created userIf at 0xffffff802e56c200.
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetConnect: returning port 0xffffff802e56c200
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:e8:cd:11
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 8
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 0
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 1
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 2
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 3
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIf_Create: created userIf at 0xffffff8033c4b200.
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetConnect: returning port 0xffffff8033c4b200
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:ea:c5:57
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 8
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 0
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 1
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 2
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 3
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 4
+Aug 19 20:28:09 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff8033c4b200.
+Aug 19 20:29:21 JJHui-Macbook-Air kernel[0] <Notice>: process vmware-vmx[470] caught causing excessive wakeups. Observed wakeups rate (per sec): 618; Maximum permitted wakeups rate (per sec): 150; Observation period: 300 seconds; Task lifetime number of wakeups: 45012
+Aug 19 20:36:33 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetDisconnect called for port 0xffffff802d27ca00
+Aug 19 20:36:33 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetDisconnect called for port 0xffffff802e56c200
+Aug 19 20:36:33 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff802e56c200.
+Aug 19 20:36:34 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: Cleaned up 520602 virtual main memory pages from VM 0xffffff8033fdb018.
+Aug 19 20:36:34 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: Cleaned up 3407 monitor anonymous pages from VM 0xffffff8033fdb018.
+Aug 19 20:36:34 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: Cleaned up 10240 user anonymous pages from VM 0xffffff8033fdb018.
+Aug 19 20:37:20 JJHui-Macbook-Air kernel[0] <Notice>: PM response took 260 ms (60, blued)
+Aug 19 20:37:20 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug 19 20:37:34 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 640.278348: wl0: TCPKEEP: locate_keepalive_data_new_uc: No IPV4 addrs, keepalive not started.
+Aug 19 20:37:34 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 640.278360: wl0: MDNS: IPV4 Addr: 10.0.1.27
+Aug 19 20:37:34 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 640.278365: wl0: MDNS: IPV6 Addr: fe80:0:0:0:8e29:37ff:fee7:fa04
+Aug 19 20:37:34 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 640.278369: wl0: MDNS: 0 SRV Recs, 1 TXT Recs
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: PM response took 1161 ms (27, powerd)
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000280
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: [0x69fd5b0000, 0x19000000]
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: [0x6a3a8da000, 0x27000000]
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: [0x0, 0x0]
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 641.501761: AirPort_Brcm43xx::powerChange: System Sleep 
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [setLinkState]
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 642.248542: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 1733 us
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Aug 19 20:37:36 JJHui-Macbook-Air kernel[0] <Notice>: IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Aug 19 20:37:37 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug 19 20:37:37 JJHui-Macbook-Air kernel[0] <Notice>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 3
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: Wake reason: EC.ACDetach (Maintenance)
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::wakeEventHandlerThread
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: Previous sleep cause: 5
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: AppleHSSPIController::HandleMessage Device Wake by Host
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 180860 us
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: TBT W (2): 0x0100 [x]
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: en0: BSSID changed to 90:72:40:1f:53:59
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 644.066882: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::wakeEventHandlerThread
+Aug 19 20:37:38 JJHui-Macbook-Air kernel[0] <Notice>: en0: BSSID changed to 90:72:40:1f:53:59
+Aug 19 20:37:39 JJHui-Macbook-Air kernel[0] <Notice>: AirPort: Link Up on awdl0
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: PM response took 1068 ms (27, powerd)
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 645.223383: AirPort_Brcm43xx::powerChange: System Sleep 
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [handleSIOCSIFFLAGS]
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: en0: BSSID changed to 90:72:40:1f:53:59
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: AirPort: Link Down on awdl0. Reason 1 (Unspecified).
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::doDisable   source [setLinkState]
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 645.542862: wl0: leaveModulePoweredForOffloads: Wi-Fi will turn off.
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: interface en is sending notification 0x14
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: interface en is going DOWN
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: en0::IO80211Interface::postMessage bssid changed
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: en0: 802.11d country code set to 'X3'.
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 149 153 157 161
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetDisconnect called for port 0xffffff802b38b000
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: filter detached
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: down
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: detached
+Aug 19 20:37:40 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Freeing hub at 0xffffff802c66a000.
+Aug 19 20:37:41 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug 19 20:37:41 JJHui-Macbook-Air kernel[0] <Notice>: AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 2
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: Wake reason: EC.ACAttach (Maintenance)
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::wakeEventHandlerThread
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: Previous sleep cause: 5
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: AppleHSSPIController::HandleMessage Device Wake by Host
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: AppleThunderboltNHIType2::prePCIWake - power up complete - took 181120 us
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: IOThunderboltSwitch<0xffffff80260a9000>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: TBT W (2): 0x0100 [x]
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: AirPort: Link Up on awdl0
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: ARPT: 647.556601: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::wakeEventHandlerThread
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetDisconnect called for port 0xffffff802ca48e00
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: filter detached
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: down
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: bridge-en0: detached
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Freeing hub at 0xffffff802c67e000.
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetSetopt: Set link state DOWN
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetSetopt: Set link state UP
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: en0: 802.11d country code set to 'US'.
+Aug 19 23:00:44 JJHui-Macbook-Air kernel[0] <Notice>: en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165
+Aug 19 23:00:45 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::handleWakeEvent_gated
+Aug 19 23:00:45 JJHui-Macbook-Air kernel[0] <Notice>: full wake request (reason 1) 1580 ms
+Aug 19 23:00:45 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000320
+Aug 19 23:00:45 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000340
+Aug 19 23:00:45 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::systemWakeCall - messageType = 0xE0000300
+Aug 19 23:00:46 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::handleWakeEvent_gated
+Aug 19 23:00:47 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+Aug 19 23:00:47 JJHui-Macbook-Air kernel[0] <Notice>: IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL
+Aug 19 23:00:49 JJHui-Macbook-Air kernel[0] <Notice>: AppleCamIn::handleWakeEvent_gated
+Aug 19 23:00:55 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: PTSC: initialized at 2299443000 Hz using reference clock, TSCs are synchronized.
+Aug 19 23:00:55 JJHui-Macbook-Air kernel[0] <Notice>: vmmon: Cycles 65
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIf_Create: created userIf at 0xffffff802cdc7a00.
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetConnect: returning port 0xffffff802cdc7a00
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:ec:b0:97
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 8
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 0
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 1
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 2
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 3
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIf_Create: created userIf at 0xffffff803686d400.
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNetConnect: returning port 0xffffff803686d400
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VMNET_SO_BINDTOHUB: port: paddr 00:50:56:f0:44:1a
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: Hub 8
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 0
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 1
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 2
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 3
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: 	Port 4
+Aug 19 23:00:56 JJHui-Macbook-Air kernel[0] <Notice>: vmnet: VNetUserIfFree: freeing userIf at 0xffffff803686d400.
+Aug 19 23:01:15 JJHui-Macbook-Air kernel[0] <Notice>: nspace-handler-set-snapshot-time: 1439992877
+Aug 19 23:01:16 JJHui-Macbook-Air kernel[0] <Notice>: AppleSRP started.
+Aug 19 23:02:03 JJHui-Macbook-Air kernel[0] <Notice>: process vmware-vmx[529] caught causing excessive wakeups. EXC_RESOURCE supressed due to audio playback

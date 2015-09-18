@@ -1,0 +1,19 @@
+[
+{"data":{"title":"device-id"},"attr":{"id":"3757","ColType":"Data","ColValue":"&lt;609c0000&gt;"}},
+{"data":{"title":"vendor-id"},"attr":{"id":"3759","ColType":"Data","ColValue":"&lt;86800000&gt;"}},
+{"data":{"title":"IOName"},"attr":{"id":"3761","ColType":"String","ColValue":"pci8086,9c60"}},
+{"data":{"title":"pcidebug"},"attr":{"id":"3763","ColType":"String","ColValue":"0:21:0"}},
+{"data":{"title":"built-in"},"attr":{"id":"3765","ColType":"Data","ColValue":"&lt;00&gt;"}},
+{"data":{"title":"revision-id"},"attr":{"id":"3767","ColType":"Data","ColValue":"&lt;04000000&gt;"}},
+{"data":{"title":"reg"},"attr":{"id":"3769","ColType":"Data","ColValue":"&lt;00a800000000000000000000000000000000000010a800020000000000000000000000000010000014a8000200000000000000000000000000100000&gt;"}},
+{"data":{"title":"acpi-path"},"attr":{"id":"3771","ColType":"String","ColValue":"IOACPIPlane:/_SB/PCI0@0/SDMA@150000"}},
+{"data":{"title":"IOPCIResourced"},"attr":{"id":"3773","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOPCIPMCSState"},"attr":{"id":"3775","ColType":"Number","ColValue":"11"}},
+{"data":{"title":"class-code"},"attr":{"id":"3777","ColType":"Data","ColValue":"&lt;02010800&gt;"}},
+{"data":{"title":"IODeviceMemory"},"attr":{"id":"3779","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"3780","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"3781","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"3783","ColType":"Number","ColValue":"2963443712"}},{"data":{"title":"length"},"attr":{"id":"3785","ColType":"Number","ColValue":"4096"}}]}]},{"data":{"title":"1"},"attr":{"id":"3786","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"3787","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"3789","ColType":"Number","ColValue":"2963439616"}},{"data":{"title":"length"},"attr":{"id":"3791","ColType":"Number","ColValue":"4096"}}]}]}]},
+{"data":{"title":"acpi-device"},"attr":{"id":"3793","ColType":"String","ColValue":"IOACPIPlatformDevice is not serializable"}},
+{"data":{"title":"assigned-addresses"},"attr":{"id":"3795","ColType":"Data","ColValue":"&lt;10a80082000000000090a2b0000000000010000014a80082000000000080a2b00000000000100000&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"3797","ColType":"Data","ColValue":"&lt;\"pci8086,9c60\",\"pciclass,080102\",\"SDMA\"&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"3799","ColType":"Data","ColValue":"&lt;\"pci8086,9c60\"&gt;"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"3801","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"3803","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildProxyPowerState"},"attr":{"id":"3805","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"3807","ColType":"Number","ColValue":"3"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"3809","ColType":"Number","ColValue":"2"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"3811","ColType":"Number","ColValue":"2"}}]}
+]

@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"94779","ColType":"String","ColValue":"IOFramebuffer"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"94781","ColType":"String","ColValue":"AppleMCCSControlFamily"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"94783","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"94785","ColType":"String","ColValue":"IOKit"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"94787","ColType":"String","ColValue":"com.apple.driver.AppleMCCSControl"}},
+{"data":{"title":"IOKitDebug"},"attr":{"id":"94789","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"94791","ColType":"String","ColValue":"AppleMCCSUserClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"94793","ColType":"String","ColValue":"AppleMCCSControlModule"}}
+]

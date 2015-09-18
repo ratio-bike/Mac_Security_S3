@@ -1,0 +1,23 @@
+[
+{"data":{"title":"built-in"},"attr":{"id":"8197","ColType":"Data","ColValue":"&lt;00&gt;"}},
+{"data":{"title":"IODeviceMemory"},"attr":{"id":"8199","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"8200","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"8201","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"8203","ColType":"Number","ColValue":"2963410944"}},{"data":{"title":"length"},"attr":{"id":"8205","ColType":"Number","ColValue":"4096"}}]}]},{"data":{"title":"1"},"attr":{"id":"8206","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"8207","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"address"},"attr":{"id":"8209","ColType":"Number","ColValue":"2963406848"}},{"data":{"title":"length"},"attr":{"id":"8211","ColType":"Number","ColValue":"4096"}}]}]}]},
+{"data":{"title":"device-id"},"attr":{"id":"8213","ColType":"Data","ColValue":"&lt;669c0000&gt;"}},
+{"data":{"title":"spi-pin-mosi"},"attr":{"id":"8215","ColType":"Data","ColValue":"&lt;5a00000000000000&gt;"}},
+{"data":{"title":"spi-pin-clk"},"attr":{"id":"8217","ColType":"Data","ColValue":"&lt;5800000000000000&gt;"}},
+{"data":{"title":"spi-pin-cs"},"attr":{"id":"8219","ColType":"Data","ColValue":"&lt;5700000000000000&gt;"}},
+{"data":{"title":"name"},"attr":{"id":"8221","ColType":"Data","ColValue":"&lt;\"pci8086,9c66\"&gt;"}},
+{"data":{"title":"acpi-path"},"attr":{"id":"8223","ColType":"String","ColValue":"IOACPIPlane:/_SB/PCI0@0/SPI1@150004"}},
+{"data":{"title":"IOName"},"attr":{"id":"8225","ColType":"String","ColValue":"pci8086,9c66"}},
+{"data":{"title":"vendor-id"},"attr":{"id":"8227","ColType":"Data","ColValue":"&lt;86800000&gt;"}},
+{"data":{"title":"revision-id"},"attr":{"id":"8229","ColType":"Data","ColValue":"&lt;04000000&gt;"}},
+{"data":{"title":"IOPCIPMCSState"},"attr":{"id":"8231","ColType":"Number","ColValue":"11"}},
+{"data":{"title":"acpi-device"},"attr":{"id":"8233","ColType":"String","ColValue":"IOACPIPlatformDevice is not serializable"}},
+{"data":{"title":"IOPCIResourced"},"attr":{"id":"8235","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"pcidebug"},"attr":{"id":"8237","ColType":"String","ColValue":"0:21:4"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"8239","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"8241","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildProxyPowerState"},"attr":{"id":"8243","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"8245","ColType":"Number","ColValue":"3"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"8247","ColType":"Number","ColValue":"2"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"8249","ColType":"Number","ColValue":"2"}}]},
+{"data":{"title":"class-code"},"attr":{"id":"8251","ColType":"Data","ColValue":"&lt;00800c00&gt;"}},
+{"data":{"title":"compatible"},"attr":{"id":"8253","ColType":"Data","ColValue":"&lt;\"pci8086,9c66\",\"pciclass,0c8000\",\"SPI1\"&gt;"}},
+{"data":{"title":"spi-pin-miso"},"attr":{"id":"8255","ColType":"Data","ColValue":"&lt;5900000000000000&gt;"}},
+{"data":{"title":"assigned-addresses"},"attr":{"id":"8257","ColType":"Data","ColValue":"&lt;10ac0082000000000010a2b0000000000010000014ac0082000000000000a2b00000000000100000&gt;"}},
+{"data":{"title":"reg"},"attr":{"id":"8259","ColType":"Data","ColValue":"&lt;00ac00000000000000000000000000000000000010ac00020000000000000000000000000010000014ac000200000000000000000000000000100000&gt;"}}
+]

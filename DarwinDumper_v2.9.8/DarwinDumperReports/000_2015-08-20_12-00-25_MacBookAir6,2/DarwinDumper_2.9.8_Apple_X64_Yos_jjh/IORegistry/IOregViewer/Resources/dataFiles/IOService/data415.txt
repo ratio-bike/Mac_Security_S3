@@ -1,0 +1,8 @@
+[
+{"data":{"title":"IOProbeScore"},"attr":{"id":"91073","ColType":"Number","ColValue":"4096"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"91075","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"91077","ColType":"String","ColValue":"com.apple.driver.AppleThunderboltDPInAdapter"}},
+{"data":{"title":"Adapter Type"},"attr":{"id":"91079","ColType":"Number","ColValue":"917761"}},
+{"data":{"title":"IOClass"},"attr":{"id":"91081","ColType":"String","ColValue":"AppleThunderboltDPInAdapter"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"91083","ColType":"String","ColValue":"IOThunderboltPort"}}
+]

@@ -1,0 +1,11 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"93024","ColType":"String","ColValue":"IOWatchDogTimer"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"93026","ColType":"String","ColValue":"AppleOSXWatchdog"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"93028","ColType":"String","ColValue":"SMCWatchDogTimer"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"93030","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"93031","ColType":"String","ColValue":"SMCWatchDogTimer"}}]},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"93033","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"93035","ColType":"String","ColValue":"com.apple.driver.AppleOSXWatchdog"}},
+{"data":{"title":"IOUserClientClass"},"attr":{"id":"93037","ColType":"String","ColValue":"AppleOSXWatchdogClient"}},
+{"data":{"title":"IOClass"},"attr":{"id":"93039","ColType":"String","ColValue":"AppleOSXWatchdog"}},
+{"data":{"title":"IOWatchDogEnabled"},"attr":{"id":"93041","ColType":"Boolean","ColValue":"No"}}
+]

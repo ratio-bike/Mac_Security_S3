@@ -1,0 +1,3 @@
+[
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"136024","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"136026","ColType":"Number","ColValue":"1"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"136028","ColType":"Number","ColValue":"1"}},{"data":{"title":"ChildrenPowerState"},"attr":{"id":"136030","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"136032","ColType":"Number","ColValue":"2"}}]}
+]

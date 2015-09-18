@@ -1,0 +1,14 @@
+[
+{"data":{"title":"ProductID"},"attr":{"id":"85838","ColType":"Number","ColValue":"657"}},
+{"data":{"title":"ReportInterval"},"attr":{"id":"85840","ColType":"Number","ColValue":"8000"}},
+{"data":{"title":"Transport"},"attr":{"id":"85842","ColType":"String","ColValue":"SPI"}},
+{"data":{"title":"VersionNumber"},"attr":{"id":"85844","ColType":"Number","ColValue":"369"}},
+{"data":{"title":"VendorID"},"attr":{"id":"85846","ColType":"Number","ColValue":"1452"}},
+{"data":{"title":"PrimaryUsage"},"attr":{"id":"85848","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"PrimaryUsagePage"},"attr":{"id":"85850","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"BootProtocol"},"attr":{"id":"85852","ColType":"Number","ColValue":"2"}},
+{"data":{"title":"DeviceUsagePairs"},"attr":{"id":"85854","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"85855","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"85857","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"85859","ColType":"Number","ColValue":"2"}}]},{"data":{"title":"1"},"attr":{"id":"85860","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"85862","ColType":"Number","ColValue":"1"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"85864","ColType":"Number","ColValue":"1"}}]},{"data":{"title":"2"},"attr":{"id":"85865","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"85867","ColType":"Number","ColValue":"13"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"85869","ColType":"Number","ColValue":"5"}}]},{"data":{"title":"3"},"attr":{"id":"85870","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DeviceUsagePage"},"attr":{"id":"85872","ColType":"Number","ColValue":"65280"}},{"data":{"title":"DeviceUsage"},"attr":{"id":"85874","ColType":"Number","ColValue":"12"}}]}]},
+{"data":{"title":"Product"},"attr":{"id":"85876","ColType":"String","ColValue":"Apple Internal Keyboard / Trackpad"}},
+{"data":{"title":"LocationID"},"attr":{"id":"85878","ColType":"Number","ColValue":"16777216"}},
+{"data":{"title":"CountryCode"},"attr":{"id":"85880","ColType":"Number","ColValue":"0"}}
+]

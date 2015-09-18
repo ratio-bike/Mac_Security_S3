@@ -1,0 +1,14 @@
+[
+{"data":{"title":"Vendor Identification"},"attr":{"id":"7605","ColType":"String","ColValue":"APPLE"}},
+{"data":{"title":"Product Identification"},"attr":{"id":"7607","ColType":"String","ColValue":"SD Card Reader"}},
+{"data":{"title":"SCSI Device Characteristics"},"attr":{"id":"7609","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOMaximumBlockCountWrite"},"attr":{"id":"7611","ColType":"Number","ColValue":"8192"}},{"data":{"title":"IOMaximumByteCountWrite"},"attr":{"id":"7613","ColType":"Number","ColValue":"4194304"}},{"data":{"title":"IOMaximumBlockCountRead"},"attr":{"id":"7615","ColType":"Number","ColValue":"8192"}},{"data":{"title":"IOMaximumByteCountRead"},"attr":{"id":"7617","ColType":"Number","ColValue":"4194304"}}]},
+{"data":{"title":"Protocol Characteristics"},"attr":{"id":"7619","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Physical Interconnect"},"attr":{"id":"7621","ColType":"String","ColValue":"USB"}},{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"7623","ColType":"String","ColValue":"Internal"}},{"data":{"title":"Read Time Out Duration"},"attr":{"id":"7625","ColType":"Number","ColValue":"30000"}},{"data":{"title":"Write Time Out Duration"},"attr":{"id":"7627","ColType":"Number","ColValue":"30000"}}]},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"7629","ColType":"String","ColValue":"com.apple.iokit.IOSCSIArchitectureModelFamily"}},
+{"data":{"title":"TPGS Information"},"attr":{"id":"7631","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOClass"},"attr":{"id":"7633","ColType":"String","ColValue":"IOSCSIPeripheralDeviceNub"}},
+{"data":{"title":"Peripheral Device Type"},"attr":{"id":"7635","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"7637","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"7639","ColType":"String","ColValue":"SCSITaskUserClientIniter"}},
+{"data":{"title":"Product Revision Level"},"attr":{"id":"7641","ColType":"String","ColValue":"3.00"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"7643","ColType":"String","ColValue":"IOSCSIProtocolServices"}}
+]

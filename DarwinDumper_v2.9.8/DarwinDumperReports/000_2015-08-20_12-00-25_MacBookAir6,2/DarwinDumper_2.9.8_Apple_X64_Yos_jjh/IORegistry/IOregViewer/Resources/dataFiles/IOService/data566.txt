@@ -1,0 +1,14 @@
+[
+{"data":{"title":"IOTTYSuffix"},"attr":{"id":"95218","ColType":"String","ColValue":""}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"95220","ColType":"String","ColValue":"com.apple.iokit.IOSerialFamily"}},
+{"data":{"title":"IOClass"},"attr":{"id":"95222","ColType":"String","ColValue":"IOSerialBSDClient"}},
+{"data":{"title":"IOTTYBaseName"},"attr":{"id":"95224","ColType":"String","ColValue":"Bluetooth-Incoming-Port"}},
+{"data":{"title":"IOSerialBSDClientType"},"attr":{"id":"95226","ColType":"String","ColValue":"IORS232SerialStream"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"95228","ColType":"Number","ColValue":"1000"}},
+{"data":{"title":"IOResourceMatch"},"attr":{"id":"95230","ColType":"String","ColValue":"IOBSD"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"95232","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOTTYDevice"},"attr":{"id":"95234","ColType":"String","ColValue":"Bluetooth-Incoming-Port"}},
+{"data":{"title":"IOCalloutDevice"},"attr":{"id":"95236","ColType":"String","ColValue":"/dev/cu.Bluetooth-Incoming-Port"}},
+{"data":{"title":"IODialinDevice"},"attr":{"id":"95238","ColType":"String","ColValue":"/dev/tty.Bluetooth-Incoming-Port"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"95240","ColType":"String","ColValue":"IOSerialStreamSync"}}
+]

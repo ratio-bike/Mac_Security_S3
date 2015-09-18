@@ -1,0 +1,9 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"93384","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"93386","ColType":"String","ColValue":"ACPI0003"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"93388","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"93390","ColType":"String","ColValue":"ACPI0003"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"93392","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"93394","ColType":"String","ColValue":"com.apple.driver.AppleACPIButtons"}},
+{"data":{"title":"IOClass"},"attr":{"id":"93396","ColType":"String","ColValue":"AppleACPIACAdapter"}}
+]

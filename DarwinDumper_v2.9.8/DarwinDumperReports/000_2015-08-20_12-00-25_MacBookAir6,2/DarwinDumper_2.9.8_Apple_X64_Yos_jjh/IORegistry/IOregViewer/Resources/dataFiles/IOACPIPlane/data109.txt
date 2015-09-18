@@ -1,0 +1,8 @@
+[
+{"data":{"title":"_STA"},"attr":{"id":"3530","ColType":"Number","ColValue":"15"}},
+{"data":{"title":"IOInterruptSpecifiers"},"attr":{"id":"3532","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"3533","ColType":"Data","ColValue":"&lt;1500000007000000&gt;"}}]},
+{"data":{"title":"_ADR"},"attr":{"id":"3535","ColType":"Number","ColValue":"1376256"}},
+{"data":{"title":"_UID"},"attr":{"id":"3537","ColType":"String","ColValue":"1"}},
+{"data":{"title":"IOInterruptControllers"},"attr":{"id":"3539","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"3540","ColType":"String","ColValue":"io-apic-0"}}]},
+{"data":{"title":"device-properties"},"attr":{"id":"3542","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"acpi-path"},"attr":{"id":"3544","ColType":"String","ColValue":"IOACPIPlane:/_SB/PCI0@0/SDMA@150000"}},{"data":{"title":"acpi-device"},"attr":{"id":"3546","ColType":"String","ColValue":"IOACPIPlatformDevice is not serializable"}}]}
+]

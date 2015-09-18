@@ -1,0 +1,10 @@
+[
+{"data":{"title":"IOProviderClass"},"attr":{"id":"92633","ColType":"String","ColValue":"IOACPIPlatformDevice"}},
+{"data":{"title":"IONameMatched"},"attr":{"id":"92635","ColType":"String","ColValue":"PNP0103"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"92637","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IONameMatch"},"attr":{"id":"92639","ColType":"String","ColValue":"PNP0103"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"92641","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"HPTC"},"attr":{"id":"92643","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"92645","ColType":"String","ColValue":"com.apple.driver.AppleHPET"}},
+{"data":{"title":"IOClass"},"attr":{"id":"92647","ColType":"String","ColValue":"AppleHPET"}}
+]

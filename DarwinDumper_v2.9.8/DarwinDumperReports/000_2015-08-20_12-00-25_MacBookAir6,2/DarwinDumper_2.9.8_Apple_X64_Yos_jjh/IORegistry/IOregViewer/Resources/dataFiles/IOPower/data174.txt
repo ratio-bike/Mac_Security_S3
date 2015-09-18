@@ -1,0 +1,16 @@
+[
+{"data":{"title":"IOFBUIScale"},"attr":{"id":"140816","ColType":"Data","ColValue":"&lt;00000000&gt;"}},
+{"data":{"title":"IOFramebufferOpenGLIndex"},"attr":{"id":"140818","ColType":"Number","ColValue":"6"}},
+{"data":{"title":"IODisplayParameters"},"attr":{"id":"140820","ColType":"String","ColValue":"IOFramebufferParameterHandler is not serializable"}},
+{"data":{"title":"IOPMStrictTreeOrder"},"attr":{"id":"140822","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOFBTransform"},"attr":{"id":"140824","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOScreenRestoreState"},"attr":{"id":"140826","ColType":"Data","ColValue":"&lt;02000000&gt;"}},
+{"data":{"title":"IOFBWaitCursorFrames"},"attr":{"id":"140828","ColType":"Number","ColValue":"23"}},
+{"data":{"title":"IOFBConfig"},"attr":{"id":"140830","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOFB0Hz"},"attr":{"id":"140832","ColType":"Boolean","ColValue":"Yes"}},{"data":{"title":"IOFBModes"},"attr":{"id":"140834","ColType":"Array","ColValue":"0_values"},"children":[{"data":{"title":"0"},"attr":{"id":"140835","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"ID"},"attr":{"id":"140837","ColType":"Number","ColValue":"18446744073709551360"}},{"data":{"title":"DM"},"attr":{"id":"140839","ColType":"Data","ColValue":"&lt;010000000100000000000000000000000700000000000000000000000000000000000000&gt;"}},{"data":{"title":"AID"},"attr":{"id":"140841","ColType":"Number","ColValue":"550"}}]}]}]},
+{"data":{"title":"IOFBScalerInfo"},"attr":{"id":"140843","ColType":"Data","ColValue":"&lt;3000000000000000000000000000000020000000ff0f0000ff0f00000000000000000000000000000000000000000000&gt;"}},
+{"data":{"title":"IOFBTimingRange"},"attr":{"id":"140845","ColType":"Data","ColValue":"&lt;0000000000000000000000000000000000000000000000000000000000000000002d31010000000000d0121300000000000000000f0000000f0000000800000000000000ffffffff00000000ffffffffff0f0000ff0f000000000000000000000101010101010101010101010101000000000000000a000000000000ff0f000000000000ff0f000000000000ff0f0000000000004006000000000000ff0f000000000000ff0f000000000000ff0f000000000000ff0f000000000000ff0f000000000000ff0f000000000000ff0f00000000000000000000000000000000000000000000000000000000000000000000&gt;"}},
+{"data":{"title":"IOGeneralInterest"},"attr":{"id":"140847","ColType":"String","ColValue":"IOCommand is not serializable"}},
+{"data":{"title":"IOFBWaitCursorPeriod"},"attr":{"id":"140849","ColType":"Number","ColValue":"33333333"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"140851","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"CurrentPowerState"},"attr":{"id":"140853","ColType":"Number","ColValue":"2"}},{"data":{"title":"ChildProxyPowerState"},"attr":{"id":"140855","ColType":"Number","ColValue":"2"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"140857","ColType":"Number","ColValue":"2"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"140859","ColType":"Number","ColValue":"1"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"140861","ColType":"Number","ColValue":"32768"}}]},
+{"data":{"title":"IOFBProbeOptions"},"attr":{"id":"140863","ColType":"Number","ColValue":"1025"}}
+]

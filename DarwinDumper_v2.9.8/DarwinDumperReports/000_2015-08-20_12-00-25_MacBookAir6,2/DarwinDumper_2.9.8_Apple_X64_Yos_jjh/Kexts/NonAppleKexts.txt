@@ -1,0 +1,6 @@
+  119    0 0xffffff7f80c45000 0xd000     0xd000     com.displaylink.driver.DisplayLinkDriver (2.2) <76 5 4 3>
+  132    1 0xffffff7f828a0000 0x11000    0x11000    com.vmware.kext.vmci (90.5.7) <12 5 4 3 1>
+  133    0 0xffffff7f828b1000 0xf000     0xf000     com.vmware.kext.vsockets (90.5.7) <132 7 5 4 3 1>
+  134    0 0xffffff7f828c0000 0xa000     0xa000     com.vmware.kext.vmnet (0188.79.83) <5 4 3 1>
+  135    0 0xffffff7f828ca000 0xe000     0xe000     com.vmware.kext.vmx86 (0188.79.83) <7 5 4 3 1>
+  136    0 0xffffff7f828d8000 0x6000     0x6000     com.vmware.kext.vmioplug.12.1.17 (12.1.17) <38 5 4 3 1>

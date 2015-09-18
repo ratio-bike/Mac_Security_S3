@@ -1,0 +1,6 @@
+[
+{"data":{"title":"Device Characteristics"},"attr":{"id":"7705","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Product Revision Level"},"attr":{"id":"7707","ColType":"String","ColValue":"3.00"}},{"data":{"title":"Vendor Name"},"attr":{"id":"7709","ColType":"String","ColValue":"APPLE"}},{"data":{"title":"Product Name"},"attr":{"id":"7711","ColType":"String","ColValue":"SD Card Reader"}}]},
+{"data":{"title":"IOMinimumSegmentAlignmentByteCount"},"attr":{"id":"7713","ColType":"Number","ColValue":"4"}},
+{"data":{"title":"Protocol Characteristics"},"attr":{"id":"7715","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"Physical Interconnect"},"attr":{"id":"7717","ColType":"String","ColValue":"USB"}},{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"7719","ColType":"String","ColValue":"Internal"}},{"data":{"title":"Read Time Out Duration"},"attr":{"id":"7721","ColType":"Number","ColValue":"30000"}},{"data":{"title":"Write Time Out Duration"},"attr":{"id":"7723","ColType":"Number","ColValue":"30000"}}]},
+{"data":{"title":"device-type"},"attr":{"id":"7725","ColType":"String","ColValue":"Generic"}}
+]

@@ -1,0 +1,4 @@
+[
+{"data":{"title":"_SBS"},"attr":{"id":"93111","ColType":"Number","ColValue":"1"}},
+{"data":{"title":"IOSMBusSmartBatteryManager"},"attr":{"id":"93113","ColType":"Boolean","ColValue":"Yes"}}
+]

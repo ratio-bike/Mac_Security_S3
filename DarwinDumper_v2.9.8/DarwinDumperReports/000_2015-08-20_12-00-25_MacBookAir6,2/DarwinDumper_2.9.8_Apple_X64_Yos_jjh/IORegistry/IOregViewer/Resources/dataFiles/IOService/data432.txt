@@ -1,0 +1,19 @@
+[
+{"data":{"title":"NCQ"},"attr":{"id":"91988","ColType":"Boolean","ColValue":"Yes"}},
+{"data":{"title":"IOMaximumBlockCountWrite"},"attr":{"id":"91990","ColType":"Number","ColValue":"65536"}},
+{"data":{"title":"Physical Block Size"},"attr":{"id":"91992","ColType":"Number","ColValue":"4096"}},
+{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"91994","ColType":"String","ColValue":"Internal"}},
+{"data":{"title":"Revision"},"attr":{"id":"91996","ColType":"String","ColValue":"UXM2JA1Q"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"91998","ColType":"String","ColValue":"com.apple.iokit.IOAHCIBlockStorage"}},
+{"data":{"title":"IOClass"},"attr":{"id":"92000","ColType":"String","ColValue":"AppleAHCIDiskDriver"}},
+{"data":{"title":"IOPolledInterface"},"attr":{"id":"92002","ColType":"String","ColValue":"AppleAHCIDiskPolledInterface is not serializable"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"92004","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"SATA Features"},"attr":{"id":"92006","ColType":"Number","ColValue":"30"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"92008","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"Serial Number"},"attr":{"id":"92010","ColType":"String","ColValue":"S1K5NYAF753291      "}},
+{"data":{"title":"Model"},"attr":{"id":"92012","ColType":"String","ColValue":"APPLE SSD SM0512F                       "}},
+{"data":{"title":"Logical Block Size"},"attr":{"id":"92014","ColType":"Number","ColValue":"512"}},
+{"data":{"title":"IOMaximumBlockCountRead"},"attr":{"id":"92016","ColType":"Number","ColValue":"65536"}},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"92018","ColType":"String","ColValue":"IOAHCIDevice"}},
+{"data":{"title":"Queue Depth"},"attr":{"id":"92020","ColType":"Number","ColValue":"32"}}
+]

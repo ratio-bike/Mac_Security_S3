@@ -1,0 +1,21 @@
+[
+{"data":{"title":"IOMaximumBlockCountRead"},"attr":{"id":"7645","ColType":"Number","ColValue":"8192"}},
+{"data":{"title":"IOMaximumSegmentCountRead"},"attr":{"id":"7647","ColType":"Number","ColValue":"1024"}},
+{"data":{"title":"Vendor Identification"},"attr":{"id":"7649","ColType":"String","ColValue":"APPLE"}},
+{"data":{"title":"IOMaximumBlockCountWrite"},"attr":{"id":"7651","ColType":"Number","ColValue":"8192"}},
+{"data":{"title":"Physical Interconnect Location"},"attr":{"id":"7653","ColType":"String","ColValue":"Internal"}},
+{"data":{"title":"Product Identification"},"attr":{"id":"7655","ColType":"String","ColValue":"SD Card Reader"}},
+{"data":{"title":"SCSI Device Characteristics"},"attr":{"id":"7657","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"IOMaximumBlockCountWrite"},"attr":{"id":"7659","ColType":"Number","ColValue":"8192"}},{"data":{"title":"IOMaximumByteCountWrite"},"attr":{"id":"7661","ColType":"Number","ColValue":"4194304"}},{"data":{"title":"IOMaximumBlockCountRead"},"attr":{"id":"7663","ColType":"Number","ColValue":"8192"}},{"data":{"title":"IOMaximumByteCountRead"},"attr":{"id":"7665","ColType":"Number","ColValue":"4194304"}}]},
+{"data":{"title":"_GPE"},"attr":{"id":"7667","ColType":"Number","ColValue":"59"}},
+{"data":{"title":"CFBundleIdentifier"},"attr":{"id":"7669","ColType":"String","ColValue":"com.apple.driver.AppleUSBCardReader"}},
+{"data":{"title":"IOClass"},"attr":{"id":"7671","ColType":"String","ColValue":"com_apple_driver_AppleUSBCardReaderSBC"}},
+{"data":{"title":"Peripheral Device Type"},"attr":{"id":"7673","ColType":"Number","ColValue":"0"}},
+{"data":{"title":"IOMaximumByteCountWrite"},"attr":{"id":"7675","ColType":"Number","ColValue":"4194304"}},
+{"data":{"title":"IOProbeScore"},"attr":{"id":"7677","ColType":"Number","ColValue":"15000"}},
+{"data":{"title":"IOMatchCategory"},"attr":{"id":"7679","ColType":"String","ColValue":"IODefaultMatchCategory"}},
+{"data":{"title":"IOMaximumSegmentCountWrite"},"attr":{"id":"7681","ColType":"Number","ColValue":"1024"}},
+{"data":{"title":"Physical Interconnect"},"attr":{"id":"7683","ColType":"String","ColValue":"USB"}},
+{"data":{"title":"IOPowerManagement"},"attr":{"id":"7685","ColType":"Dictionary","ColValue":"0_values"},"children":[{"data":{"title":"DevicePowerState"},"attr":{"id":"7687","ColType":"Number","ColValue":"0"}},{"data":{"title":"CapabilityFlags"},"attr":{"id":"7689","ColType":"Number","ColValue":"0"}},{"data":{"title":"ActivityTickles"},"attr":{"id":"7691","ColType":"Number","ColValue":"0"}},{"data":{"title":"DriverPowerState"},"attr":{"id":"7693","ColType":"Number","ColValue":"0"}},{"data":{"title":"CurrentPowerState"},"attr":{"id":"7695","ColType":"Number","ColValue":"0"}},{"data":{"title":"MaxPowerState"},"attr":{"id":"7697","ColType":"Number","ColValue":"2"}},{"data":{"title":"IdleTimerPeriod"},"attr":{"id":"7699","ColType":"Number","ColValue":"45000"}}]},
+{"data":{"title":"IOProviderClass"},"attr":{"id":"7701","ColType":"String","ColValue":"IOSCSIPeripheralDeviceNub"}},
+{"data":{"title":"IOMaximumByteCountRead"},"attr":{"id":"7703","ColType":"Number","ColValue":"4194304"}}
+]
