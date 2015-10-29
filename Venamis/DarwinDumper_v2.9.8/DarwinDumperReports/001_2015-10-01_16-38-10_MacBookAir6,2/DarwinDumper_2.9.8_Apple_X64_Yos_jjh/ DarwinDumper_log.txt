@@ -1,0 +1,109 @@
+========================================================
+Welcome to DarwinDumper 2.9.8
+Thu Oct  1 16:38:10 KST 2015
+System Version: OS X 10.10.1 (14B25)
+========================================================
+Initialisation info
+--------------------------------------------------------
+*Reading /Users/jjh/Library/Preferences/org.tom.DarwinDumper.plist
+*Found previous option: ArchiveZip
+*Found previous option: ReportNew
+*Found save path /Users/jjh/Desktop/DarwinDumper_v2.9.8/DarwinDumperReports
+*Found previous option: acpi
+*Found previous option: asl
+*Found previous option: biosSystem
+*Found previous option: biosVideo
+*Found previous option: bootLoaderBootSectors
+*Found previous option: codecid
+*Found previous option: cpuinfo
+*Found previous option: devprop
+*Found previous option: diskLoaderConfigs
+*Found previous option: diskPartitionInfo
+*Found previous option: dmi
+*Found previous option: edid
+*Found previous option: firmlog
+*Found previous option: firmmemmap
+*Found previous option: ioreg
+*Found previous option: kerneldmesg
+*Found previous option: kernelinfo
+*Found previous option: kexts
+*Found previous option: lspci
+*Found previous option: nvram
+*Found previous option: opencl
+*Found previous option: rcscripts
+*Found previous option: rtc
+*Found previous option: smc
+*Found previous option: sysprof
+*Save path verify: Path does not exist.
+*Error - Save path does not exist.
+*Symlink check: Symlink has not been created.
+*Version check: This is the latest version.
+*Save path: User changed to /Volumes/Macintosh\ HD/Users/jjh/Desktop/JJH/Mac_Security_S3/Venamis/DarwinDumper_v2.9.8
+*UI: User clicked the run button
+*Save path verify: Path does not exist.
+*Save path: Error - Save path does not exist.
+*Save path: User changed to /Volumes/Macintosh\ HD/Users/jjh/Desktop/JJH/Mac_Security_S3/Venamis/DarwinDumper_v2.9.8
+*UI: User clicked the run button
+*Save path verify: Path does not exist.
+*Save path: Error - Save path does not exist.
+*Save path - Default: Will use /Users/jjh/Desktop/JJH/Mac_Security_S3/Venamis/DarwinDumper_v2.9.8
+*Save path - Default: Will use /Users/jjh/Desktop/JJH/Mac_Security_S3/Venamis/DarwinDumper_v2.9.8
+*Save path - Default: Will use /Users/jjh/Desktop/JJH/Mac_Security_S3/Venamis/DarwinDumper_v2.9.8
+*Save path - Default: Will use /Users/jjh/Desktop/JJH/Mac_Security_S3/Venamis/DarwinDumper_v2.9.8
+*UI: User clicked the run button
+*Save path verify: Path exists.
+*Save path verify: Path is writeable.
+*Save path verify: Path does not end with DarwinDumperReports.
+*Save path: Creating /Users/jjh/Desktop/JJH/Mac_Security_S3/Venamis/DarwinDumper_v2.9.8/DarwinDumperReports
+*Save path: Currently owned by user:503 of group:20 with permissions: 755
+*Save path: /Users/jjh/Desktop/JJH/Mac_Security_S3/Venamis/DarwinDumper_v2.9.8/DarwinDumperReports is now owned by jjh:staff with permissions 755
+*User Chose: Archive Zip
+*User Chose: New Report
+*User Chose: ACPI tables
+*User Chose: NVRAM
+--------------------------------------------------------
+000s : +Started process DumpFilesAcpiTables: pid 17616
+          Found ACPI table: SSDT-5
+          Found ACPI table: RSDT
+          Disassembled ACPI table: RSDT
+          Found ACPI table: SSDT-2
+          Found ACPI table: SSDT-7
+          Found ACPI table: SSDT-1
+          Found ACPI table: SSDT
+          Found ACPI table: SSDT-6
+          Found ACPI table: DMAR
+          Disassembled ACPI table: DMAR
+          Found ACPI table: HPET
+          Disassembled ACPI table: HPET
+          Found ACPI table: APIC
+          Disassembled ACPI table: APIC
+          Found ACPI table: SBST
+          Disassembled ACPI table: SBST
+          Found ACPI table: MCFG
+          Disassembled ACPI table: MCFG
+          Found ACPI table: FACP
+          Disassembled ACPI table: FACP
+          Found ACPI table: DSDT
+          Found ACPI table: FACS
+          Disassembled ACPI table: FACS
+          Found ACPI table: ECDT
+          Disassembled ACPI table: ECDT
+          Found ACPI table: SSDT-4
+          Found ACPI table: SSDT-3
+          Disassembling DSDT and SSDT's (9 files in total) as multiple tables from single namespace...
+          Disassembling was successful.
+001s : -Completed AcpiTables
+002s : +Started process DumpFilesNvram: pid 17828
+          Check: /NVRAM/nvram.plist created.
+          Check: /NVRAM/nvram_hexdump.txt created.
+          Check: /NVRAM/nvram.plist created.
+002s : -Completed DumpFilesNvram
+========================================================
+Dumps complete after: 2 seconds
+--------------------------------------------------------
+Creating HTML report...
+          adding ACPI tables
+          adding nvram info
+========================================================
+DarwinDumper Completed in: 31 seconds
+========================================================

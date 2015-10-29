@@ -1,0 +1,6 @@
+.*.d
+.*.swp
+*.o
+rdmem
+wrmem
+rdpci
